@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Creado con ssg5: https://www.romanzolotarev.com/ssg.html -->
+		<title>José Cuevas</title>
+		<!-- Metadata -->
+		<meta charset="utf-8">
+		<meta name="author"      content="José Cuevas">
+		<meta name="description" content="Blog de José Cuevas">
+		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+		<!-- Importar CSS -->
+		<link rel="stylesheet" type="text/css" href="css/dark.css"  media="all">
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+		<!-- Ícono de la página web -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon-precomposed" href="favicon-180.png">
+	</head>
+	<body>
+		<!-- Barra de navegación (escritorio) -->
+		<nav class="desktop">
+			<ul>
+				<li><a href="index.html">Blog</a></li>
+				<li><a href="pub.html">Publicaciones</a></li>
+				<!-- <li><a href="film.html">Películas</a></li> -->
+				<li><a href="about.html">Información y Contacto</a></li>
+			</ul>
+		</nav>
+		<!-- Barra de navegación (portátil) -->
+		<nav class="handheld">
+			<ul>
+				<li><a href="index.html">Blog</a></li>
+				<li style="padding: 1rem; cursor: pointer;" onclick="toggle_menu()">≡</li>
+			</ul>
+			<ul id="dropdown">
+				<li><a href="pub.html">Publicaciones</a></li>
+				<!-- <li><a href="film.html">Películas</a></li> -->
+				<li><a href="about.html">Información y Contacto</a></li>
+			</ul>
+		</nav>
+		<!-- Contenido -->
+		<div class="main">
+<h1 id="Acerca%20de%20m%C3%AD">Acerca de mí</h1>
+
+<p>¡Hola! Mi nombre es José Cuevas y estoy actualmente estudiando licenciatura en matemáticas en la Pontificia Universidad Católica de Chile.
+Hice este blog con el fin de mantener un vínculo directo y oficial a mis trabajos: mediante él puedes revisar mis publicaciones u otro tipo de información que me parezca relevante en el futuro.</p>
+
+<p>Cualquier consulta puedes contactarme a mi correo: <a href="mailto:josecuevasbtos@uc.cl">josecuevasbtos@uc.cl</a></p>
+
+<hr/>
+
+<h2 id="Sobre%20mis%20intereses">Sobre mis intereses</h2>
+
+<h3 id="Matem%C3%A1ticas">Matemáticas</h3>
+
+<p>Como dije estoy estudiando licenciatura en matemáticas y la razón de que tenga material digital es porque utilizo mi computador para tomar mis &#8220;apuntes&#8221; que en realidad constituyen una investigación independiente de los cursos que estoy tomando.</p>
+
+<p><strong>¿Por qué estudio matemáticas?</strong> Tal vez les suene raro, pero la razón es porque me gusta, no solo me interesa o me parece útil sino que <em>genuinamente</em> me parece entretenido. Esto sirve como puente para responder otra pregunta:</p>
+
+<p><strong>¿Acerca de qué tópicos escribo?</strong> ¡Pues de los que me entretienen más! A menos que sea absolutamente necesario (para una tarea o algo) es altamente improbable que escriba respecto de un tema que no me atraiga lo suficiente.
+Esto debe tomarlo con cierta precaución: mis publicaciones están hechas en base a como a mí me hubiera gustado que los libros que leía fueran, los resultados que a mí me parecen interesantes de un tema, y el enfoque que a mí más me agrada; luego no es de extrañar que haya gente a la que no le guste, pero no me molesto en &#8220;corregir&#8221; cambios estructurales de un trabajo.</p>
+
+<h3 id="Tecnolog%C3%ADa">Tecnología</h3>
+
+<p>No debe de extrañar a nadie que si hago un sitio web es porque me interesa las tecnologías digitales. Por el momento no tengo ningún proyecto en desarrollo (a lo más tengo algunos <em>scripts</em> de <code>POSIX sh</code> para uso personal), pero tengo intenciones de realizar algunos. Dentro de las publicaciones encontrará una lección &#8220;breve&#8221; e introductoria a usar LaTeX, y es probable que escriba otras lecciones acerca de algún lenguaje de programación en el futuro.
+Sin embargo, odio las redes sociales y hasta que no tenga la obligación de usarlas, es probable que éste sea mi único método de comunicación.</p>
+
+<h3 id="Artes">Artes</h3>
+
+<p>Las artes en general me parecen absolutamente relevantes, pero no soy ningún especialista, ni pretendo serlo. Pese a ello me gusta escribir acerca de los temas que me intrigan o entretienen, luego no será extraño que de vez en cuando escriba un pequeño artículo acerca de una obra que creo que merece mi perspectiva, aunque todo lo que diga en este aspecto debe ser tomado con una visión crítica.</p>
+			<div class="footer">
+				<img class="monochrome" src="image/footer.png" alt="minimalist-cube">
+				<br>
+				<span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="rss.xml">RSS</a>
+			</div>
+		</div>
+		<!-- Pequeño script para activar/desactivar menu en portátil -->
+		<script>
+			var menu = 0;
+			function toggle_menu() {
+				if (menu == 0) {
+					document.getElementById("dropdown").style.display = "block";
+				} else {
+					document.getElementById("dropdown").style.display = "none";
+				}
+				menu = 1 - menu;
+			}
+			function load_light() {
+				document.getElementsByTagName('link')[0].href = "css/light.css";
+				document.cookie = "light";
+			}
+			function load_dark() {
+				document.getElementsByTagName('link')[0].href = "css/dark.css";
+				document.cookie = "";
+			}
+			if (document.cookie == "light") { load_light(); }
+		</script>
+	</body>
+</html>

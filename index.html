@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Creado con ssg5: https://www.romanzolotarev.com/ssg.html -->
+		<title>José Cuevas</title>
+		<!-- Metadata -->
+		<meta charset="utf-8">
+		<meta name="author"      content="José Cuevas">
+		<meta name="description" content="Blog de José Cuevas">
+		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+		<!-- Importar CSS -->
+		<link rel="stylesheet" type="text/css" href="css/dark.css"  media="all">
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+		<!-- Ícono de la página web -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon-precomposed" href="favicon-180.png">
+	</head>
+	<body>
+		<!-- Barra de navegación (escritorio) -->
+		<nav class="desktop">
+			<ul>
+				<li><a href="index.html">Blog</a></li>
+				<li><a href="pub.html">Publicaciones</a></li>
+				<!-- <li><a href="film.html">Películas</a></li> -->
+				<li><a href="about.html">Información y Contacto</a></li>
+			</ul>
+		</nav>
+		<!-- Barra de navegación (portátil) -->
+		<nav class="handheld">
+			<ul>
+				<li><a href="index.html">Blog</a></li>
+				<li style="padding: 1rem; cursor: pointer;" onclick="toggle_menu()">≡</li>
+			</ul>
+			<ul id="dropdown">
+				<li><a href="pub.html">Publicaciones</a></li>
+				<!-- <li><a href="film.html">Películas</a></li> -->
+				<li><a href="about.html">Información y Contacto</a></li>
+			</ul>
+		</nav>
+		<!-- Contenido -->
+		<div class="main">
+<div class="catalog">
+<a href='blog-web-design.html'><div>
+<h1 id="Sobre%20el%20dise%C3%B1o%20web">Sobre el diseño web</h1>
+
+<p>Con el desarrollo acelerado de las tecnologías y las plataformas digitales es inevitable que se popularizara el uso y manejo de los lenguajes de programación, especialmente aquellos que tienen un efecto directo sobre la web como el <code>html&#47;css&#47;js</code>.</p>
+</div></a>
+</div>
+			<div class="footer">
+				<img class="monochrome" src="image/footer.png" alt="minimalist-cube">
+				<br>
+				<span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="rss.xml">RSS</a>
+			</div>
+		</div>
+		<!-- Pequeño script para activar/desactivar menu en portátil -->
+		<script>
+			var menu = 0;
+			function toggle_menu() {
+				if (menu == 0) {
+					document.getElementById("dropdown").style.display = "block";
+				} else {
+					document.getElementById("dropdown").style.display = "none";
+				}
+				menu = 1 - menu;
+			}
+			function load_light() {
+				document.getElementsByTagName('link')[0].href = "css/light.css";
+				document.cookie = "light";
+			}
+			function load_dark() {
+				document.getElementsByTagName('link')[0].href = "css/dark.css";
+				document.cookie = "";
+			}
+			if (document.cookie == "light") { load_light(); }
+		</script>
+	</body>
+</html>

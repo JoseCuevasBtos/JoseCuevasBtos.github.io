@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Creado con ssg5: https://www.romanzolotarev.com/ssg.html -->
+		<title>José Cuevas</title>
+		<!-- Metadata -->
+		<meta charset="utf-8">
+		<meta name="author"      content="José Cuevas">
+		<meta name="description" content="Blog de José Cuevas">
+		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+		<!-- Importar CSS -->
+		<link rel="stylesheet" type="text/css" href="css/dark.css"  media="all">
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+		<!-- Ícono de la página web -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon-precomposed" href="favicon-180.png">
+	</head>
+	<body>
+		<!-- Barra de navegación (escritorio) -->
+		<nav class="desktop">
+			<ul>
+				<li><a href="index.html">Blog</a></li>
+				<li><a href="pub.html">Publicaciones</a></li>
+				<!-- <li><a href="film.html">Películas</a></li> -->
+				<li><a href="about.html">Información y Contacto</a></li>
+			</ul>
+		</nav>
+		<!-- Barra de navegación (portátil) -->
+		<nav class="handheld">
+			<ul>
+				<li><a href="index.html">Blog</a></li>
+				<li style="padding: 1rem; cursor: pointer;" onclick="toggle_menu()">≡</li>
+			</ul>
+			<ul id="dropdown">
+				<li><a href="pub.html">Publicaciones</a></li>
+				<!-- <li><a href="film.html">Películas</a></li> -->
+				<li><a href="about.html">Información y Contacto</a></li>
+			</ul>
+		</nav>
+		<!-- Contenido -->
+		<div class="main">
+<h1 id="Sobre%20el%20dise%C3%B1o%20web">Sobre el diseño web</h1>
+
+<p>Con el desarrollo acelerado de las tecnologías y las plataformas digitales es inevitable que se popularizara el uso y manejo de los lenguajes de programación, especialmente aquellos que tienen un efecto directo sobre la web como el <code>html&#47;css&#47;js</code>.
+Pero desgraciadamente siempre el mercado de diseño de programas y aplicaciones se ve plagado de malas prácticas que se replican incesantemente y son dañinas para la comunidad; en este punto, el diseño web es uno de los principales afectado.</p>
+
+<h2 id="%C2%BFC%C3%B3mo%20funciona%20el%20dise%C3%B1o%20web,%20en%20t%C3%A9rminos%20de%20c%C3%B3digo?">¿Cómo funciona el diseño web, en términos de código?</h2>
+
+<p>Antes que nada, si usted no está familiarizado con los lenguajes de programación, no se asuste, sólo basta con que piense que es la forma en la que nos comunicamos con un computador para llevar a cabo cualquier tarea, incluyendo el diseño de páginas web.</p>
+
+<p>Para simplificar las cosas nos vamos a enfocar en el diseño de <em>sitios web estáticos</em>, lo que significa que no vamos a tomar en consideración páginas dinámicas como las redes sociales, sino que vamos a tener algo como un blog en mente.
+Toda página se compone de sus contenidos los cuales se organizan en &#8220;etiquetas&#8221; en el <code>html</code>, la parte del diseño (colores, fuentes de letras, estilos, etc.) se organizan en el <code>css</code> y el código interactivo, la programación como tal, dentro de lo que se llama <code>javascript</code> o <code>js</code> para abreviar.
+De aquí en adelante nos referiremos a bloques (invisibles) de <code>js</code> como <em>scripts</em>.</p>
+
+<p>Los scripts permiten modificar el contenido interno de la página, permiten interacciones con el usuario mediante distintas interfaces gráficas (cosas como calculadoras, cronómetros, convertidores, etc.); además últimamente ha ganado popularidad en aplicaciones para crear animaciones entre los objetos de la página.</p>
+
+<h2 id="Las%20desventajas%20de%20los%20scripts.">Las desventajas de los scripts.</h2>
+
+<p>No obstante, los scripts también tienen su lado negativo. Hace ya bastante tiempo que permiten la implementación de <em>cookies</em> y otro tipos de formularios de data, lo que a su vez a impulsado el desarrollo y la popularidad de librerías para poder administrar mejor dicha información, pero que a pesar de los avances en materia de seguridad ha seguido siendo utilizado en ciertos casos con malos fines.
+Varios activistas tecno-políticos han surgido en especial oposición a las violaciones de privacidad que varios sitios web (especialmente redes sociales y tiendas virtuales) efectúan sobre sus usuarios, lo que está también directamente relacionado con la creación de extensiones y paquetes en los buscadores para intentar frenar los rastreadores, y una solución común suele ser desactivar todo script por completo.</p>
+
+<p>Por si fuera poco, como los scripts son el único tipo de contenido que puede afectar de forma maliciosa a los usuarios también son medios de divagación de malware, y también pueden ser utilizados para el hackeo de servidores.</p>
+
+<h2 id="Opciones%20alternativas">Opciones alternativas</h2>
+
+<p>Uno de los grandes problemas del diseño web es la dependencia sobre los scripts, cuyos efectos negativos ya fueron descritos anteriormente, pero la cuestión es que en la mayoría de los casos son absolutamente prescindibles.
+El desarrollo del <code>css</code> ha ido mejorando considerablemente y, al contrario de las aplicaciones de escritorio, se puede implementar un poco de él para crear sitios modernos, minimalistas y no sacrificar el rendimiento en el proceso.</p>
+
+<p>No obstante, igual hay que añadir que, al igual que con cualquier otro programa, un exceso de <code>html&#47;css</code> también puede afectar profundamente el rendimiento de los usuarios, es por ello que se debe tener en consideración que no es necesario usar todos los atributos y estilos que el lenguaje ofrece.
+Una de las malas prácticas más comunes del <code>css</code> suele ser una sobrecarga de media externa (fotos, vídeos, audio), especialmente de <strong>fuentes de letra</strong>.
+Cabe destacar que no hacen falta ocho tipos de tipografías para tener un sitio web atractivo, con uno o dos ya son más que suficientes.</p>
+
+<p>Además, si bien <code>css</code> ofrece varias opciones, los desarrolladores deben tener en cuenta que no todas están disponibles en todos los buscadores y plataformas; una simple búsqueda en internet clarificará que tan portable es un atributo.
+Aunque siempre tenga en cuenta de que tampoco es recomendable reemplazar una animación nueva para viejos usuarios por un script, en dichos casos lo mejor es simplemente no persistir y sacrificar diseño por rendimiento.</p>
+
+<p>La web está llena de <em>bloat</em>, no acomplejes algo que de por sí no es o no debería serlo a nivel de una aplicación. Las aplicaciones existen por una razón por sí solas, y la web no fue hecha para sustituirlas.</p>
+			<div class="footer">
+				<img class="monochrome" src="image/footer.png" alt="minimalist-cube">
+				<br>
+				<span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="rss.xml">RSS</a>
+			</div>
+		</div>
+		<!-- Pequeño script para activar/desactivar menu en portátil -->
+		<script>
+			var menu = 0;
+			function toggle_menu() {
+				if (menu == 0) {
+					document.getElementById("dropdown").style.display = "block";
+				} else {
+					document.getElementById("dropdown").style.display = "none";
+				}
+				menu = 1 - menu;
+			}
+			function load_light() {
+				document.getElementsByTagName('link')[0].href = "css/light.css";
+				document.cookie = "light";
+			}
+			function load_dark() {
+				document.getElementsByTagName('link')[0].href = "css/dark.css";
+				document.cookie = "";
+			}
+			if (document.cookie == "light") { load_light(); }
+		</script>
+	</body>
+</html>
