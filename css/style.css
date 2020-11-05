@@ -11,6 +11,10 @@ body {
 	line-height: 1.2em;
 }
 
+h1, h2 {
+	line-height: 1.1em;
+}
+
 nav {
 	background-color: var(--sec-bg);
 	color: var(--sec-fg);
@@ -39,6 +43,11 @@ nav ul#dropdown {
 	width: 100%;
 }
 
+img {
+	max-width: 80%;
+	padding: 2% 10%;
+}
+
 nav ul li {
 	background-color: transparent;
 	flex: 1 1 auto;
@@ -56,6 +65,7 @@ nav a {
 
 a {
 	font-weight: normal;
+	color: inherit;
 	text-decoration-color: var(--highlight);
 	-webkit-text-decoration-color: var(--highlight);
 }
