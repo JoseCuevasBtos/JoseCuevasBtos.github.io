@@ -2,29 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 body { font-family: 'Josefin Sans', sans-serif; }
 
-/* /1* Title (sans) font *1/ */
-/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap'); */
-/* h1, h2, h3, h4, h5, h6 { */
-/* 	font-family: 'EB Garamond', serif; */
-/* 	font-weight: normal; */
-/* } */
-/* h1 { font-size: 2.5em; } */
-/* h2 { font-size: 2em; } */
-/* h3 { font-style: italic; } */
-
 /* --------------------------------------------------- */
 
 body {
-	background-color: var(--main-bg);
-	color: var(--main-fg);
+	background-color: var(--site-bg);
+	color: var(--site-fg);
 	margin: 0;
 	line-height: 1.2em;
 }
-
-/* h4:first-of-type { */
-/* 	font-weight: normal; */
-/* 	font-style: italic; */
-/* } */
 
 nav {
 	background-color: var(--sec-bg);
@@ -70,8 +55,9 @@ nav a {
 }
 
 a {
-	color: var(--highlight);
 	font-weight: normal;
+	text-decoration-color: var(--highlight);
+	-webkit-text-decoration-color: var(--highlight);
 }
 
 .handheld { display: none; }
@@ -105,7 +91,7 @@ a {
 	flex: 1 1 400px;
 	max-width: calc(100% - 10px - 2px - 6px);
 	margin: 5px;
-	border: solid var(--main-fg);
+	border: solid var(--site-fg);
 	border-width: 1px 1px 4px;
 	padding: 2px 12px 10px;
 }
@@ -119,6 +105,7 @@ div.footer {
 div.footer a, div.catalog a {
 	color: inherit;
 	text-decoration: inherit;
+	font-weight: inherit;
 }
 
 div.footer img {
@@ -134,26 +121,18 @@ div.footer span {
 }
 
 div.footer span.light {
-	border-color: var(--main-bg);
-	background-color: var(--main-fg);
-	color: var(--main-bg);
+	border-color: var(--site-bg);
+	background-color: var(--site-fg);
+	color: var(--site-bg);
 }
 div.footer span.dark {
-	border-color: var(--main-fg);
-	background-color: var(--main-bg);
-	color: var(--main-fg);
+	border-color: var(--site-fg);
+	background-color: var(--site-bg);
+	color: var(--site-fg);
 }
 
 /* Scrollbar */
-::-webkit-scrollbar {
-	width: 10px;
-}
-::-webkit-scrollbar-track {
-	background: #f1f1f1; 
-}
-::-webkit-scrollbar-thumb {
-	background: #888; 
-}
-::-webkit-scrollbar-thumb:hover {
-	background: #555; 
-}
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #888; }
+::-webkit-scrollbar-thumb:hover { background: #555; }

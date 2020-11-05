@@ -9,32 +9,32 @@
 		<meta name="description" content="Blog de José Cuevas">
 		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
 		<!-- Importar CSS -->
-		<link rel="stylesheet" type="text/css" href="css/dark.css"  media="all">
-		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/css/dark.css"  media="all">
+		<link rel="stylesheet" type="text/css" href="/css/style.css" media="all">
 		<!-- Ícono de la página web -->
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link rel="apple-touch-icon-precomposed" href="favicon-180.png">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon-precomposed" href="/favicon-180.png">
 	</head>
 	<body>
 		<!-- Barra de navegación (escritorio) -->
 		<nav class="desktop">
 			<ul>
-				<li><a href="index.html">Blog</a></li>
-				<li><a href="pub.html">Publicaciones</a></li>
-				<!-- <li><a href="film.html">Películas</a></li> -->
-				<li><a href="about.html">Información y Contacto</a></li>
+				<li><a href="/index.html">Blog</a></li>
+				<li><a href="/pub.html">Publicaciones</a></li>
+				<!-- <li><a href="/film.html">Arte</a></li> -->
+				<li><a href="/about.html">Información y Contacto</a></li>
 			</ul>
 		</nav>
 		<!-- Barra de navegación (portátil) -->
 		<nav class="handheld">
 			<ul>
-				<li><a href="index.html">Blog</a></li>
+				<li><a href="/index.html">Blog</a></li>
 				<li id="menu-btn" onclick="toggle_menu()">≡</li>
 			</ul>
 			<ul id="dropdown">
-				<li><a href="pub.html">Publicaciones</a></li>
-				<!-- <li><a href="film.html">Películas</a></li> -->
-				<li><a href="about.html">Información y Contacto</a></li>
+				<li><a href="/pub.html">Publicaciones</a></li>
+				<!-- <li><a href="/film.html">Arte</a></li> -->
+				<li><a href="/about.html">Información y Contacto</a></li>
 			</ul>
 		</nav>
 		<!-- Contenido -->
@@ -63,31 +63,12 @@ Todos están en mi repositorio de <a href="https://github.com/JoseCuevasBtos/apu
 <p>LaTeX es probablemente el lenguaje de tipografía de matemáticas más común en el mundo de la investigación, esto no equivale a decir que sea el más accesible. El documento revisa la mayor parte de funciones corrientes que un estudiante necesitaría utilizar, pero sin ir a demasiado detalle.</p></li>
 </ul>
 			<div class="footer">
-				<img class="monochrome" src="image/footer.png" alt="minimalist-cube">
+				<img class="monochrome" src="/image/footer.png" alt="minimalist-cube">
 				<br>
-				<span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="rss.xml">RSS</a>
+				<span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="/rss.xml">RSS</a>
 			</div>
 		</div>
 		<!-- Pequeño script para activar/desactivar menu en portátil -->
-		<script>
-			var menu = 0;
-			function toggle_menu() {
-				if (menu == 0) {
-					document.getElementById("dropdown").style.display = "block";
-				} else {
-					document.getElementById("dropdown").style.display = "none";
-				}
-				menu = 1 - menu;
-			}
-			function load_light() {
-				document.getElementsByTagName('link')[0].href = "css/light.css";
-				document.cookie = "light";
-			}
-			function load_dark() {
-				document.getElementsByTagName('link')[0].href = "css/dark.css";
-				document.cookie = "dark";
-			}
-			if (document.cookie == "light") { load_light(); }
-		</script>
+		<script src="/js/mode-switch.js"></script>
 	</body>
 </html>
