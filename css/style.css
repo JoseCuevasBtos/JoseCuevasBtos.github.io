@@ -43,7 +43,7 @@ nav ul#dropdown {
 	width: 100%;
 }
 
-img {
+img, iframe {
 	max-width: 80%;
 	padding: 2% 10%;
 }
