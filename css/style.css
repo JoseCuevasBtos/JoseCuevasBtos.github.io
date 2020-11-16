@@ -63,6 +63,14 @@ nav a {
 	padding: 1rem;
 }
 
+blockquote {
+	border-left: 3px solid;
+	padding: 4px 12px;
+	margin: 16px 22px;
+	background: var(--sec-bg);
+}
+blockquote > p { margin: 8px 0; }
+
 a {
 	font-weight: normal;
 	color: inherit;
