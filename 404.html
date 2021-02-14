@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Creado con ssg5: https://www.romanzolotarev.com/ssg.html -->
+		<title>404 | José Cuevas</title>
+		<!-- Metadata -->
+		<meta charset="utf-8">
+		<meta name="author"      content="José Cuevas">
+		<meta name="description" content="Blog de José Cuevas">
+		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+		<!-- Importar CSS -->
+		<link rel="stylesheet" type="text/css" href="/css/dark.css"  media="all">
+		<link rel="stylesheet" type="text/css" href="/css/style.css" media="all">
+		<!-- Ícono de la página web -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon-precomposed" href="/favicon-180.png">
+	</head>
+	<body>
+		<!-- Barra de navegación (escritorio) -->
+		<nav class="desktop">
+			<ul>
+				<li><a href="/index.html">Blog</a></li>
+				<li><a href="/pub.html">Publicaciones</a></li>
+				<!-- <li><a href="/film.html">Arte</a></li> -->
+				<li><a href="/about.html">Información y Contacto</a></li>
+			</ul>
+		</nav>
+		<!-- Barra de navegación (portátil) -->
+		<nav class="handheld">
+			<ul>
+				<li><a href="/index.html">Blog</a></li>
+				<li id="menu-btn" onclick="toggle_menu()">≡</li>
+			</ul>
+			<ul id="dropdown">
+				<li><a href="/pub.html">Publicaciones</a></li>
+				<!-- <li><a href="/film.html">Arte</a></li> -->
+				<li><a href="/about.html">Información y Contacto</a></li>
+			</ul>
+		</nav>
+		<!-- Contenido -->
+		<div class="main">
+<h1 id="404">404</h1>
+
+<p>¡Ups! La página que usted busca no existe.</p>
+			<div class="footer">
+				<img class="monochrome" src="/image/footer.png" alt="minimalist-cube">
+				<br>
+				<span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="/rss.xml">RSS</a>
+			</div>
+		</div>
+		<!-- Pequeño script para activar/desactivar menu en portátil -->
+		<script src="/js/mode-switch.js"></script>
+	</body>
+</html>
