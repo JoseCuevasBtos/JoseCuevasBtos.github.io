@@ -9,7 +9,8 @@
 		<meta name="description" content="Blog de José Cuevas">
 		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
 		<!-- Importar CSS -->
-		<link rel="stylesheet" type="text/css" href="/css/dark.css"  media="all">
+		<link rel="stylesheet" type="text/css" href="/css/dark.css"  media="(prefers-color-scheme: no-preference), (prefers-color-scheme: dark)">
+		<link rel="stylesheet" type="text/css" href="/css/light.css"  media="(prefers-color-scheme: light)">
 		<link rel="stylesheet" type="text/css" href="/css/style.css" media="all">
 		<!-- Ícono de la página web -->
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -77,7 +78,7 @@ Sin embargo, detesto las redes sociales y hasta que no tenga la obligación de u
 <h2 id="Proyectos">Proyectos</h2>
 
 <ul>
-<li>[ ] Recuperar o reescribir apuntes sobre teoría de conjuntos axiomática.</li>
+<li>[x] Recuperar o reescribir apuntes sobre teoría de conjuntos axiomática.</li>
 <li>[ ] Capítulos o artículos breves acerca del axioma de elección y sus formas más débiles.</li>
 <li>[ ] Capítulos o artículos breves acerca de la lógica y su relación a las álgebras booleanas y a la teoría de modelos.</li>
 <li>[ ] Apuntes sobre programación básica e introductoria (<code>Python</code> o utilidades de <code>Unix</code> y <code>POSIX sh</code>).</li>
@@ -85,11 +86,9 @@ Sin embargo, detesto las redes sociales y hasta que no tenga la obligación de u
 </ul>
 			<div class="footer">
 				<img class="monochrome" src="/image/footer.png" alt="minimalist-cube">
-				<br>
-				<span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="/rss.xml">RSS</a>
+				<!-- <br> -->
+				<!-- <span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="/rss.xml">RSS</a> -->
 			</div>
 		</div>
-		<!-- Pequeño script para activar/desactivar menu en portátil -->
-		<script src="/js/mode-switch.js"></script>
 	</body>
 </html>

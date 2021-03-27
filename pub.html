@@ -9,7 +9,8 @@
 		<meta name="description" content="Blog de José Cuevas">
 		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
 		<!-- Importar CSS -->
-		<link rel="stylesheet" type="text/css" href="/css/dark.css"  media="all">
+		<link rel="stylesheet" type="text/css" href="/css/dark.css"  media="(prefers-color-scheme: no-preference), (prefers-color-scheme: dark)">
+		<link rel="stylesheet" type="text/css" href="/css/light.css"  media="(prefers-color-scheme: light)">
 		<link rel="stylesheet" type="text/css" href="/css/style.css" media="all">
 		<!-- Ícono de la página web -->
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -61,7 +62,7 @@ Todos están en mi repositorio de <a href="https://github.com/JoseCuevasBtos/apu
 <li>[x] Operaciones entre conjuntos.</li>
 <li>[x] Relaciones y funciones.</li>
 <li>[ ] Lenguaje de categorías.</li>
-<li>[ ] Sistemas numéricos.</li>
+<li>[x] Sistemas numéricos.</li>
 </ul></li>
 <li>[ ] Números ordinales.
 
@@ -69,15 +70,16 @@ Todos están en mi repositorio de <a href="https://github.com/JoseCuevasBtos/apu
 <li>[x] Tipos de relaciones de orden.</li>
 <li>[x] Construcción de los números ordinales, inducción y recursión transfinita.</li>
 <li>[ ] Aritmética ordinal.</li>
-<li>[ ] Conjuntos bien fundados y el axioma de fundación.</li>
+<li>[x] Conjuntos bien fundados y el axioma de fundación.</li>
 </ul></li>
 <li>[ ] Cardinalidad.
 
 <ul>
 <li>[x] Cardinalidad para conjuntos finitos.</li>
 <li>[x] Modelos para números cardinales.</li>
-<li>[ ] El axioma de elección (equivalencias y restricciones).</li>
+<li>[x] El axioma de elección (equivalencias y restricciones).</li>
 <li>[ ] Aritmética cardinal.</li>
+<li>[ ] Cofinalidad, potencias y la hipótesis del continuo.</li>
 </ul></li>
 </ul></li>
 <li><p><a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/topologia-analisis.pdf">Topología y Análisis (*)</a></p>
@@ -94,7 +96,7 @@ Todos están en mi repositorio de <a href="https://github.com/JoseCuevasBtos/apu
 <ul>
 <li>[x] Definición de compacto y productos de compactos.</li>
 <li>[x] Espacios localmente, numerablemente, sucesionalmente, sigma- compactos; de Lindelöf, etc.</li>
-<li>[x] Espacios de funciones (de Stone-Weierstrass, de Ascoli).</li>
+<li>[x] Espacios de funciones (teorema de Stone-Weierstrass, de Ascoli).</li>
 <li>[ ] Cubos universales, metrización y compactificación (de Alexandroff, de Cech-Stone).</li>
 </ul></li>
 <li>[ ] Conexión y espacios para el analísis.
@@ -111,7 +113,8 @@ Todos están en mi repositorio de <a href="https://github.com/JoseCuevasBtos/apu
 
 <ul>
 <li>[x] Medidas (ejemplo de Jordan y Lebesgue).</li>
-<li>[ ] Integración y desigualdades relacionadas.</li>
+<li>[x] Integración y desigualdades relacionadas.</li>
+<li>[ ] Integración, convergencia y diferenciabilidad.</li>
 <li>[ ] Irracionalidad mediante integración.</li>
 </ul></li>
 </ul></li>
@@ -120,8 +123,17 @@ Todos están en mi repositorio de <a href="https://github.com/JoseCuevasBtos/apu
 <p>Lista de tópicos:</p>
 
 <ul>
-<li>[x] Teoría elemental de números y de grupos.</li>
-<li>[ ] Teoría de anillos y cuerpos.
+<li>[x] Teoría elemental de números y de grupos.
+
+<ul>
+<li>[x] Teoría elemental de números.</li>
+<li>[x] Definiciones de grupos.</li>
+<li>[x] Acciones de grupos.</li>
+<li>[x] Teoremas de Sylow.</li>
+<li>[ ] Grupos resolubles.</li>
+<li>[x] Grupos simétricos, alternantes y diedrales.</li>
+</ul></li>
+<li>[x] Teoría de anillos y cuerpos.
 
 <ul>
 <li>[x] Definiciones básicas.</li>
@@ -132,10 +144,23 @@ Todos están en mi repositorio de <a href="https://github.com/JoseCuevasBtos/apu
 
 <ul>
 <li>[x] Espacios vectoriales.</li>
-<li>[ ] Transformaciones lineales y matrices.</li>
-<li>[ ] Determinante y transformaciones bilineales.</li>
+<li>[x] Transformaciones lineales y matrices.</li>
+<li>[ ] Determinante y transformaciones multilineales.</li>
 </ul></li>
-<li>[ ] Teoría de Galois y extensiones de cuerpo.</li>
+<li>[ ] Teoría de Galois y extensiones de cuerpo.
+
+<ul>
+<li>[x] Extensiones algebraicas y trascendentes.</li>
+<li>[ ] Clausura algebraica y el teorema fundamental del álgebra (TFA).</li>
+<li>[ ] Teoría de Galois y grupos resolubles.</li>
+</ul></li>
+<li>[ ] Álgebra lineal II.
+
+<ul>
+<li>[ ] Diagonalización y endomorfismos.</li>
+<li>[ ] Autovalores, autovectores, polinomios y otra demostración de TFA.</li>
+<li>[ ] Teoría de Galois y grupos resolubles.</li>
+</ul></li>
 </ul></li>
 </ul>
 
@@ -151,11 +176,9 @@ Todos están en mi repositorio de <a href="https://github.com/JoseCuevasBtos/apu
 </ul>
 			<div class="footer">
 				<img class="monochrome" src="/image/footer.png" alt="minimalist-cube">
-				<br>
-				<span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="/rss.xml">RSS</a>
+				<!-- <br> -->
+				<!-- <span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="/rss.xml">RSS</a> -->
 			</div>
 		</div>
-		<!-- Pequeño script para activar/desactivar menu en portátil -->
-		<script src="/js/mode-switch.js"></script>
 	</body>
 </html>

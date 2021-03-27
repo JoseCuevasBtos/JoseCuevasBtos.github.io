@@ -9,7 +9,8 @@
 		<meta name="description" content="Blog de José Cuevas">
 		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
 		<!-- Importar CSS -->
-		<link rel="stylesheet" type="text/css" href="/css/dark.css"  media="all">
+		<link rel="stylesheet" type="text/css" href="/css/dark.css"  media="(prefers-color-scheme: no-preference), (prefers-color-scheme: dark)">
+		<link rel="stylesheet" type="text/css" href="/css/light.css"  media="(prefers-color-scheme: light)">
 		<link rel="stylesheet" type="text/css" href="/css/style.css" media="all">
 		<!-- Ícono de la página web -->
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -44,11 +45,9 @@
 <p>¡Ups! La página que usted busca no existe.</p>
 			<div class="footer">
 				<img class="monochrome" src="/image/footer.png" alt="minimalist-cube">
-				<br>
-				<span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="/rss.xml">RSS</a>
+				<!-- <br> -->
+				<!-- <span onclick="load_light()" class="light">Light</span><span onclick="load_dark()" class="">Dark</span> &bull; <a href="/rss.xml">RSS</a> -->
 			</div>
 		</div>
-		<!-- Pequeño script para activar/desactivar menu en portátil -->
-		<script src="/js/mode-switch.js"></script>
 	</body>
 </html>
