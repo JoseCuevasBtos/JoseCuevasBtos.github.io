@@ -1,6 +1,8 @@
 /* Main (sans-serif) font */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-body { font-family: 'Josefin Sans', sans-serif; }
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); */
+/* body { font-family: 'Josefin Sans', sans-serif; } */
+
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
 /* --------------------------------------------------- */
 

@@ -5,3 +5,7 @@
 	--sec-fg: #e9ecef;
 	--highlight: #57b9ff;
 }
+
+img.monochrome-inv {
+	filter: invert(100%);
+}
