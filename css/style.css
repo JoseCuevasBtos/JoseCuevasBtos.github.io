@@ -168,7 +168,7 @@ div.footer span.dark {
 
 /* Printer */
 @media print {
-	nav, .footer { display: none; }
+	nav, div.footer { display: none; }
 	.main { margin: 5% 10px; }
 	.main a { text-decoration: none; }
 }
