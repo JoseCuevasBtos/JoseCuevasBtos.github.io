@@ -89,6 +89,8 @@ a {
 	-webkit-text-decoration-color: var(--highlight);
 }
 
+code { font-size: larger; }
+
 .handheld { display: none; }
 
 #menu-btn {
