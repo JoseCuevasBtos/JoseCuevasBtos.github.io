@@ -35,7 +35,9 @@
 		<nav class="handheld">
 			<ul>
 				<li><a href="/index.html">Blog</a></li>
-				<li id="menu-btn" onclick="toggle_menu()">≡</li>
+				<input class="menu-btn" type="checkbox" id="menu-btn" />
+				<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+				<!-- <li id="menu-btn" onclick="toggle_menu()">≡</li> -->
 			</ul>
 			<ul id="dropdown">
 				<li><a href="/pub.html">Publicaciones</a></li>
@@ -45,145 +47,7 @@
 		</nav>
 		<!-- Contenido -->
 		<div class="main">
-<h1 id="Publicaciones">Publicaciones</h1>
 
-<p>Clarifico que ninguno de los siguientes artículos es realmente una publicación en el sentido de no estar publicado en una revista o en una librería física, sino que son trabajos que mantengo de forma abierta y gratuita online. Los trabajos marcados con (*) siguen en desarrollo.
-Todos están en mi repositorio de <a href="https://github.com/JoseCuevasBtos/apuntes-tex">GitHub</a>, pero aquí puedes descargarlos de forma directa.</p>
-
-<h2 id="Libros">Libros</h2>
-
-<ul>
-<li><p><a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/conjuntos.pdf">Teoría de conjuntos (*)</a></p>
-
-<p>Aún en desarrollo temprano, éstas notas pretenden abarcar la teoría básica, las equivalencias con el axioma de elección y otros temas más avanzados como la teoría de modelos, cardinales grandes y combinatoria infinita.</p>
-
-<p>Lista de tópicos:</p>
-
-<ul>
-<li><code>[ ]</code> Teoría de conjuntos axiomática.
-
-<ul>
-<li><code>[x]</code> Axiomas ZFC y NBG.</li>
-<li><code>[x]</code> Operaciones entre conjuntos.</li>
-<li><code>[x]</code> Relaciones y funciones.</li>
-<li><code>[ ]</code> Lenguaje de categorías.</li>
-<li><code>[x]</code> Sistemas numéricos.</li>
-</ul></li>
-<li><code>[ ]</code> Números ordinales.
-
-<ul>
-<li><code>[x]</code> Tipos de relaciones de orden.</li>
-<li><code>[x]</code> Construcción de los números ordinales, inducción y recursión transfinita.</li>
-<li><code>[ ]</code> Aritmética ordinal.</li>
-<li><code>[x]</code> Conjuntos bien fundados y el axioma de fundación.</li>
-</ul></li>
-<li><code>[ ]</code> Cardinalidad.
-
-<ul>
-<li><code>[x]</code> Cardinalidad para conjuntos finitos.</li>
-<li><code>[x]</code> Modelos para números cardinales.</li>
-<li><code>[x]</code> El axioma de elección (equivalencias y restricciones).</li>
-<li><code>[ ]</code> Aritmética cardinal.</li>
-<li><code>[ ]</code> Cofinalidad, potencias y la hipótesis del continuo.</li>
-</ul></li>
-</ul></li>
-<li><p><a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/topologia-analisis.pdf">Topología y Análisis (*)</a></p>
-
-<p>Originalmente tenía pensado sólo hacer notas para análisis matemático y poner un poco de topología para demostrar cosas como los teoremas de Weierstrass en un contexto más general, pero me percaté de que la topología es tan o más interesante que el análisis general. Aún así el documento utiliza fuertes aplicaciones a lo que comunmente se conoce como análisis, pero diría que tiene más contenido de topología.  </p>
-
-<p>Lista de tópicos:</p>
-
-<ul>
-<li><code>[x]</code> Construcción de los números reales.</li>
-<li><code>[x]</code> Espacios y definiciones topológicas.</li>
-<li><code>[ ]</code> Espacios compactos.
-
-<ul>
-<li><code>[x]</code> Definición de compacto y productos de compactos.</li>
-<li><code>[x]</code> Espacios localmente, numerablemente, sucesionalmente, sigma- compactos; de Lindelöf, etc.</li>
-<li><code>[x]</code> Espacios de funciones (teorema de Stone-Weierstrass, de Ascoli).</li>
-<li><code>[ ]</code> Cubos universales, metrización y compactificación (de Alexandroff, de Cech-Stone).</li>
-</ul></li>
-<li><code>[ ]</code> Conexión y espacios para el analísis.
-
-<ul>
-<li><code>[x]</code> Espacios vectoriales topológicos.</li>
-<li><code>[ ]</code> Espacios duales (teorema de Alaoglu, polares, etc.)</li>
-<li><code>[x]</code> Espacios conexos, arco-conexos, convexos.</li>
-<li><code>[ ]</code> Espacios disconexos (cerodimensionales, extremadamente disconexos, etc.).</li>
-</ul></li>
-<li><code>[x]</code> Derivadas reales y desigualdades.</li>
-<li><code>[ ]</code> Derivadas en varias dimensiones.
-
-<ul>
-<li><code>[x]</code> Propiedades básicas de derivación (regla de la cadena, aritmética).</li>
-<li><code>[ ]</code> Variedades diferenciales (teorema de la función inversa y la función implícita).</li>
-</ul></li>
-<li><code>[ ]</code> Teoría de la medida e integración.
-
-<ul>
-<li><code>[x]</code> Medidas (ejemplo de Jordan y Lebesgue).</li>
-<li><code>[x]</code> Integración, límites de integrales, desigualdades relacionadas y espacios \(L^p\).</li>
-<li><code>[ ]</code> Integración en producto de medidas. Demostración del TFA.</li>
-<li><code>[ ]</code> Integración y diferenciabilidad.</li>
-<li><code>[ ]</code> Irracionalidad mediante integración.</li>
-</ul></li>
-</ul></li>
-<li><p><a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/algebra.pdf">Álgebra (*)</a></p>
-
-<p>Lista de tópicos:</p>
-
-<ul>
-<li><code>[x]</code> Teoría elemental de números y de grupos.
-
-<ul>
-<li><code>[x]</code> Teoría elemental de números.</li>
-<li><code>[x]</code> Definiciones de grupos.</li>
-<li><code>[x]</code> Acciones de grupos.</li>
-<li><code>[x]</code> Teoremas de Sylow.</li>
-<li><code>[ ]</code> Grupos resolubles.</li>
-<li><code>[x]</code> Grupos simétricos, alternantes y diedrales.</li>
-</ul></li>
-<li><code>[x]</code> Teoría de anillos y cuerpos.
-
-<ul>
-<li><code>[x]</code> Definiciones básicas.</li>
-<li><code>[x]</code> Anillo y cuerpo de polinomios.</li>
-<li><code>[x]</code> Raíces e irreductibilidad de polinomios. Primera prueba del teorema fundamental del álgebra (TFA).</li>
-</ul></li>
-<li><code>[x]</code> Módulos.
-
-<ul>
-<li><code>[x]</code> Espacios vectoriales, bases y dimensión.</li>
-<li><code>[x]</code> Transformaciones lineales y matrices.</li>
-<li><code>[x]</code> Determinante y transformaciones multilineales.</li>
-</ul></li>
-<li><code>[ ]</code> Teoría de Galois y extensiones de cuerpo.
-
-<ul>
-<li><code>[x]</code> Extensiones algebraicas y trascendentes.</li>
-<li><code>[ ]</code> Clausura algebraica. Segunda prueba del TFA.</li>
-<li><code>[ ]</code> Teoría de Galois y grupos resolubles.</li>
-</ul></li>
-<li><code>[ ]</code> Álgebra lineal II.
-
-<ul>
-<li><code>[ ]</code> Diagonalización y endomorfismos. Tercera prueba del TFA.</li>
-<li><code>[ ]</code> Formas canónicas de endomorfismos (bloques de Jordan).</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<h2 id="Art%C3%ADculos">Artículos</h2>
-
-<ul>
-<li><p><a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/guia-teo-numeros.pdf">(Breve) Introducción a la teoría de números</a></p>
-
-<p>Esta fue una breve guía que hice para una clase hace unos años respecto de este tema como entrenamiento para las matemáticas olímpicas. Es bastante corto, pero posee cierto enfoque lógico y formal, creo que está bien hecho, pero no hagaís una imagen del resto de mis trabajos basado en éste.</p></li>
-<li><p><a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/intro-breve-latex.pdf">Introducción breve a LaTeX</a></p>
-
-<p>LaTeX es probablemente el lenguaje de tipografía de matemáticas más común en el mundo de la investigación, esto no equivale a decir que sea el más accesible. El documento revisa la mayor parte de funciones corrientes que un estudiante necesitaría utilizar, pero sin ir a demasiado detalle.</p></li>
-</ul>
 			<div class="footer">
 				<img class="monochrome" src="/image/footer.png" alt="minimalist-cube">
 				<!-- <br> -->
