@@ -36,8 +36,8 @@
 			<ul>
 				<li><a href="/index.html">Blog</a></li>
 				<input class="menu-btn" type="checkbox" id="menu-btn" />
-				<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-				<!-- <li id="menu-btn" onclick="toggle_menu()">≡</li> -->
+				<!-- <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label> -->
+				<li id="menu-icon" for="menu-btn">≡</li>
 			</ul>
 			<ul id="dropdown">
 				<li><a href="/pub.html">Publicaciones</a></li>
@@ -47,7 +47,131 @@
 		</nav>
 		<!-- Contenido -->
 		<div class="main">
+<h1 id="Integraci%C3%B3n%20y%20el%20problema%20de%20la%20Medida">Integración y el problema de la Medida</h1>
 
+<p>Dentro de los conceptos o herramientas fundamentales del análisis, la integral toma un rol protagónico, sin embargo su definición incluye un problema que en un principio parece trivial, pero yace en el núcleo de la idea: la cuestión sobre la medida.
+Aquí se pretende dar intuición sobre la definición de integral de Lebesgue.</p>
+
+<h2 id="El%20objetivo,%20y%20el%20m%C3%A9todo%20de%20Riemann">El objetivo, y el método de Riemann</h2>
+
+<p>Primero vamos a definir el concepto o el objetivo con la integral:</p>
+
+<blockquote>
+<p>La integral de una función sobre un dominio, es el área <em>signada</em> de la gráfica en ese dominio.</p>
+</blockquote>
+
+<p>En primer lugar delimitaremos el dominio a intervalos compactos (de la forma \([a,b]\)).
+Y en segundo lugar con <em>área signada</em> nos referiremos al hecho de que si la función toma valores negativos entonces el área también lo será.
+Si lo que se quiere es que el área sea siempre positiva, bastará con tomarle el valor absoluto a la función.</p>
+
+<p>Pero aquí, hay otro problema mucho más fundamental: ¿qué significa el <em>área</em>?
+Suena a una pregunta trivial, pero en verdad no lo es; de momento lo evitaremos, pero un lector formal debe tenerlo en consideración.</p>
+
+<p>La idea de Riemann va a ser la siguiente:
+Inicialmente lo único que seremos capaces de medir serán rectángulos, luego aproximaremos el área de una función mediante la división del área por rectángulos.
+Vamos a añadirle una condición, porque el término <em>aproximación</em> es ambiguo: Vamos a construir una especie de función error a una aproximación dada, que corresponde a al máximo posible error, que será como un rectángulo pequeño de altura la máxima &#8220;desviación&#8221;.
+Finalmente, diremos que la integral de Riemann de una función viene a ser el límite de las aproximaciones cuando el error tiende a 0.</p>
+
+<p>Esto también abre la puerta a dos posibles casos desastrosos: 1) El error, para todas las aproximaciones, puede no ser 0. Y 2), el área de las aproximaciones no converge, incluso si el error converge a cero.
+En estos casos, diremos que la integral de Riemann no está definda, y nos sugiere que existen posibles &#8220;figuras sin área&#8221;.</p>
+
+<h2 id="La%20teor%C3%ADa%20de%20la%20medida:%20Jordan%20y%20Lebesgue">La teoría de la medida: Jordan y Lebesgue</h2>
+
+<p>Vamos a volver al problema fundamental: ¿pero QUÉ es el área, el volumen o la longitud?
+Aquí comenzamos por considerar lo siguiente: No existe una única noción de &#8220;área&#8221;, o para adaptar mejor los términos, &#8220;medida&#8221;.
+Así que, sin importar como midamos las cosas, vamos a exigir condiciones:</p>
+
+<ol>
+<li>La medida de toda figura debe ser positiva. Incluso puede ser &#8220;infinita&#8221;, pero nunca negativa.</li>
+<li>La medida del conjunto vacío debe ser 0.</li>
+<li>Si tengo varios (a lo más numerables) conjuntos medibles disjuntos (que no se cruzan, o comparten puntos en común), la medida de su unión debe ser la suma de medidas.</li>
+<li>Si tengo conjuntos \(A,B\) medibles tales que \(A\) está contenido en \(B\), entonces la medida de \(A\) es menor o igual a la de \(B\).</li>
+</ol>
+
+<p>La cuarta, puede ser vista como conclusión de la 3. si admitimos que si un conjunto es medible, entonces su complemento también, o que la resta de medibles es medible.
+Cualquier espacio dotado de una medida se llamará <em>espacio de medida</em>.</p>
+
+<p>Aquí es cuando tenemos que empezar a definir convenientemente una medida en \(\mathbb{R}^n\):
+En primer lugar diremos que una figura es una <em>celda</em> si es el producto de intervalos acotados.
+De esta forma, definimos la medida de los intervalos \([a,b], (a,b), (a,b]\) y \([a,b)\) como \(b - a\) (es decir su longitud), y la medida de una celda como el producto de las longitudes de sus intervalos.
+De este modo, por ejemplo el cubo \([0,1]\times[0,1]\times[0,1]\) tiene medida \((1-0)^3 = 1\), y, en consecuencia, la traslación de celdas conserva la medida.</p>
+
+<p>Decimos que una figura es <em>elemental</em> si es la unión de finitas celdas.
+Llamamos <em>medida elemental</em> a la medida de las figuras elementales que viene a ser la suma de las medidas de celdas disjuntas que la forman (su definición es más complicada, pero es en esencia esto).
+Si una figura puede ser aproximada tanto por &#8220;fuera&#8221; como por &#8220;dentro&#8221; por figuras elementales, entonces se dice que la figura es Jordan-medible y a este límite de aproximaciones le llamamos la medida de Jordan.</p>
+
+<p>La medida de Jordan es genial porque es muy completa y es intuitiva, además conserva la propiedad de ser invariante a traslaciones. Pero no cumple dos condiciones especiales: 1. Si una conjunto está contenido en una conjunto &#8220;nula&#8221;, es decir, uno de medida 0, éste conjunto puede no ser medible. 2. Puede ser que una sucesión numerable de conjuntos medibles tenga unión no medible.</p>
+
+<p>Para resolver éstos dos problemas se extiende una última vez a la medida de Lebesgue, que resuelve ambos problemas.
+Un dato vital es que los conjuntos nulos, además de tener medida 0, también deben pensarse intuitivamente como &#8220;pequeños&#8221;, luego varias condiciones pueden relajarse a tener excepciones en un conjunto nulo.</p>
+
+<h2 id="La%20integral%20de%20Lebesgue">La integral de Lebesgue</h2>
+
+<p>Una forma de ver la integral de Riemann es que el método de particiones se representa mediante funciones usualmente llamadas &#8220;parcialmente constantes&#8221; (<em>piecewise constant</em> en inglés) o &#8220;escalon&#8221;;
+en este sentido toda función es integrable si se puede aproximar por abajo y por arriba por funciones escalón.</p>
+
+<p>Las funciones escalón son aquellas que son constante en un intervalo abierto.
+Pero con la teoría de Lebesgue puede generalizarse a las funciones <strong>simples</strong>: funciones que son constantes en conjuntos medibles.
+Así, una función es integrable, según Lebesgue, si se puede aproximar por abajo y por arriba por funciones simples.</p>
+
+<p>Más aún, recordemos que los conjuntos medibles también están definidos en espacios euclídeos, luego la definición de Lebesgue es mejor que la de Riemann, entre otras cosas porque se extiende a funciones de varias variables.</p>
+
+<p>Al estudiar las condiciones de producto de medidas también se puede demostrar que si una función es positiva, su integral de Lebesgue es efectivamente la &#8220;medida (área si la función tiene una variable) bajo la curva&#8221;.</p>
+
+<h3 id="Principios%20de%20Littlewood">Principios de Littlewood</h3>
+
+<p>Sin embargo, una de las desventajas es que en general es difícil establecer demostraciones en el campo de la teoria de la medida, por lo cual, hay tres conocidos principios a nombre de Littlewood:</p>
+
+<ol>
+<li>Todo conjunto medible se puede aproximar por figuras elementales.</li>
+<li>Toda función integrable es continua en un conjunto arbitrariamente grande (teorema de Lusin).</li>
+<li>Toda sucesión de integrables que converge a otra, converge <em>uniformemente</em> a otra en un conjunto arbitrariamente grande (teorema de Egoroff).</li>
+</ol>
+
+<p>De éstas tres la más complicada es la tercera: Se dice que \(\{f_n\}_{n\in\mathbb{N}}\) converge a \(g\) si para todo \(x\) se cumple que \(\lim_n f_n(x) = g(x)\).
+Por otro lado, se dice que la sucesión converge <em>uniformemente</em> a \(g\), si para todo \(\epsilon &#62; 0\) existe \(n_0\in\mathbb{N}\) tal que para todo \(n \ge n_0\) se cumple que \(|f_n(x) - g(x)| &#60; \epsilon\).
+Un ejemplo sencillo de convergencia de funciones vs convergencia uniforme, es \(x^n\) en \([0,1]\) que converge a \(\lfloor x\rfloor\) (la función parte entera), sin embargo, las funciones no convergen uniformemente. Aun que, notemos que si restringimos las funciones al intervalo \([0,1-\epsilon]\) la convergencia sí es uniforme.</p>
+
+<h3 id="%C2%BFEspacios%20de%20funciones?">¿Espacios de funciones?</h3>
+
+<p>En los principios de Littlewood se mencionó la <em>convergencia</em> de funciones, sin embargo, esto es más profundo de lo que aparenta.
+Cuando existe convergencia de cosas, usualmente se visualizan esos objetos como puntos en el espacio y que existe una cierta noción de cercanía, que se ve formalizada en el concepto de <em>topología</em>.
+El término <em>topología</em> viene a significar en el griego, &#8220;estudios de los espacios (topos)&#8221;.</p>
+
+<p>Así que, ¿acaso la teoría de medida de Lebesgue sugiere que las funciones son puntos en un espacio? Pues la verdad es que sí.
+Es mucho más complicado de explicar y merecería un artículo entero, pero la integral puede ser utilizada para medir distancias entre funciones.
+Aquí vuelve a entrar el concepto de &#8220;condición con excepción en conjunto nulo&#8221;, pues dos funciones están a &#8220;distancia 0&#8221; si solo difieren en un conjunto nulo.
+Cómo la integral es una noción que &#8220;analiza funciones a grandes rasgos&#8221;, entonces cambios que suceden en un conjunto &#8220;pequeño&#8221; son imperceptibles.</p>
+
+<p>Además, dependiendo de qué tan acotada es una función pueden distinguirse distintos grados de &#8220;integrabilidad&#8221; que tiene una función.
+Sin embargo, lo genial es que todos estos espacios están dotados de varias propiedades que, vistas desde la topología, hacen que se &#8220;comporten bien&#8221;.
+Esta propiedad, no obstante, no se cumple con la integral de Riemann.</p>
+
+<h3 id="Conclusi%C3%B3n:%20Lebesgue%20vs%20Riemann">Conclusión: Lebesgue vs Riemann</h3>
+
+<p>A favor de Riemann:</p>
+
+<ul>
+<li>No se requieren tantos conocimientos previos.</li>
+<li>Se desarrolla el teorema fundamental del cálculo que permite calcular facilmente integrales.</li>
+<li>Permite integrar varias funciones, que incluyen monótonas en un intervalo.</li>
+</ul>
+
+<p>A favor de Lebesgue:</p>
+
+<ul>
+<li>Las definiciones son tan amplias que incluyen muchas más funciones de las que uno espera.</li>
+<li>Las integrales de Riemann también aplican aquí.</li>
+<li>Por el &#8220;precio&#8221; de una integral, obtienes una definición que funciona hasta para funciones entre espacios de varias dimensiones.</li>
+<li>Las funciones integrables se comportan como un buen espacio.</li>
+</ul>
+
+<h2 id="Bibliograf%C3%ADa">Bibliografía</h2>
+
+<ul>
+<li>Stein, E. y Shakarchi, R. <em>Real Analysis. Measure Theory, Integration, and Hilbert Spaces</em> (Princeton University Press, 2005).</li>
+<li>Tao, T. <em>An Introduction to Measure Theory</em> (American Mathematical Society, 2011).</li>
+</ul>
 			<div class="footer">
 				<img class="monochrome" src="/image/footer.png" alt="minimalist-cube">
 				<!-- <br> -->
