@@ -4,7 +4,7 @@
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 % \usepackage{palatino}
-\usepackage{verse, gmverse}
+\usepackage{verse}
 
 \usepackage{fontspec}
 \setmainfont{EB Garamond}
