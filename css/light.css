@@ -1,11 +1,42 @@
-:root {
-	--site-fg: #212529;
-	--site-bg: #f8f9fa;
-	--sec-fg: #343a40;
-	--sec-bg: #e9ecef;
-	--highlight: #007acc;
+img.monochrome-inv {
+  filter: invert(0%);
 }
 
 img.monochrome {
-	filter: invert(100%);
+  filter: invert(100%);
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+nav {
+  background-color: #e9ecef;
+  color: #343a40;
+}
+
+blockquote {
+  background: #e9ecef;
+}
+
+a {
+  text-decoration-color: #007acc;
+  -webkit-text-decoration-color: #007acc;
+}
+
+.catalog a.block {
+  border: solid #212529;
+}
+
+div.footer span.light {
+  border-color: #f8f9fa;
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+div.footer span.dark {
+  border-color: #212529;
+  background-color: #f8f9fa;
+  color: #212529;
 }
