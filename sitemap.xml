@@ -11,6 +11,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://www.josecuevas.xyz/articles/music/aoty-2020.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.josecuevas.xyz/articles/math/integracion-lebesgue.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.josecuevas.xyz/articles/misc/sobre-divulgacion.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
+<url><loc>https://www.josecuevas.xyz/lit/neruda/veinte-poemas.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.josecuevas.xyz/lit/neruda/canto-general.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.josecuevas.xyz/lit/neruda/crepusculario.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.josecuevas.xyz/lit/neruda/relatos.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
@@ -26,7 +27,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://www.josecuevas.xyz/lit/</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.josecuevas.xyz/pub.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.josecuevas.xyz/404.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
-<url><loc>https://www.josecuevas.xyz/archive.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.josecuevas.xyz/about.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.josecuevas.xyz/index.html</loc><lastmod>2022-01-15</lastmod><priority>1.0</priority></url>
 </urlset>

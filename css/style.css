@@ -167,14 +167,17 @@ mark {
 }
 
 div.menu {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  width: calc(100% - 20px);
   background: #111;
-  padding: 1rem 0;
+  padding: 1rem 10px;
 }
 
-div.menu * {
+div.menu div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.menu div * {
   color: #e9ecef;
   flex: 1 auto;
   text-align: center;
@@ -182,7 +185,7 @@ div.menu * {
   text-decoration: none;
 }
 
-div.menu *.unset {
+div.menu div *.unset {
   opacity: .6;
   cursor: not-allowed;
 }
