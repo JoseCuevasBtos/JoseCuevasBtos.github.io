@@ -62,6 +62,10 @@ nav a {
   padding: 1rem;
 }
 
+img, iframe {
+  max-width: 100%;
+}
+
 img.monochrome-inv, iframe.monochrome-inv {
   filter: invert(100%);
 }
@@ -69,11 +73,13 @@ img.monochrome-inv, iframe.monochrome-inv {
 img.fleft, iframe.fleft {
   float: left;
   max-width: 50%;
+  padding-right: 10px;
 }
 
 img.fright, iframe.fright {
   float: right;
   max-width: 50%;
+  padding-left: 10px;
 }
 
 blockquote {
