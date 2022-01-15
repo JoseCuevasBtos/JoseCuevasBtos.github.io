@@ -62,21 +62,18 @@ nav a {
   padding: 1rem;
 }
 
-img, iframe {
-  max-width: 80%;
-  padding: 2% 10%;
-}
-
 img.monochrome-inv, iframe.monochrome-inv {
   filter: invert(100%);
 }
 
 img.fleft, iframe.fleft {
   float: left;
+  max-width: 50%;
 }
 
 img.fright, iframe.fright {
   float: right;
+  max-width: 50%;
 }
 
 blockquote {
@@ -181,6 +178,7 @@ div.menu * {
 
 div.menu *.unset {
   opacity: .6;
+  cursor: not-allowed;
 }
 
 div.footer {
