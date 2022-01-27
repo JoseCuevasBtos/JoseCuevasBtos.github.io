@@ -111,6 +111,22 @@ mark {
   text-decoration: underline;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table tr * {
+  padding: 2px 4px;
+}
+
+table thead, table td {
+  border: solid 1px #f8f9fa;
+}
+
+table tbody tr:nth-child(even) {
+  background: #343a40;
+}
+
 .handheld {
   display: none;
 }

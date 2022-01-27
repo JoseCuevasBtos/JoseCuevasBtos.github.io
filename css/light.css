@@ -25,18 +25,14 @@ a {
   -webkit-text-decoration-color: #007acc;
 }
 
+table thead, table td {
+  border: solid 1px #212529;
+}
+
+table tbody tr:nth-child(even) {
+  background: #e9ecef;
+}
+
 .catalog a.block {
   border: solid #212529;
-}
-
-div.footer span.light {
-  border-color: #f8f9fa;
-  background-color: #212529;
-  color: #f8f9fa;
-}
-
-div.footer span.dark {
-  border-color: #212529;
-  background-color: #f8f9fa;
-  color: #212529;
 }
