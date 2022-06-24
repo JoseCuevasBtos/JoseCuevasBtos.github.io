@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Publicaciones</title>
+		<!-- Metadata -->
+		<meta charset="utf-8">
+		<meta name="author"      content="José Cuevas">
+		<meta name="description" content="Blog de José Cuevas">
+		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+		<!-- Importar CSS -->
+		<link rel="stylesheet" type="text/css" href="/css/style.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/css/light.css" media="(prefers-color-scheme: light)">
+		<!-- Mathjax (para hacer equaciones) -->
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		<!-- Ícono de la página web -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon-precomposed" href="/favicon-180.png">
+	</head>
+	<body>
+		<!-- <!-1- Barra de navegación (escritorio) -1-> -->
+		<!-- <nav class="desktop"> -->
+		<!-- 	<ul> -->
+		<!-- 		<li><a href="/index.html">Blog</a></li> -->
+		<!-- 		<li><a href="/pub.html">Publicaciones</a></li> -->
+		<!-- 		<!-1- <li><a href="/film.html">Arte</a></li> -1-> -->
+		<!-- 		<li><a href="/about.html">Información y Contacto</a></li> -->
+		<!-- 	</ul> -->
+		<!-- </nav> -->
+		<!-- <!-1- Barra de navegación (portátil) -1-> -->
+		<!-- <nav class="handheld"> -->
+		<!-- 	<ul> -->
+		<!-- 		<li><a href="/index.html">Blog</a></li> -->
+		<!-- 		<input class="menu-btn" type="checkbox" id="menu-btn" /> -->
+		<!-- 		<!-1- <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label> -1-> -->
+		<!-- 		<li id="menu-icon" for="menu-btn">≡</li> -->
+		<!-- 	</ul> -->
+		<!-- 	<ul id="dropdown"> -->
+		<!-- 		<li><a href="/pub.html">Publicaciones</a></li> -->
+		<!-- 		<!-1- <li><a href="/film.html">Arte</a></li> -1-> -->
+		<!-- 		<li><a href="/about.html">Información y Contacto</a></li> -->
+		<!-- 	</ul> -->
+		<!-- </nav> -->
+		<!-- Contenido -->
+		<div class="main">
+<h1 id="publicaciones">Publicaciones</h1>
+
+<p>Clarifico que ninguno de los siguientes artículos es realmente una publicación en el sentido de no estar publicado en una revista o en una librería física,
+sino que son trabajos que mantengo de forma abierta y gratuita online.
+Los trabajos marcados con (*) siguen en desarrollo.
+Todos están en mi repositorio de <a href="https://github.com/JoseCuevasBtos/apuntes-tex">GitHub</a>, pero aquí puedes descargarlos de forma directa.</p>
+
+<p>Algunas anotaciones extra:</p>
+
+<ul>
+<li>Las funciones son intuitivas para diagramas conmutativos: \((f \circ g)(x) = g(f(x))\).</li>
+<li>Las proposiciones, lemas, corolarios y teoremas vienen con indicaciones de qué axiomas adicionales emplean (AEN, AE, TUF, etc.).</li>
+<li>Los libros emplean un destacado con color para las definiciones y teoremas que se consideran más relevantes.</li>
+<li>Todos los diagramas matemáticos están hechos en LaTeX puro (TikZ, pgfplots) y son de mi propia autoría.</li>
+<li>Hay varias demostraciones con &#8220;&#8230;&#8221;, lo que representa que están incompletas de momento.</li>
+<li>Todos los libros están en proceso y son profundamente inestables, es muy probable que cambien y con rapideza.</li>
+<li>Los libros incluyen: Índice de contenidos, Índice de contraejemplos y resultados, Índice alfabético (de términos), Índice de notación
+y una bibliografía segmentada entre libros para determinados tópicos y artículos.</li>
+</ul>
+
+<p>Temas que abarcan o motivan la lectura de los libros:</p>
+
+<ul>
+<li><strong>Equivalencias con el axioma de elección:</strong>
+Los teoremas vienen marcados según sus dependencias: AE (Axioma de Elección), TUF (Teorema del UltraFiltro), DE (axioma de Dependientes Elecciones),
+AEN (Axioma de Elecciones Numerables).</li>
+<li><strong>Teorema fundamental del álgebra (TFA):</strong>
+Hay varias demostraciones de éste y al contrario de lo que se cree popularmente no son todas equivalentes a la demostración por &#8220;números de giro&#8221;.</li>
+<li><strong>¿Qué es lo que hace a \(\mathbb{R}\) tan especial?</strong>
+No hay una única explicación y se puede estudiar a \(\mathbb{R}\) desde varios puntos de vista distintos: En primer lugar, es un espacio linealmente ordenado,
+completo bajo el orden, sin máximo ni mínimo y ordenadamente denso con una copia de \(\mathbb{Q}\) densa según orden, y es el único con éstas características
+(teo. 1.4 del libro de <em>Topología y Análisis</em>), pero además es un cuerpo con un valor absoluto arquimediano completo (y son los únicos, junto a \(\mathbb{C}\),
+por el teorema de Ostrowski) y además es un cuerpo formalmente real por lo que su clausura algebraica es una extensión finita (teorema de Artin-Schreier).</li>
+</ul>
+
+<h2 id="libros">Libros</h2>
+
+<ul>
+<li><p><a href="libros/conjuntos.html">Teoría de conjuntos (*)</a></p>
+
+<p>Aún en desarrollo temprano, éstas notas pretenden abarcar la teoría básica, las equivalencias con el axioma de elección
+y otros temas más avanzados como la teoría de modelos, cardinales grandes y combinatoria infinita.
+Además de ello presenta, de manera casi independiente, tópicos de la teoría de categorías, recomendados para sus aplicaciones en álgebra homológica.</p></li>
+<li><p><a href="libros/analisis.html">Topología y Análisis (*)</a></p>
+
+<p>Originalmente tenía pensado sólo hacer notas para análisis matemático y poner un poco de topología para demostrar cosas como los teoremas de Weierstrass en
+un contexto más general, pero me percaté de que la topología es tan o más interesante que el análisis general.
+Aún así el documento utiliza fuertes aplicaciones a lo que comunmente se conoce como análisis, pero diría que tiene más contenido de topología.</p></li>
+<li><p><a href="libros/algebra.html">Álgebra (*)</a></p>
+
+<p>Aquí se presentan los contenidos fundamentales del álgebra moderna, desde teoría de grupos hasta extensiones de cuerpo.
+En éste sentido se sigue el orden clásico (grupos, anillos, módulos, extensiones de cuerpo) en lugar del orden
+contemporáneo (espacios vectoriales, grupos, anillos).
+También hace incapie en las categorías, introduciéndolas formalmente en el capítulo de álgebra homológica, y en sus usos para álgebra conmutativa
+y, más adelante, en geometría algebraica.</p></li>
+<li><p><a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/geometria/geometria.pdf">Geometría (*)</a></p>
+
+<p>En estos apuntes se presenta un desarrollo formal desde los axiomas de Hilbert abarcando demostraciones usuales de geometría euclídea y una sección
+detallando equivalencias del axioma de paralelas (de las que se deducen teoremas de geometría hiperbólica).</p>
+
+<!-- Lista de tópicos: -->
+
+<ul>
+<li><input type="checkbox" checked="checked" />Geometría absoluta de Hilbert.
+
+<ul>
+<li><input type="checkbox" checked="checked" />Axiomas de Hilbert.</li>
+<li><input type="checkbox" checked="checked" />Criterios de congruencia de triángulos y aritmética de segmentos.</li>
+<li><input type="checkbox" checked="checked" />Ángulos.</li>
+<li><input type="checkbox" checked="checked" />Intersección circunferencias.</li>
+</ul></li>
+<li><input type="checkbox" checked="checked" />Geometría euclídea.
+
+<ul>
+<li><input type="checkbox" checked="checked" />Geometría arquimediana (medidas de segmentos y de ángulos).</li>
+<li><input type="checkbox" checked="checked" />Equivalencias del axioma de las paralelas.</li>
+<li><input type="checkbox" />Geometría euclídea (teorema de Tales, de Pitágoras, trigonometría).</li>
+<li><input type="checkbox" />Teoremas de arcos y cuerdas en círculos.</li>
+<li><input type="checkbox" />Teoría geométrica de las medidas (longitud, área, volumen).</li>
+</ul></li>
+<li><input type="checkbox" />Geometría analítica.
+
+<ul>
+<li><input type="checkbox" checked="checked" />Relación con espacios vectoriales.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h2 id="artculos">Artículos</h2>
+
+<ul>
+<li><p><a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/presentaciones/charla-teo-fund-alg-lineal.pdf">Charla: El Teorema Fundamental del Álgebra vía álgebra lineal</a></p>
+
+<p>Esta fue una charla de alrededor de treinta minutos sobre la demostración atribuida a Derksen del TFA mediante álgebra lineal.
+La misma demostración se encuentra en mis apuntes de álgebra.</p></li>
+<li><p><a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/articulos/guia-teo-numeros.pdf">(Breve) Introducción a la teoría de números</a></p>
+
+<p>Esta fue una breve guía que hice para una clase hace unos años respecto de este tema como entrenamiento para las matemáticas olímpicas. Es bastante corto,
+pero posee cierto enfoque lógico y formal, creo que está bien hecho, pero no hagaís una imagen del resto de mis trabajos basado en éste.</p></li>
+<li><p><a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/latex/intro-breve-latex.pdf">Introducción breve a LaTeX</a></p>
+
+<p>LaTeX es probablemente el lenguaje de tipografía de matemáticas más común en el mundo de la investigación, esto no equivale a decir que sea el más accesible.
+El documento revisa la mayor parte de funciones corrientes que un estudiante necesitaría utilizar, pero sin ir a demasiado detalle.</p></li>
+</ul>
+
+<div class="menu">
+<div>
+  <a href="/">Página principal</a>
+</div>
+</div>
+		</div>
+		<div class="footer">
+			<img class="monochrome" src="/image/footer.png" alt="minimalist-cube">
+		</div>
+	</body>
+</html>
