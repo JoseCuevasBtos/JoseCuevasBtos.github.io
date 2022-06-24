@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Álgebra</title>
+		<!-- Metadata -->
+		<meta charset="utf-8">
+		<meta name="author"      content="José Cuevas">
+		<meta name="description" content="Blog de José Cuevas">
+		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+		<!-- Importar CSS -->
+		<link rel="stylesheet" type="text/css" href="/css/style.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/css/light.css" media="(prefers-color-scheme: light)">
+		<!-- Mathjax (para hacer equaciones) -->
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		<!-- Ícono de la página web -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon-precomposed" href="/favicon-180.png">
+	</head>
+	<body>
+		<!-- <!-1- Barra de navegación (escritorio) -1-> -->
+		<!-- <nav class="desktop"> -->
+		<!-- 	<ul> -->
+		<!-- 		<li><a href="/index.html">Blog</a></li> -->
+		<!-- 		<li><a href="/pub.html">Publicaciones</a></li> -->
+		<!-- 		<!-1- <li><a href="/film.html">Arte</a></li> -1-> -->
+		<!-- 		<li><a href="/about.html">Información y Contacto</a></li> -->
+		<!-- 	</ul> -->
+		<!-- </nav> -->
+		<!-- <!-1- Barra de navegación (portátil) -1-> -->
+		<!-- <nav class="handheld"> -->
+		<!-- 	<ul> -->
+		<!-- 		<li><a href="/index.html">Blog</a></li> -->
+		<!-- 		<input class="menu-btn" type="checkbox" id="menu-btn" /> -->
+		<!-- 		<!-1- <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label> -1-> -->
+		<!-- 		<li id="menu-icon" for="menu-btn">≡</li> -->
+		<!-- 	</ul> -->
+		<!-- 	<ul id="dropdown"> -->
+		<!-- 		<li><a href="/pub.html">Publicaciones</a></li> -->
+		<!-- 		<!-1- <li><a href="/film.html">Arte</a></li> -1-> -->
+		<!-- 		<li><a href="/about.html">Información y Contacto</a></li> -->
+		<!-- 	</ul> -->
+		<!-- </nav> -->
+		<!-- Contenido -->
+		<div class="main">
+<h1 id="lgebra">Álgebra</h1>
+
+<p>Éstos apuntes tienen una serie de enfoques que podrían reducirse en tratar de dar un enfoque lo más completo y contemporáneo posible.
+Comienzan siguiendo el orden abstracto estándar de comenzar con una teoría temprana de grupos, desarrollar anillos y anillos de polinomios, y luego dar un primer
+vistazo a los espacios vectoriales.
+De ahí el libro prosigue entremezclando tópicos de álgebra conmutativa y álgebra homológica para poder construir una base autocontenida para el estudio
+de la geometría algebraica clásica.</p>
+
+<p><a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/algebra/algebra.pdf">Descargar el libro (11-06-2022)</a></p>
+
+<p>La advertencia usual es que mis funciones componen al revés: \((f\circ g)(x) = g(f(x))\).
+Y hay una serie de temas que motivan el desarrollo de la teoría a lo largo del libro:</p>
+
+<ul>
+<li><p><input type="checkbox" checked="checked" />El teorema fundamental del álgebra (varias demostraciones).</p></li>
+<li><p><input type="checkbox" />La insolubilidad de la quíntica (aplicación de la teoría de Galois).</p></li>
+<li><p><input type="checkbox" />El teorema de Frobenius (álgebras finitas sobre \(\mathbb{R}\)).</p></li>
+<li><p><input type="checkbox" />Los teoremas de Hilbert (teorema de las bases, de los ceros, de los <em>syzygies</em>).</p></li>
+<li><input type="checkbox" /><p>El décimo séptimo problema de Hilbert y el teorema de Artin-Schreier.</p>
+
+<p>Lista de tópicos:</p>
+
+<ul>
+<li><input type="checkbox" checked="checked" /><p>Teoría elemental de números y de grupos.</p>
+
+<ul>
+<li><input type="checkbox" checked="checked" />Teoría elemental de números.</li>
+<li><input type="checkbox" checked="checked" />Definiciones de grupos.</li>
+<li><input type="checkbox" checked="checked" />Grupos simétricos, alternantes y diedrales.</li>
+<li><input type="checkbox" checked="checked" />Acciones de grupos.</li>
+<li><input type="checkbox" checked="checked" />Teoremas de Sylow.</li>
+<li><input type="checkbox" checked="checked" />Otros tópicos: Grupos libres y presentación de grupos, grupos resolubles.</li>
+</ul></li>
+<li><input type="checkbox" checked="checked" /><p>Teoría de anillos y cuerpos.</p>
+
+<ul>
+<li><input type="checkbox" checked="checked" />Definiciones básicas.</li>
+<li><input type="checkbox" checked="checked" />Anillo y cuerpo de polinomios.</li>
+<li><input type="checkbox" checked="checked" />Raíces e irreductibilidad de polinomios. Primera prueba del teorema fundamental del álgebra (TFA).</li>
+</ul></li>
+<li><input type="checkbox" checked="checked" /><p>Módulos y espacios vectoriales.</p>
+
+<ul>
+<li><input type="checkbox" checked="checked" />Espacios vectoriales, bases y dimensión.</li>
+<li><input type="checkbox" checked="checked" />Transformaciones lineales y matrices.</li>
+<li><input type="checkbox" checked="checked" />Determinante y transformaciones multilineales I.</li>
+<li><input type="checkbox" />Eliminación de Gauss formal.</li>
+</ul></li>
+<li><input type="checkbox" checked="checked" /><p>Extensiones de cuerpo.</p>
+
+<ul>
+<li><input type="checkbox" checked="checked" />Extensiones algebraicas.</li>
+<li><input type="checkbox" checked="checked" />Extensiones separables, normales.</li>
+<li><input type="checkbox" checked="checked" />Clausura algebraica.</li>
+<li><input type="checkbox" checked="checked" />Teoría de Galois y grupos resolubles. Segunda prueba del TFA.</li>
+<li><input type="checkbox" />Extensiones y números trascendentes.</li>
+</ul></li>
+<li><input type="checkbox" checked="checked" /><p>Módulos II.</p>
+
+<ul>
+<li><input type="checkbox" checked="checked" />Construcciones categoriales.</li>
+<li><input type="checkbox" checked="checked" />Módulos noetherianos y artinianos.</li>
+<li><input type="checkbox" checked="checked" />Productos tensoriales.</li>
+<li><input type="checkbox" checked="checked" />Módulos proyectivos e inyectivos.</li>
+</ul></li>
+<li><input type="checkbox" checked="checked" /><p>Álgebra conmutativa.</p>
+
+<ul>
+<li><input type="checkbox" checked="checked" />Anillos locales y radicales.</li>
+<li><input type="checkbox" checked="checked" />Módulos noetherianos y artinianos.</li>
+<li><input type="checkbox" checked="checked" />Dependencia íntegra.</li>
+<li><input type="checkbox" checked="checked" />Anillos de valuación.</li>
+<li><input type="checkbox" checked="checked" />Teoría de la dimensión.</li>
+</ul></li>
+<li><input type="checkbox" /><p>Álgebra lineal II.</p>
+
+<ul>
+<li><input type="checkbox" checked="checked" />Diagonalización y endomorfismos. Tercera prueba del TFA.</li>
+<li><input type="checkbox" />Formas canónicas de endomorfismos (bloques de Jordan).</li>
+<li><input type="checkbox" />Formas bilineales.</li>
+</ul></li>
+<li><input type="checkbox" /><p>Álgebra homológica.</p>
+
+<ul>
+<li><input type="checkbox" checked="checked" />Resúmen de categorías.</li>
+<li><input type="checkbox" />Introducción a las homologías y cohomologías.</li>
+<li><input type="checkbox" />Extensiones y resoluciones.</li>
+<li><input type="checkbox" />Funtores derivados. Los funtores Ext y Tor.</li>
+</ul></li>
+<li><input type="checkbox" /><p>Geometría algebraica.</p>
+
+<ul>
+<li><input type="checkbox" checked="checked" />Variedades algebraicas y proyectivas.</li>
+<li><input type="checkbox" />Funciones polinómicas, regulares, racionales y morfismos.</li>
+<li><input type="checkbox" />Dimensión y regularidad.</li>
+</ul></li>
+</ul></li>
+</ul>
+		</div>
+		<div class="footer">
+			<img class="monochrome" src="/image/footer.png" alt="minimalist-cube">
+		</div>
+	</body>
+</html>
