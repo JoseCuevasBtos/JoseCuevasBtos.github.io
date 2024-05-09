@@ -1,0 +1,2 @@
+<!-- <a href="{{ .Permalink }}"><span class="fi fi-{{ .Lang.Flag }}"></span></a> -->
+<!-- <a href="{{ .Permalink }}">{{ .Lang.LanguageName }}</span></a> -->

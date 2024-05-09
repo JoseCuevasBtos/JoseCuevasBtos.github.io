@@ -1,0 +1,143 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="es"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://josecuevas.xyz/tags/seminars/rss.xml" rel="self" type="application/rss+xml"/>
+
+        
+            <copyright>© José Cuevas</copyright>
+        
+
+        <description>Recent content</description>
+
+        
+            <language>es</language>
+        
+
+        
+            <lastBuildDate>Sat, 06 Apr 2024 13:37:07 -03</lastBuildDate>
+        
+
+        <link>https://josecuevas.xyz/tags/seminars/</link>
+
+        
+
+        <title>Seminars · Tags · José Cuevas</title>
+
+        
+
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+                    
+                
+
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<!-- raw HTML omitted -->
+<p>Este seminario se lleva a cabo (casi) todos <strong>los viernes, a las 10:00 hrs en la sala 3</strong>.
+He aquí una lista detallada de las charlas:</p>
+<ol>
+<li>Héctor Pastén (19 de abril). Una introducción a la conjetura $abc$.<br>
+Explicaremos el enunciado e historia de la conjetura $abc$, su relación con
+curvas elípticas, y daremos un poco de contexto para entender su relevancia.</li>
+<li>Rocío Sepúlveda Manzo (26 de abril).
+<a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/2024-1-ABC/04-26-elipticas.pdf">Nociones generales acerca de curvas
+elípticas.</a><br>
+En ésta charla se repasan las nociones generales sobre curvas elípticas, con
+un lenguaje geométrico más robusto, y tiene como propósito formular la
+conjetura de Szpiro.</li>
+<li>Ignacio Henríquez (10 de mayo).
+La conjetura $abc$ y la conjetura de Szpiro.<br>
+En esta charla estudiaremos la relación entre la conjetura $abc$ y la
+conjetura de Szpiro y veremos que son «casi equivalentes».
+Más precisamente, mostraremos que la conjetura $abc$ implica la conjetura de
+Szpiro y que ésta última implica una versión un poco más débil de la primera.</li>
+</ol>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></description>
+                
+
+                <guid  isPermaLink="false" >tag:josecuevas.xyz,2024-04-06:2024-04-06T13:37:07-03:00</guid>
+
+                
+                    <link>https://josecuevas.xyz/teach/seminario-abc/</link>
+                
+
+                
+                    <pubDate>Sat, 06 Apr 2024 13:37:07 -03</pubDate>
+                
+
+                
+                    <title>Seminario de la Conjetura $abc$ y temas afines</title>
+                
+            </item>
+        
+    </channel>
+</rss>

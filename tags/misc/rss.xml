@@ -1,0 +1,178 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="es"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="http://localhost:1313/tags/misc/rss.xml" rel="self" type="application/rss+xml"/>
+
+        
+            <copyright>© José Cuevas</copyright>
+        
+
+        <description>Recent content</description>
+
+        
+            <language>es</language>
+        
+
+        
+            <lastBuildDate>Sat, 06 Apr 2024 00:33:52 -03</lastBuildDate>
+        
+
+        <link>http://localhost:1313/tags/misc/</link>
+
+        
+
+        <title>Misc · Tags · José Cuevas</title>
+
+        
+
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+                    
+                
+
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>Si estás aprendiendo matemáticas es útil tener en cuenta algunos de los siguientes sitios.
+Naturalmente que hay sitios que intersectan distintas categorías, Milne o Scholze pueden considerarse tanto como geómetras como teoristas de números.</p>
+<h2 id="teoría-de-números">Teoría de números</h2>
+<ul>
+<li><a href="https://www.sciencedirect.com/journal/journal-of-number-theory">Journal of Number Theory</a> de Elsevier.</li>
+<li><a href="https://jtnb.centre-mersenne.org/journals/JTNB/">Journal de Théorie des Nombres de Bordeaux</a> del Instituto de Matemáticas de Burdeos, Francia.</li>
+<li><a href="http://alpha.math.uga.edu/~pete/expositions2012.html">Pete L. Clark</a></li>
+<li><a href="https://kconrad.math.uconn.edu/blurbs/">Keith Conrad</a></li>
+<li><a href="https://www.mat.uc.cl/~natalia.garcia/">Natalia García-Fritz</a> y <a href="http://mat.uc.cl/~hector.pasten/">Héctor Pastén</a></li>
+<li><a href="https://webusers.imj-prg.fr/~bruno.kahn/">Bruno Kahn</a></li>
+<li><a href="https://kskedlaya.org/">Kiran S. Kedlaya</a></li>
+<li><a href="https://www.jmilne.org/math/">James S. Milne</a></li>
+<li><a href="http://pazuki.perso.math.cnrs.fr/index.html">Fabien Pazuki</a></li>
+<li><a href="https://people.mpim-bonn.mpg.de/scholze/">Peter Scholze</a></li>
+</ul>
+<h2 id="geometría-algebraica">Geometría algebraica</h2>
+<ul>
+<li><a href="https://stacks.math.columbia.edu/browse"><code>Stacks</code> project</a> &ndash; Un proyecto de
+un texto digital de código abierto sumamente comprehensivo sobre geometría
+algebraica con un énfasis en la teoría de <em>stacks</em>.</li>
+<li><a href="https://stacky.net/wiki/index.php?title=EGA_contents">Tabla de contenidos del EGA</a>
+&ndash; El «artículo» <em>Éléments de Géométrie Algébrique</em> de A. Grothendieck fue
+una referencia fundamental para aprender geometría algebraica. Actualmente,
+todo el texto está contenido en el proyecto <code>Stacks</code>, pero puede seguir siendo
+de gran utilidad volver a la fuente original.</li>
+<li><a href="https://www.sciencedirect.com/journal/journal-of-algebra/issues">Journal of Algebra</a> de Elsevier.</li>
+<li><a href="https://dept.math.lsa.umich.edu/~hochster/">Melvin Hochster</a></li>
+<li><a href="http://matematicas.unex.es/~sancho/">Pedro Sancho de Salas</a></li>
+<li><a href="https://pagine.dm.unipi.it/tamas/">Tamás Szamuely</a></li>
+<li><a href="http://math.stanford.edu/~vakil/">Ravi Vakil</a></li>
+<li><a href="https://www.math.ias.edu/Voevodsky/">Vladimir Voedovsky</a></li>
+</ul>
+<h2 id="latex">LaTeX</h2>
+<ul>
+<li><a href="https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management">Bibliografías</a>
+&ndash; Recomendación: ¡Use siempre <code>BibTeX</code>, nunca el sistema incrustado!</li>
+<li><a href="http://detexify.kirelabs.org/classify.html">Detexify</a> &ndash; Encuentra un símbolo mediante un dibujo.</li>
+<li><a href="https://github.com/xiaohanyu/awesome-tikz">Todo lo que saber de TikZ</a> &ndash;
+Esta es una lista de recursos sobre TikZ.
+Por mencionar: una <a href="https://texample.net/tikz/examples/all/date/">galería de ejemplos</a> y
+el <a href="https://tikz.dev/">manual digital</a>.</li>
+<li><a href="https://q.uiver.app/"><code>quiver</code></a> &ndash; Sitio para crear diagramas conmutativos.
+Más estable y mejor que el <a href="https://tikzcd.yichuanshen.de/">editor de Yichuan Shen</a>.</li>
+</ul>
+<h2 id="misceláneo">Misceláneo</h2>
+<ul>
+<li><a href="https://arxiv.org/">arXiv</a> &ndash; Sitio de prepublicaciones.
+En lo personal, suelo revisar las categorías de <a href="https://arxiv.org/list/math.NT/pastweek?show=100">teoría de números</a>,
+de <a href="https://arxiv.org/list/math.AG/pastweek?show=100">geometría algebraica</a> y
+de <a href="https://arxiv.org/list/math.AC/pastweek?show=100">álgebra conmutativa</a>.</li>
+<li><a href="https://matematicas.unex.es/~navarro/res/">Algunos escritos de Grothendieck oficiales y traducidos</a></li>
+<li><a href="http://www.numdam.org/">Numdam</a> &ndash; Sitio de publicaciones matemáticas especialmente francesas.</li>
+<li><a href="http://mathoverflow.net/">mathoverflow</a> &ndash; Foro de preguntas y respuestas en
+matemáticas. ¡Ojo que <strong>no</strong> es el lugar para pedir ayuda con vuestra tarea!</li>
+<li><a href="https://www.mathgenealogy.org/">Mathematics Genealogy Project</a></li>
+<li><a href="https://mathshistory.st-andrews.ac.uk/Biographies/">MacTutor</a> &ndash; Biografías de científicos.</li>
+<li><a href="https://www.uv.es/ivorra/Libros/Libros.htm">Carlos Ivorra Castillo</a></li>
+</ul>
+]]></description>
+                
+
+                <guid  isPermaLink="false" >tag:localhost:1313,2024-04-06:2024-04-06T00:33:52-03:00</guid>
+
+                
+                    <link>http://localhost:1313/enlaces/</link>
+                
+
+                
+                    <pubDate>Sat, 06 Apr 2024 00:33:52 -03</pubDate>
+                
+
+                
+                    <title>Enlaces de utilidad pública</title>
+                
+            </item>
+        
+    </channel>
+</rss>
