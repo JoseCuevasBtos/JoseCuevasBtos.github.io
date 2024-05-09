@@ -102,7 +102,7 @@
                 
                     <description><![CDATA[<!-- raw HTML omitted -->
 <p>Este seminario se lleva a cabo (casi) todos <strong>los viernes, a las 10:00 hrs en la sala 3</strong>.
-He aquí una lista detallada de las charlas:</p>
+He aquí una lista cronológica de las charlas:</p>
 <ol>
 <li>Héctor Pastén (19 de abril). Una introducción a la conjetura $abc$.<br>
 Explicaremos el enunciado e historia de la conjetura $abc$, su relación con
@@ -120,8 +120,18 @@ conjetura de Szpiro y veremos que son «casi equivalentes».
 Más precisamente, mostraremos que la conjetura $abc$ implica la conjetura de
 Szpiro y que ésta última implica una versión un poco más débil de la primera.</li>
 </ol>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<h3 id="material-de-referencia">Material de referencia</h3>
+<p>El material sobre curvas elípticas está expuesto en [Sil],
+algunas de las equivalencias de la conjetura $abc$ están expuestas en [BoGu], 12.5.
+Los artículos [SY] son una referencia fundamental.</p>
+<ul>
+<li>[BoGu]:
+Enrico Bombieri y Walter Gubler. <em>Heights in Diophantine Geometry</em> (Cambridge Univ. Press, 2006).</li>
+<li>[Sil]:
+Joseph H. Silverman. <em>The Arithmetic of Elliptic Curves</em> (Springer-Verlag, 2009).</li>
+<li>[SY]:
+C.L. Stewart y Kunrui Yu. <em>On the $abc$ conjecture</em> I (<em>Math. Ann.</em>, 1991) y II (<em>Duke Math. J.</em>, 2001).</li>
+</ul>
 <!-- raw HTML omitted -->
 ]]></description>
                 
