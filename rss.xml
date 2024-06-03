@@ -39,7 +39,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"  xml:lang="es"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="http://localhost:1313/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://josecuevas.xyz/rss.xml" rel="self" type="application/rss+xml"/>
 
         
             <copyright>© José Cuevas</copyright>
@@ -55,7 +55,7 @@
             <lastBuildDate>Fri, 05 Apr 2024 16:49:12 -03</lastBuildDate>
         
 
-        <link>http://localhost:1313/</link>
+        <link>https://josecuevas.xyz/</link>
 
         
 
@@ -154,10 +154,10 @@ C.L. Stewart y Kunrui Yu. <em>On the $abc$ conjecture</em> I (<em>Math. Ann.</em
 ]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:localhost:1313,2024-04-06:2024-04-06T13:37:07-03:00</guid>
+                <guid  isPermaLink="false" >tag:josecuevas.xyz,2024-04-06:2024-04-06T13:37:07-03:00</guid>
 
                 
-                    <link>http://localhost:1313/teach/seminario-abc/</link>
+                    <link>https://josecuevas.xyz/teach/seminario-abc/</link>
                 
 
                 
@@ -233,10 +233,10 @@ Analytic Number Theory</em> (Springer-Verlag, 1991).</li>
 ]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:localhost:1313,2024-04-06:2024-04-06T03:29:25-03:00</guid>
+                <guid  isPermaLink="false" >tag:josecuevas.xyz,2024-04-06:2024-04-06T03:29:25-03:00</guid>
 
                 
-                    <link>http://localhost:1313/teach/2023-2-ayud/</link>
+                    <link>https://josecuevas.xyz/teach/2023-2-ayud/</link>
                 
 
                 

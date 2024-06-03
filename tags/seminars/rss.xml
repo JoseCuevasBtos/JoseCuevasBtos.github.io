@@ -39,7 +39,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"  xml:lang="es"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="http://localhost:1313/tags/seminars/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://josecuevas.xyz/tags/seminars/rss.xml" rel="self" type="application/rss+xml"/>
 
         
             <copyright>© José Cuevas</copyright>
@@ -55,7 +55,7 @@
             <lastBuildDate>Sat, 06 Apr 2024 13:37:07 -03</lastBuildDate>
         
 
-        <link>http://localhost:1313/tags/seminars/</link>
+        <link>https://josecuevas.xyz/tags/seminars/</link>
 
         
 
@@ -133,14 +133,18 @@ invariante $j$. Con esto, enunciaremos la llamada «conjetura de la altura» y
 veremos que ésta implica la conjetura $abc$.</li>
 </ol>
 <h3 id="material-de-referencia">Material de referencia</h3>
-<p>El material sobre curvas elípticas está expuesto en [Sil],
-algunas de las equivalencias de la conjetura $abc$ están expuestas en [BoGu], 12.5.
+<p>El material sobre curvas elípticas está expuesto en [Si1] y [Si2],
+algunas de las equivalencias de la conjetura $abc$ están expuestas en la sección 12.5 de [BoGu].
 Los artículos [SY] son una referencia fundamental.</p>
 <ul>
 <li>[BoGu]:
 Enrico Bombieri y Walter Gubler. <em>Heights in Diophantine Geometry</em> (Cambridge Univ. Press, 2006).</li>
-<li>[Sil]:
+<li>[CS]:
+Gary Cornell y Joseph H. Silverman (eds.). <em>Arithmetic Geometry</em> (Springer-Verlag, 1986).</li>
+<li>[Si1]:
 Joseph H. Silverman. <em>The Arithmetic of Elliptic Curves</em> (Springer-Verlag, 2009).</li>
+<li>[Si2]:
+Joseph H. Silverman. <em>Advanced Topics in the Arithmetic of Elliptic Curves</em> (Springer-Verlag, 1994).</li>
 <li>[SY]:
 C.L. Stewart y Kunrui Yu. <em>On the $abc$ conjecture</em> I (<em>Math. Ann.</em>, 1991) y II (<em>Duke Math. J.</em>, 2001).</li>
 </ul>
@@ -150,10 +154,10 @@ C.L. Stewart y Kunrui Yu. <em>On the $abc$ conjecture</em> I (<em>Math. Ann.</em
 ]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:localhost:1313,2024-04-06:2024-04-06T13:37:07-03:00</guid>
+                <guid  isPermaLink="false" >tag:josecuevas.xyz,2024-04-06:2024-04-06T13:37:07-03:00</guid>
 
                 
-                    <link>http://localhost:1313/teach/seminario-abc/</link>
+                    <link>https://josecuevas.xyz/teach/seminario-abc/</link>
                 
 
                 
