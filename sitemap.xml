@@ -2,60 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://josecuevas.xyz/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-05-06T23:35:34-04:00</lastmod>
   </url><url>
-    <loc>https://josecuevas.xyz/teach/seminario-abc/</loc>
+    <loc>http://localhost:1313/teach/seminario-abc/</loc>
     <lastmod>2024-04-06T13:37:07-03:00</lastmod>
   </url><url>
-    <loc>https://josecuevas.xyz/tags/seminars/</loc>
+    <loc>http://localhost:1313/tags/seminars/</loc>
     <lastmod>2024-04-06T13:37:07-03:00</lastmod>
   </url><url>
-    <loc>https://josecuevas.xyz/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-04-06T13:37:07-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://fr.josecuevas.xyz/tags/"
+                href="http://localhost:1314/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://en.josecuevas.xyz/tags/"
+                href="http://localhost:1315/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://josecuevas.xyz/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>https://josecuevas.xyz/teach/2023-2-ayud/</loc>
+    <loc>http://localhost:1313/teach/2023-2-ayud/</loc>
     <lastmod>2024-04-06T03:29:25-03:00</lastmod>
   </url><url>
-    <loc>https://josecuevas.xyz/notes/</loc>
+    <loc>http://localhost:1313/notes/</loc>
     <lastmod>2024-04-06T00:30:49-03:00</lastmod>
   </url><url>
-    <loc>https://josecuevas.xyz/teach/</loc>
+    <loc>http://localhost:1313/teach/</loc>
     <lastmod>2024-04-06T00:29:00-03:00</lastmod>
   </url><url>
-    <loc>https://josecuevas.xyz/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-04-05T16:49:12-03:00</lastmod>
   </url><url>
-    <loc>https://josecuevas.xyz/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://fr.josecuevas.xyz/categories/"
+                href="http://localhost:1314/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://en.josecuevas.xyz/categories/"
+                href="http://localhost:1315/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://josecuevas.xyz/categories/"
+                href="http://localhost:1313/categories/"
                 />
   </url>
 </urlset>

@@ -39,7 +39,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"  xml:lang="es"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="https://josecuevas.xyz/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="http://localhost:1313/rss.xml" rel="self" type="application/rss+xml"/>
 
         
             <copyright>© José Cuevas</copyright>
@@ -55,7 +55,7 @@
             <lastBuildDate>Fri, 05 Apr 2024 16:49:12 -03</lastBuildDate>
         
 
-        <link>https://josecuevas.xyz/</link>
+        <link>http://localhost:1313/</link>
 
         
 
@@ -112,32 +112,52 @@ En ésta charla se repasan las nociones generales sobre curvas elípticas, con
 un lenguaje geométrico más robusto, y tiene como propósito formular la
 conjetura de Szpiro.</li>
 <li>Ignacio Henríquez (10 de mayo).
-La conjetura $abc$ y la conjetura de Szpiro.<br>
+<a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/2024-1-ABC/05-10-szpiro.pdf">La conjetura $abc$ y la conjetura de
+Szpiro.</a><br>
 En esta charla estudiaremos la relación entre la conjetura $abc$ y la
 conjetura de Szpiro y veremos que son «casi equivalentes».
 Más precisamente, mostraremos que la conjetura $abc$ implica la conjetura de
 Szpiro y que ésta última implica una versión un poco más débil de la primera.</li>
+<li>Francisco Gallardo (17 de mayo).
+<a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/2024-1-ABC/05-17-formas_lin_log.pdf">Formas Lineales en
+Logaritmos.</a><br>
+En esta charla presentaremos la técnica de las Formas Lineales en
+Logaritmos, la cual entrega diversas mejoras en la resolución del problema $abc$
+subexponencial.</li>
+<li>Héctor Pastén (24 de mayo).
+<a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/2024-1-ABC/05-24-faltings.pdf">La altura de Faltings de una curva
+elíptica.</a><br>
+Explicaremos qué es la altura de Faltings de una curva elíptica, y cómo se
+relaciona a otros invariantes tales como el discriminante minimal y el
+invariante $j$. Con esto, enunciaremos la llamada «conjetura de la altura» y
+veremos que ésta implica la conjetura $abc$.</li>
 </ol>
 <h3 id="material-de-referencia">Material de referencia</h3>
-<p>El material sobre curvas elípticas está expuesto en [Sil],
-algunas de las equivalencias de la conjetura $abc$ están expuestas en [BoGu], 12.5.
+<p>El material sobre curvas elípticas está expuesto en [Si1] y [Si2],
+algunas de las equivalencias de la conjetura $abc$ están expuestas en la sección 12.5 de [BoGu].
 Los artículos [SY] son una referencia fundamental.</p>
 <ul>
 <li>[BoGu]:
 Enrico Bombieri y Walter Gubler. <em>Heights in Diophantine Geometry</em> (Cambridge Univ. Press, 2006).</li>
-<li>[Sil]:
+<li>[CS]:
+Gary Cornell y Joseph H. Silverman (eds.). <em>Arithmetic Geometry</em> (Springer-Verlag, 1986).</li>
+<li>[Si1]:
 Joseph H. Silverman. <em>The Arithmetic of Elliptic Curves</em> (Springer-Verlag, 2009).</li>
+<li>[Si2]:
+Joseph H. Silverman. <em>Advanced Topics in the Arithmetic of Elliptic Curves</em> (Springer-Verlag, 1994).</li>
 <li>[SY]:
 C.L. Stewart y Kunrui Yu. <em>On the $abc$ conjecture</em> I (<em>Math. Ann.</em>, 1991) y II (<em>Duke Math. J.</em>, 2001).</li>
 </ul>
 <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 ]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:josecuevas.xyz,2024-04-06:2024-04-06T13:37:07-03:00</guid>
+                <guid  isPermaLink="false" >tag:localhost:1313,2024-04-06:2024-04-06T13:37:07-03:00</guid>
 
                 
-                    <link>https://josecuevas.xyz/teach/seminario-abc/</link>
+                    <link>http://localhost:1313/teach/seminario-abc/</link>
                 
 
                 
@@ -213,10 +233,10 @@ Analytic Number Theory</em> (Springer-Verlag, 1991).</li>
 ]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:josecuevas.xyz,2024-04-06:2024-04-06T03:29:25-03:00</guid>
+                <guid  isPermaLink="false" >tag:localhost:1313,2024-04-06:2024-04-06T03:29:25-03:00</guid>
 
                 
-                    <link>https://josecuevas.xyz/teach/2023-2-ayud/</link>
+                    <link>http://localhost:1313/teach/2023-2-ayud/</link>
                 
 
                 
