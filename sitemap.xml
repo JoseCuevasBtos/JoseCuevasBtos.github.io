@@ -4,6 +4,16 @@
   <url>
     <loc>https://josecuevas.xyz/blog/</loc>
     <lastmod>2024-05-06T23:35:34-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.josecuevas.xyz/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://josecuevas.xyz/blog/"
+                />
   </url><url>
     <loc>https://josecuevas.xyz/teach/seminario-abc/</loc>
     <lastmod>2024-04-06T13:37:07-03:00</lastmod>
