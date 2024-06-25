@@ -158,13 +158,21 @@ permitiendo probar por ejemplo el último teorema de Fermat. En esta charla
 definiremos las formas y curvas modulares para tenerlas como herramientas para
 charlas futuras.</li>
 <li>Matías Alvarado (21 de junio).
-Modularidad y conjetura $abc$.<br>
+<a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/2024-1-ABC/06-21-formas_mod.pdf">Modularidad y conjetura
+$abc$.</a><br>
 En esta charla comenzaremos con un repaso de la teoría de formas modulares.
 Luego estudiaremos el problema de modularidad de curvas elípticas y finalizamos
 relacionando la modularidad con la conjetura $abc$.</li>
+<li>Matías Alvarado (28 de junio).
+Modularidad y conjetura $abc$ (parte II).<br>
+En esta charla partiremos introduciendo la noción de modularidad de curvas
+elípticas, la cual tiene estrecha relación con los objetos introducidos en
+las dos charlas pasadas (formas modulares y curvas modulares). Luego
+exploramos algunas propiedades de las parametrizaciones modulares y
+estudiaremos algunas conjeturas relacionadas a esta. Para finalizar veremos
+la conexión entre estas conjeturas y otras que ya hemos visitado en el
+seminario.</li>
 </ol>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
 <h3 id="material-de-referencia">Material de referencia</h3>
 <p>El material sobre curvas elípticas está expuesto en [Si1] y [Si2],
 algunas de las equivalencias de la conjetura $abc$ están expuestas en la sección 12.5 de [BoGu].
@@ -188,7 +196,9 @@ C.L. Stewart y Kunrui Yu. <em>On the $abc$ conjecture</em> I (<em>Math. Ann.</em
 <hr>
 <ol>
 <li id="fn:1">
-<p>Aquí, Caro se refiere a la altura de Faltings no-geométrica o no-semiestable (cf. )&#160;<a href="https://josecuevas.xyz/teach/seminario-abc/#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Aquí, Caro se refiere a la altura de Faltings no-geométrica o
+no-semiestable (cf. [CS, pág. 248]). Si empleamos la altura geométrica,
+también debemos acotar el grado de una polarización.&#160;<a href="https://josecuevas.xyz/teach/seminario-abc/#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

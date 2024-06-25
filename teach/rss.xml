@@ -160,13 +160,21 @@ permitiendo probar por ejemplo el último teorema de Fermat. En esta charla
 definiremos las formas y curvas modulares para tenerlas como herramientas para
 charlas futuras.</li>
 <li>Matías Alvarado (21 de junio).
-Modularidad y conjetura $abc$.<br>
+<a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/2024-1-ABC/06-21-formas_mod.pdf">Modularidad y conjetura
+$abc$.</a><br>
 En esta charla comenzaremos con un repaso de la teoría de formas modulares.
 Luego estudiaremos el problema de modularidad de curvas elípticas y finalizamos
 relacionando la modularidad con la conjetura $abc$.</li>
+<li>Matías Alvarado (28 de junio).
+Modularidad y conjetura $abc$ (parte II).<br>
+En esta charla partiremos introduciendo la noción de modularidad de curvas
+elípticas, la cual tiene estrecha relación con los objetos introducidos en
+las dos charlas pasadas (formas modulares y curvas modulares). Luego
+exploramos algunas propiedades de las parametrizaciones modulares y
+estudiaremos algunas conjeturas relacionadas a esta. Para finalizar veremos
+la conexión entre estas conjeturas y otras que ya hemos visitado en el
+seminario.</li>
 </ol>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
 <h3 id="material-de-referencia">Material de referencia</h3>
 <p>El material sobre curvas elípticas está expuesto en [Si1] y [Si2],
 algunas de las equivalencias de la conjetura $abc$ están expuestas en la sección 12.5 de [BoGu].
@@ -190,7 +198,9 @@ C.L. Stewart y Kunrui Yu. <em>On the $abc$ conjecture</em> I (<em>Math. Ann.</em
 <hr>
 <ol>
 <li id="fn:1">
-<p>Aquí, Caro se refiere a la altura de Faltings no-geométrica o no-semiestable (cf. )&#160;<a href="https://josecuevas.xyz/teach/seminario-abc/#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Aquí, Caro se refiere a la altura de Faltings no-geométrica o
+no-semiestable (cf. [CS, pág. 248]). Si empleamos la altura geométrica,
+también debemos acotar el grado de una polarización.&#160;<a href="https://josecuevas.xyz/teach/seminario-abc/#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -251,16 +261,16 @@ pregrado de Teoría de Números (MAT2225) del segundo semestre de 2023 dictado
 por el profesor Héctor Pastén en la Pontificia Universidad Católica de Chile.</p>
 <p>He aquí los enunciados:</p>
 <ul>
-<li>Congruencias y funciones multiplicativas (18 de agosto).</li>
-<li>$O$ grande y $o$ chica (25 de agosto).</li>
-<li>Aproximaciones diofantinas: Números irracionales y la abundancia de números de Liouville (1 de septiembre).</li>
-<li>Aún más aproximaciones: Roth, Thue y ¿$abc$? (8 de septiembre).</li>
-<li>Pell y sus amigos (15 de septiembre).</li>
-<li>Principio local-global (29 de septiembre).</li>
-<li>Enteros gaussianos: Diofanto contraataca (12 de octubre).</li>
-<li>Ecuaciones en el espacio proyectivo (3 de noviembre).</li>
-<li>Dinámicas aritméticas (10 de noviembre).</li>
-<li>Curvas elípticas (24 de noviembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/08-18-congruencias.pdf">Congruencias y funciones multiplicativas</a> (18 de agosto).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/08-25-O_grande.pdf">$O$ grande y $o$ chica</a> (25 de agosto).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/09-01-aproximaciones.pdf">Aproximaciones diofantinas: Números irracionales y la abundancia de números de Liouville</a> (1 de septiembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/09-08-mas_aproximaciones.pdf">Aún más aproximaciones: Roth, Thue y ¿$abc$?</a> (8 de septiembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/09-15-Pell.pdf">Pell y sus amigos</a> (15 de septiembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/09-29-local_global.pdf">Principio local-global</a> (29 de septiembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/10-12-gaussianos.pdf">Enteros gaussianos: Diofanto contraataca</a> (12 de octubre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/11-03-proyectivo.pdf">Ecuaciones en el espacio proyectivo</a> (3 de noviembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/11-10-dinamica.pdf">Dinámicas aritméticas</a> (10 de noviembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/11-24-curvas_elipticas.pdf">Curvas elípticas</a> (24 de noviembre).</li>
 </ul>
 <h3 id="referencias-principales">Referencias principales</h3>
 <p>Si bien la lista fue larga, he aquí una reducida muestra de las más empleadas:</p>
