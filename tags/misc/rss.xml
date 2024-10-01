@@ -12,10 +12,9 @@
 
 
 
-
-
-
-
+    
+        
+    
 
     
         
@@ -39,20 +38,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"  xml:lang="es"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="http://localhost:1313/tags/misc/rss.xml" rel="self" type="application/rss+xml"/>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="http://localhost:1313/tags/misc/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="http://localhost:1313/tags/misc/rss.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+            
+                
+            
+                
+                    <link href="http://localhost:1315/tags/misc/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+                
+            
+        
 
         
             <copyright>© José Cuevas</copyright>
         
 
-        <description>Recent content</description>
+        <description>Contenido reciente</description>
 
         
             <language>es</language>
         
 
         
-            <lastBuildDate>Sat, 06 Apr 2024 00:33:52 -03</lastBuildDate>
+            <lastBuildDate>2024-04-06 00:33:52 -0300 -03</lastBuildDate>
         
 
         <link>http://localhost:1313/tags/misc/</link>
@@ -72,7 +99,6 @@
                 
                 
                 
-                
 
                 
 
@@ -83,14 +109,6 @@
                 
 
                 
-                
-
-                
-
-                
-                    
-                
-
                 
 
                 
@@ -159,7 +177,7 @@ matemáticas. ¡Ojo que <strong>no</strong> es el lugar para pedir ayuda con vue
 ]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:localhost:1313,2024-04-06:2024-04-06T00:33:52-03:00</guid>
+                <guid isPermaLink="false">tag:localhost:1313,2024-04-06:/enlaces/</guid>
 
                 
                     <link>http://localhost:1313/enlaces/</link>

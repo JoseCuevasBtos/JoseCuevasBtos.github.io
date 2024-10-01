@@ -6,12 +6,23 @@
 
 
 
-<html data-paige="Paige theme from https://github.com/willfaught/paige"   lang="es" >
+
+<html  data-paige="Paige theme from https://github.com/willfaught/paige"   lang="es" >
 
     
 
 
 
+
+
+
+
+
+
+
+    
+
+    
 
     
 
@@ -37,6 +48,7 @@
     <meta content="/browserconfig.xml" name="msapplication-config">
 
 
+<meta content="https://github.com/willfaught/paige" name="theme">
 <meta content="#0d6efd" name="theme-color">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 
@@ -107,13 +119,17 @@
 
 
 
+
+
+
+
+
     
 
     
         
         
         
-        
     
 
     
@@ -125,7 +141,8 @@
     
 
 
-<link  crossorigin="anonymous"  href="/css/paige/bootstrap/370ad5bdcb602baa80412d8e9cd6e25f3b158a68-paige.min.bd8c61d5c90e1cf41a648037c4f8a70a7d9d41e1583bebf0e0f3da39be0cc1a0.css"  integrity="sha256-vYxh1ckOHPQaZIA3xPinCn2dQeFYO&#43;vw4PPaOb4MwaA="   referrerpolicy="no-referrer"  rel="stylesheet">
+<link  crossorigin="anonymous"  href="/css/paige/bootstrap/6186ad141d391e4c0c10d2e9cb4eaeaadf75e809-paige.min.1c5bb4860fb7f3809f4195b145668aade87f2e92cf701992599678b1d166f0f0.css"  integrity="sha256-HFu0hg&#43;384CfQZWxRWaKreh/LpLPcBmSWZZ4sdFm8PA="   referrerpolicy="no-referrer"  rel="stylesheet">
+
 
 
 
@@ -161,9 +178,7 @@
 
 
 
-    
-        <link href="https://josecuevas.xyz/categories/rss.xml" rel="alternate" type="application/rss+xml">
-    
+    <link href="https://josecuevas.xyz/categories/rss.xml" rel="alternate" type="application/rss+xml">
 
 
     
@@ -200,104 +215,107 @@ footer #translations li {
 footer li:after { content: " | "; }
 footer li:last-child:after { content: none; }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	background: inherit;
-	color: #bbb;
+/* .nav-pills .nav-link.active, .nav-pills .show > .nav-link { */
+ul.nav li.nav-item a.active {
 	font-weight: bold;
 }
 
 
 
-body, html {
-    height: 100%;
+.paige-figure-numbered {
+    counter-increment: paige-figure-numbered;
 }
 
-.highlight .chroma .hl, .highlight .chroma .lnt {
-    display: flex;
+.paige-figure-numbered > div > figure > figcaption::before {
+    content: "Figura " counter(paige-figure-numbered) ": ";
 }
 
-.paige-figure {
-    margin-bottom: 1rem;
-}
-
-.paige-figure > figure > div > :last-child {
-    margin-bottom: 0;
-}
-
-.paige-figure .highlight .chroma pre, .paige-figure .highlight pre.chroma {
-    margin-bottom: 0;
-}
-
-.paige-figure .paige-image {
-    margin-bottom: 0;
-}
-
-.paige-figure .paige-quote > blockquote {
-    margin-bottom: 0;
-}
-
-.paige-figure .paige-video {
-    margin-bottom: 0;
-}
-
-.paige-figure.paige-figure-numbered {
-    counter-increment: paige-figure;
-}
-
-.paige-figure.paige-figure-numbered figcaption:empty::before {
-    content: " " counter(paige-figure);
-}
-
-.paige-figure.paige-figure-numbered figcaption::before {
-    content: " " counter(paige-figure) ": ";
-}
-
-.paige-gallery {
-    margin-bottom: 1rem;
-}
-
-.paige-gallery .paige-figure {
-    margin-bottom: 0;
-}
-
-.paige-gallery .paige-image {
-    margin-bottom: 0;
+.paige-figure-numbered > div > figure > figcaption:empty::before {
+    content: "Figura " counter(paige-figure-numbered);
 }
 
 .paige-header-link {
     opacity: 0;
+    margin-left: 0.5rem;
+    position: absolute;
     transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
 }
 
-.paige-header-link:focus, .paige-header-link:hover, :hover > .paige-header-link, :target > .paige-header-link {
-    opacity: 1;
+.paige-header-link::after {
+    content: "#";
 }
 
-.paige-image {
+.paige-quote .blockquote-footer {
+    margin-top: 0;
+}
+
+.paige-quote blockquote {
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#paige-content > * {
     margin-bottom: 1rem;
 }
 
-.paige-video {
-    margin-bottom: 1rem;
-    min-width: 550px;
-}
-
-#paige-content {
-    counter-reset: paige-figure;
-}
-
-#paige-content blockquote {
-    padding: 0.5rem 1rem;
-    border-left: 0.25rem solid var(--bs-border-color);
-    padding-right: 0.25rem;
-}
-
-#paige-content blockquote > p:last-of-type {
+#paige-metadata-rest:empty {
     margin-bottom: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-    /* Background */ .bg { color: #c9d1d9; background-color: var(--bs-body-bg); }
+#paige-metadata-rest:not(:empty) {
+    margin-bottom: 1rem;
+}
+
+blockquote {
+    padding: 0.5rem 1rem;
+    border-left: 0.25rem solid var(--bs-border-color);
+    border-right: 0.25rem solid var(--bs-body-bg);
+}
+
+td, th {
+    padding: 0.25rem;
+}
+
+.highlight .chroma .hl,
+.highlight .chroma .lnt {
+    display: flex;
+}
+
+.paige-figure .paige-quote,
+.paige-figure .paige-video,
+.paige-figure .highlight pre.chroma,
+.paige-figure .highlight .chroma pre,
+.paige-figure .paige-quote blockquote,
+.paige-figure figure > div > :last-child,
+.paige-gallery .paige-figure,
+.paige-gallery .paige-image,
+blockquote > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.paige-figure,
+.paige-gallery,
+.paige-image,
+.paige-quote,
+.paige-video,
+table {
+    margin-bottom: 1rem;
+}
+
+.paige-header-link:focus,
+.paige-header-link:hover,
+:hover > .paige-header-link,
+:target > .paige-header-link {
+    opacity: 1;
+}
+
+
+
+
+    @media (prefers-color-scheme: dark) {
+        /* Background */ .bg { color: #c9d1d9; background-color: var(--bs-body-bg); }
 /* PreWrapper */ .chroma { color: #c9d1d9; background-color: var(--bs-body-bg); }
 /* Other */ .chroma .x {  }
 /* Error */ .chroma .err { color: #f85149 }
@@ -384,10 +402,10 @@ body, html {
 /* GenericUnderline */ .chroma .gl { text-decoration: underline }
 /* TextWhitespace */ .chroma .w { color: #6e7681 }
 
-}
+    }
 
-@media (prefers-color-scheme: light) {
-    /* Background */ .bg { background-color: #ffffff; }
+    @media (prefers-color-scheme: light) {
+        /* Background */ .bg { background-color: #ffffff; }
 /* PreWrapper */ .chroma { background-color: #ffffff; }
 /* Other */ .chroma .x {  }
 /* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
@@ -474,7 +492,8 @@ body, html {
 /* GenericUnderline */ .chroma .gl { text-decoration: underline }
 /* TextWhitespace */ .chroma .w { color: #bbbbbb }
 
-}
+    }
+
 
 @media (prefers-reduced-motion: reduce) {
     .paige-header-link {
@@ -501,13 +520,21 @@ body, html {
                     
 
 
-    <header class="my-3" id="paige-header">
+    <header class="mt-3" id="paige-header">
         
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css" />
 
         
 
         
+
+
+
+
+
+
+        
+
 
 
 
@@ -526,7 +553,7 @@ body, html {
 
 
     <nav>
-        <ul class="align-items-center justify-content-center nav  nav-pills ">
+        <ul class="align-items-center justify-content-center nav ">
             
                 
                 
@@ -564,6 +591,18 @@ body, html {
                     
                 </li>
             
+                
+                
+                
+                
+                
+
+                <li class="nav-item ">
+                    <a  aria-current="page"   class=" active  text-body-emphasis    nav-link "  href=""    >Blog</a>
+
+                    
+                </li>
+            
         </ul>
     </nav>
 
@@ -571,10 +610,18 @@ body, html {
         
 
 
-    <nav aria-label="" class="mt-3" id="paige-breadcrumbs">
+    <nav aria-label="Migas de pan" class="mt-3" id="paige-breadcrumbs">
         <div class="d-flex justify-content-center">
             <ol class="breadcrumb mb-0">
                 
+
+                
+
+                
+                    
+
+                    
+
                     <li class="breadcrumb-item"><a href="/">José Cuevas</a></li>
                 
             </ol>
@@ -640,7 +687,7 @@ body, html {
 
 
 
-<div id="paige-metadata">
+<div class="mw-100" id="paige-metadata">
     
         <h1 class="fw-bold text-center" id="paige-title">Categories</h1>
     
@@ -648,15 +695,14 @@ body, html {
     
 
     
-
-    
 </div>
 
-        
 
 
 
-        
+
+
+
 
 
 
@@ -680,6 +726,14 @@ body, html {
 
 
 
+    
+
+
+
+
+
+
+
 
 
 
@@ -696,7 +750,14 @@ body, html {
 
 
 
-<footer class="mb-3" id="paige-footer">
+
+
+    
+
+
+
+
+<footer class="mb-3 text-center text-secondary" id="paige-footer">
     
         <div id="translations">
 <ul>
@@ -722,12 +783,20 @@ body, html {
     
 
     
-        <p class="mb-0 text-center text-secondary" id="paige-copyright">© José Cuevas</p>
-    
 
-    <p class="mb-0 text-center" id="paige-credit">
-        <a class="link-secondary text-decoration-none" href="https://github.com/willfaught/paige" >Paige Theme</a>
-    </p>
+    
+        <div class="mb-3" id="paige-site-footer">
+            
+                <p class="mb-0" id="paige-copyright">© José Cuevas</p>
+            
+
+            
+
+            
+                <p class="mb-0" id="paige-credit"><!-- raw HTML omitted -->Paige Theme<!-- raw HTML omitted --></p>
+            
+        </div>
+    
 
     
 </footer>
@@ -757,7 +826,7 @@ body, html {
     
 
 
-<script  crossorigin="anonymous"   defer  integrity="sha256-2QBA1to5JResr&#43;P26oj3m&#43;p/nHVUu2mWVWTFg88DpI4="   referrerpolicy="no-referrer"  src="/js/paige/bootstrap/bootstrap.bundle.min.d90040d6da392517acafe3f6ea88f79bea7f9c7554bb69965564c583cf03a48e.js" ></script>
+<script  crossorigin="anonymous"   defer  integrity="sha256-gfPiYYSP&#43;RNtNeRBt45mJombFJmNf0V0Ipu785Obi0M="   referrerpolicy="no-referrer"  src="/js/paige/bootstrap/bootstrap.bundle.min.81f3e261848ff9136d35e441b78e6626899b14998d7f4574229bbbf3939b8b43.js" ></script>
 
 
 
@@ -827,7 +896,7 @@ body, html {
 
 
 
-<noscript></noscript>
+<noscript>Se requiere JavaScript</noscript>
 
 
         

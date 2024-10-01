@@ -12,13 +12,14 @@
 
 
 
-
-
-
-
+    
+        
+    
 
     
         
+    
+
     
 
     
@@ -41,20 +42,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"  xml:lang="es"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="https://josecuevas.xyz/teach/rss.xml" rel="self" type="application/rss+xml"/>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="https://josecuevas.xyz/teach/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="https://josecuevas.xyz/teach/rss.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+            
+                
+            
+                
+                    <link href="https://en.josecuevas.xyz/teach/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+                
+            
+        
 
         
             <copyright>© José Cuevas</copyright>
         
 
-        <description>Recent content</description>
+        <description>Contenido reciente</description>
 
         
             <language>es</language>
         
 
         
-            <lastBuildDate>Sat, 06 Apr 2024 13:37:07 -03</lastBuildDate>
+            <lastBuildDate>2024-04-06 13:37:07 -0300 -03</lastBuildDate>
         
 
         <link>https://josecuevas.xyz/teach/</link>
@@ -74,7 +103,6 @@
                 
                 
                 
-                
 
                 
 
@@ -85,14 +113,6 @@
                 
 
                 
-                
-
-                
-
-                
-                    
-                
-
                 
 
                 
@@ -207,7 +227,7 @@ también debemos acotar el grado de una polarización.&#160;<a href="https://jos
 ]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:josecuevas.xyz,2024-04-06:2024-04-06T13:37:07-03:00</guid>
+                <guid isPermaLink="false">tag:josecuevas.xyz,2024-04-06:/teach/seminario-abc/</guid>
 
                 
                     <link>https://josecuevas.xyz/teach/seminario-abc/</link>
@@ -230,7 +250,6 @@ también debemos acotar el grado de una polarización.&#160;<a href="https://jos
                 
                 
                 
-                
 
                 
 
@@ -241,14 +260,6 @@ también debemos acotar el grado de una polarización.&#160;<a href="https://jos
                 
 
                 
-                
-
-                
-
-                
-                    
-                
-
                 
 
                 
@@ -286,7 +297,7 @@ Analytic Number Theory</em> (Springer-Verlag, 1991).</li>
 ]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:josecuevas.xyz,2024-04-06:2024-04-06T03:29:25-03:00</guid>
+                <guid isPermaLink="false">tag:josecuevas.xyz,2024-04-06:/teach/2023-2-ayud/</guid>
 
                 
                     <link>https://josecuevas.xyz/teach/2023-2-ayud/</link>
