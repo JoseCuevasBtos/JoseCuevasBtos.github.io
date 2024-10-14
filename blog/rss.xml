@@ -12,6 +12,38 @@
 
 
 
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
 
 
 
@@ -53,6 +85,14 @@
                 
             
                 
+                    <link href="http://localhost:1314/blog/rss.xml" hreflang="fr" rel="alternate" type="application/rss+xml"/>
+                
+            
+        
+            
+                
+            
+                
                     <link href="http://localhost:1315/blog/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
                 
             
@@ -69,6 +109,8 @@
         
 
         
+            <lastBuildDate>2024-08-18 16:47:26 -0400 -04</lastBuildDate>
+        
 
         <link>http://localhost:1313/blog/</link>
 
@@ -78,6 +120,1268 @@
 
         
 
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>Los nombres varían mucho según la cultura, y el «estándar occidental» de «(nombre de pila) + (apellido)» no es universal.</p>
+<h2 id="múltiples-apellidos-y-nombres-compuestos">Múltiples apellidos y nombres compuestos</h2>
+<p>En inglés, la mayoría de nombres solo constan de un apellido, de modo que no
+hay confusión cuando uno quiere citar el artículo de «John Doe»,
+pero en español los nombres por lo general constan de dos nombres de pila y dos
+apellidos, usualmente ordenados como el paterno primero y el materno después.
+Varios autores optan por omitir su segundo apellido, pero en ocasiones emplean
+ambos, como en «Mario Vargas Llosa»; en estos casos uno puede escribir lo
+siguiente en sus referencias para <code>BibLaTeX</code>:
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bibtex" data-lang="bibtex"><span style="display:flex;"><span><span style="color:#a6e22e">@book</span>{vargas:ciudad,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">author</span>=<span style="color:#e6db74">{Vargas Llosa, Mario}</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">title</span>=<span style="color:#e6db74">{La ciudad y los perros}</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">year</span>=<span style="color:#e6db74">{1963}</span>
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div></div>
+
+Aquí, todos los apellidos se agrupan precedidos de una coma antes de los
+nombres de pila.
+Similarmente, puede haber un autor con varios nombres de pila, en cuyo caso,
+<code>BibLaTeX</code> asume que el último en escribirse es un apellido:
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bibtex" data-lang="bibtex"><span style="display:flex;"><span><span style="color:#a6e22e">@book</span>{borges:ficciones,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">author</span>=<span style="color:#e6db74">{Jorge Luis Borges}</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">title</span>=<span style="color:#e6db74">{Ficciones}</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">year</span>=<span style="color:#e6db74">{1944}</span>
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div></div>
+
+Esto puede resultar en la confusión de cuáles son nombres de pila y cuáles son
+apellidos en un autor, para lo cual algunos optan por enlazarlos con guiónes
+como «Jean-Pierre Serre» o «Jean-Louis Colliot-Thélène».</p>
+<p>Otro caso aparte sucede con los nombres compuestos:
+estos son aquellos que contienen partículas (e.g., «de» en español, «von» en
+alemán, etc.), aquí igual que antes se incluyen precedidos por una coma, o
+entre llaves, y en minúsculas como
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bibtex" data-lang="bibtex"><span style="display:flex;"><span><span style="color:#a6e22e">@book</span>{cervantes:quijote,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">author</span>=<span style="color:#e6db74">{de Cervantes Saavedra, Miguel}</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">title</span>=<span style="color:#e6db74">{El ingenioso hidalgo don Quijote de la Mancha}</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">year</span>=<span style="color:#e6db74">{1605}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@article</span>{neumann28mengenlehre,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">author</span>=<span style="color:#e6db74">{John {von Neumann}}</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">title</span>=<span style="color:#e6db74">{Die Axiomatisierung der Mengenlehre}</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">journaltitle</span>=<span style="color:#e6db74">{Math. Z.}</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">volume</span>=<span style="color:#e6db74">{27}</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">year</span>=<span style="color:#e6db74">{1928}</span>
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div></div>
+</p>
+<h2 id="nombres-en-chino">Nombres en chino</h2>
+<p>Este sí que es más complicado.
+Considere el nombre de «Hua Loo-Keng», aquí «Hua» es el apellido y «Loo-Keng»
+son los nombres, y nos gustaría que al citar aparezcan en dicho orden abreviado
+como «Hua L.-K.» o simplemente «Hua».
+Para ello, podemos inspirarnos en el ejemplo <a href="http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/examples/93-nameparts.tex"><code>93-nameparts.tex</code> del manual de
+BibLaTeX.</a>
+Primero haga un archivo <code>morenameparts-cjk.dbx</code> con lo siguiente:
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#66d9ef">\ProvidesFile</span>{cjk-names.dbx}[2016/07/24 extended name format for biblatex]
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\DeclareDatamodelConstant</span><span style="color:#a6e22e">[type=list]</span>{nameparts}{prefix,family,suffix,given,cjk}</span></span></code></pre></div></div>
+
+En su plantilla, al importar el paquete <code>biblatex</code>, agregue la opción
+<code>datamodel=morenameparts-cjk</code> (asegúrese que el archivo está en el mismo
+directorio, de lo contrario use enlaces relativos) y luego agregue lo siguiente a su plantilla:
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 44
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 45
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 46
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 47
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 48
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 49
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 50
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 51
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 52
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 53
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 54
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 55
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 56
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 57
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 58
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 59
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 60
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 61
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 62
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 63
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 64
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 65
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 66
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 67
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 68
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 69
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 70
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 71
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 72
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 73
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 74
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 75
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 76
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 77
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 78
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 79
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 80
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 81
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 82
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 83
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 84
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 85
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 86
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 87
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 88
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 89
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 90
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 91
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 92
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 93
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 94
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 95
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 96
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 97
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 98
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 99
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">100
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">101
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">102
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">103
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">104
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">105
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">106
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">107
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">108
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">109
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">110
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">111
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">112
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">113
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">114
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">115
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">116
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">117
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">118
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">119
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">120
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">121
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">122
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">123
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">124
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">125
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">126
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">127
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">128
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">129
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">130
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">131
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">132
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">133
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">134
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">135
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">136
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">137
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">138
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">139
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">140
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">141
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">142
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">143
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">144
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">145
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">146
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">147
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">148
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#75715e">%% Chinese citation styles
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\DeclareSortingNamekeyTemplate</span><span style="color:#a6e22e">[cjk]</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\keypart</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\namepart</span>{family}
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\keypart</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\namepart</span>{given}
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\keypart</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\namepart</span>{cjk}
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\DeclareUniquenameTemplate</span><span style="color:#a6e22e">[cjk]</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\namepart</span><span style="color:#a6e22e">[base=true]</span>{family}
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\namepart</span><span style="color:#a6e22e">[disambiguation=full]</span>{given}
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\namepart</span><span style="color:#a6e22e">[disambiguation=full]</span>{cjk}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\DeclareNamehashTemplate</span><span style="color:#a6e22e">[cjk]</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\namepart</span><span style="color:#a6e22e">[hashscope=full]</span>{family}
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\namepart</span><span style="color:#a6e22e">[hashscope=full]</span>{given}
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\namepart</span><span style="color:#a6e22e">[hashscope=full]</span>{cjk}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\newbibmacro*</span>{name:cjk}[3]{<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\usebibmacro</span>{name:delim}{#2#3#1}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\usebibmacro</span>{name:hook}{#2#3#1}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\mkbibcompletename</span>{<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\mkbibnamefamily</span>{#1}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ifdefvoid</span>{#2}{}{<span style="color:#66d9ef">\bibnamedelimd\mkbibnamegiven</span>{#2}}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\ifdefvoid</span>{#3}{}{<span style="color:#66d9ef">\bibnamedelimd\mkbibnamecjk</span>{#3}}}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\newbibmacro</span>{labelname:western}{<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\ifcase\value</span>{uniquename}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\usebibmacro</span>{name:family}
+</span></span><span style="display:flex;"><span>      {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>      {<span style="color:#66d9ef">\namepartgiven</span>}
+</span></span><span style="display:flex;"><span>      {<span style="color:#66d9ef">\namepartprefix</span>}
+</span></span><span style="display:flex;"><span>      {<span style="color:#66d9ef">\namepartsuffix</span>}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\or</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\ifuseprefix</span>
+</span></span><span style="display:flex;"><span>      {<span style="color:#66d9ef">\usebibmacro</span>{name:given-family}
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\namepartgiveni</span>}
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\namepartprefix</span>}
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\namepartsuffixi</span>}}
+</span></span><span style="display:flex;"><span>      {<span style="color:#66d9ef">\usebibmacro</span>{name:given-family}
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\namepartgiveni</span>}
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\namepartprefixi</span>}
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\namepartsuffixi</span>}}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\or</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\usebibmacro</span>{name:given-family}
+</span></span><span style="display:flex;"><span>      {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>      {<span style="color:#66d9ef">\namepartgiven</span>}
+</span></span><span style="display:flex;"><span>      {<span style="color:#66d9ef">\namepartprefix</span>}
+</span></span><span style="display:flex;"><span>      {<span style="color:#66d9ef">\namepartsuffix</span>}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\fi</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\usebibmacro</span>{name:andothers}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\newbibmacro</span>{labelname:cjk}{<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\iffieldequalstr</span>{uniquepart}{base}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    {<span style="color:#66d9ef">\usebibmacro</span>{name:cjk}
+</span></span><span style="display:flex;"><span>       {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>       {<span style="color:#66d9ef">\empty</span>}
+</span></span><span style="display:flex;"><span>       {<span style="color:#66d9ef">\empty</span>}}
+</span></span><span style="display:flex;"><span>    {<span style="color:#66d9ef">\iffieldequalstr</span>{uniquepart}{given}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>       {<span style="color:#66d9ef">\usebibmacro</span>{name:cjk}
+</span></span><span style="display:flex;"><span>          {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>          {<span style="color:#66d9ef">\namepartgiven</span>}
+</span></span><span style="display:flex;"><span>          {<span style="color:#66d9ef">\empty</span>}}
+</span></span><span style="display:flex;"><span>       {<span style="color:#66d9ef">\usebibmacro</span>{name:cjk}
+</span></span><span style="display:flex;"><span>          {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>          {<span style="color:#66d9ef">\namepartgiven</span>}
+</span></span><span style="display:flex;"><span>          {<span style="color:#66d9ef">\namepartcjk</span>}}}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\DeclareNameFormat</span>{labelname}{<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\ifuniquenametemplatename</span>{cjk}
+</span></span><span style="display:flex;"><span>    {<span style="color:#66d9ef">\usebibmacro</span>{labelname:cjk}}
+</span></span><span style="display:flex;"><span>    {<span style="color:#66d9ef">\usebibmacro</span>{labelname:western}}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\usebibmacro</span>{name:andothers}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\DeclareNameFormat</span>{family-given}{<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\ifsortingnamekeytemplatename</span>{cjk}
+</span></span><span style="display:flex;"><span>    {<span style="color:#66d9ef">\usebibmacro</span>{name:cjk}{<span style="color:#66d9ef">\namepartfamily</span>}{<span style="color:#66d9ef">\namepartgiven</span>}{<span style="color:#66d9ef">\namepartcjk</span>}}
+</span></span><span style="display:flex;"><span>    {<span style="color:#66d9ef">\ifgiveninits</span>
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\usebibmacro</span>{name:family-given}
+</span></span><span style="display:flex;"><span>           {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>           {<span style="color:#66d9ef">\namepartgiveni</span>}
+</span></span><span style="display:flex;"><span>           {<span style="color:#66d9ef">\namepartprefix</span>}
+</span></span><span style="display:flex;"><span>           {<span style="color:#66d9ef">\namepartsuffix</span>}}
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\usebibmacro</span>{name:family-given}
+</span></span><span style="display:flex;"><span>           {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>           {<span style="color:#66d9ef">\namepartgiven</span>}
+</span></span><span style="display:flex;"><span>           {<span style="color:#66d9ef">\namepartprefix</span>}
+</span></span><span style="display:flex;"><span>           {<span style="color:#66d9ef">\namepartsuffix</span>}}}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\usebibmacro</span>{name:andothers}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\DeclareNameFormat</span>{given-family}{<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\ifsortingnamekeytemplatename</span>{cjk}
+</span></span><span style="display:flex;"><span>    {<span style="color:#66d9ef">\usebibmacro</span>{name:cjk}{<span style="color:#66d9ef">\namepartfamily</span>}{<span style="color:#66d9ef">\namepartgiven</span>}{<span style="color:#66d9ef">\namepartcjk</span>}}
+</span></span><span style="display:flex;"><span>    {<span style="color:#66d9ef">\ifgiveninits</span>
+</span></span><span style="display:flex;"><span>       {<span style="color:#66d9ef">\usebibmacro</span>{name:given-family}
+</span></span><span style="display:flex;"><span>         {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>         {<span style="color:#66d9ef">\namepartgiveni</span>}
+</span></span><span style="display:flex;"><span>         {<span style="color:#66d9ef">\namepartprefix</span>}
+</span></span><span style="display:flex;"><span>         {<span style="color:#66d9ef">\namepartsuffix</span>}}
+</span></span><span style="display:flex;"><span>       {<span style="color:#66d9ef">\usebibmacro</span>{name:given-family}
+</span></span><span style="display:flex;"><span>         {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>         {<span style="color:#66d9ef">\namepartgiven</span>}
+</span></span><span style="display:flex;"><span>         {<span style="color:#66d9ef">\namepartprefix</span>}
+</span></span><span style="display:flex;"><span>         {<span style="color:#66d9ef">\namepartsuffix</span>}}}<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">\usebibmacro</span>{name:andothers}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\DeclareNameFormat</span>{family-given/given-family}{<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">\ifsortingnamekeytemplatename</span>{cjk}
+</span></span><span style="display:flex;"><span>    {<span style="color:#66d9ef">\usebibmacro</span>{name:cjk}{<span style="color:#66d9ef">\namepartfamily</span>}{<span style="color:#66d9ef">\namepartgiven</span>}{<span style="color:#66d9ef">\namepartcjk</span>}}
+</span></span><span style="display:flex;"><span>    {<span style="color:#66d9ef">\ifnumequal</span>{<span style="color:#66d9ef">\value</span>{listcount}}{1}
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\ifgiveninits</span>
+</span></span><span style="display:flex;"><span>           {<span style="color:#66d9ef">\usebibmacro</span>{name:family-given}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartgiveni</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartprefix</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartsuffix</span>}}
+</span></span><span style="display:flex;"><span>          {<span style="color:#66d9ef">\usebibmacro</span>{name:family-given}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartgiven</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartprefix</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartsuffix</span>}}
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">\ifboolexpe</span>{<span style="color:#75715e">%
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                     test {<span style="color:#66d9ef">\ifdefvoid\namepartgiven</span>}
+</span></span><span style="display:flex;"><span>                     and
+</span></span><span style="display:flex;"><span>                     test {<span style="color:#66d9ef">\ifdefvoid\namepartprefix</span>}}
+</span></span><span style="display:flex;"><span>           {}
+</span></span><span style="display:flex;"><span>           {<span style="color:#66d9ef">\usebibmacro</span>{name:revsdelim}}}
+</span></span><span style="display:flex;"><span>        {<span style="color:#66d9ef">\ifgiveninits</span>
+</span></span><span style="display:flex;"><span>          {<span style="color:#66d9ef">\usebibmacro</span>{name:given-family}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartgiveni</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartprefix</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartsuffix</span>}}
+</span></span><span style="display:flex;"><span>          {<span style="color:#66d9ef">\usebibmacro</span>{name:given-family}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartfamily</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartgiven</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartprefix</span>}
+</span></span><span style="display:flex;"><span>             {<span style="color:#66d9ef">\namepartsuffix</span>}}}}
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\usebibmacro</span>{name:andothers}}</span></span></code></pre></td></tr></table>
+</div>
+</div></div>
+
+Finalmente, el estilo de citas es como prosigue:
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bibtex" data-lang="bibtex"><span style="display:flex;"><span><span style="color:#a6e22e">@book</span>{hua:number,
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">author</span>=<span style="color:#e6db74">{family=Hua, given=Loo-Keng, nametemplates=cjk}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">title</span>=<span style="color:#e6db74">{Introduction to Number Theory}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">year</span>=<span style="color:#e6db74">{1982}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">publisher</span>=<span style="color:#e6db74">{Springer-Verlag Berlin Heidelberg}</span>
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div></div>
+</p>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-08-18:/blog/cite-cjk/</guid>
+
+                
+                    <link>http://localhost:1313/blog/cite-cjk/</link>
+                
+
+                
+                    <pubDate>Sun, 18 Aug 2024 16:47:26 -04</pubDate>
+                
+
+                
+                    <title>Citar nombres extranjeros</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                    
+                
+
+                
+                
+
+                
+
+                
+
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-08-05:/blog/vim/</guid>
+
+                
+                    <link>http://localhost:1313/blog/vim/</link>
+                
+
+                
+                    <pubDate>Mon, 05 Aug 2024 21:41:34 -04</pubDate>
+                
+
+                
+                    <title>Vim</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>Le but de cet exposé est de re-voir les contenus présentés lors du <a href="https://josecuevas.xyz/teach/seminario-abc/">Séminaire
+sur la conjecture $abc$ et ses thèmes
+connexes</a>, avec quelques
+indications sur la littérature de référence. Les présentations originales, plus
+détaillées, sont en espagnol, mais la plupart des références sont en anglais.</p>
+<p><strong>Remerciements aux orateurs :</strong>
+Les présentations ont été faites par Matías
+Alvarado, Francisco Gallardo, Ignacio Henríquez, Héctor Pastén et Rocío
+Sepúlveda Manzo.</p>
+<h2 id="introduction">Introduction</h2>
+<h3 id="histoire">Histoire</h3>
+<p>La conjecture $abc$ a été formulée pour la première fois par David Masser et
+Joseph Oesterlé entre 1985 et 1988 ; son énoncé est le suivant :</p>
+<blockquote>
+<p><strong>Conjecture $abc$ (forte). &ndash;</strong>
+Fixons une constante $\kappa &gt; 1$. Pour tout triplet $(a, b, c)$ de nombres
+premiers entre eux, avec $a + b = c$, la majoration suivante est satisfaite :
+$$ \max\{ |a|, |b|, |c| \} \ll_\kappa \operatorname{Rad}(abc)^\kappa. $$</p>
+</blockquote>
+<p>Ici, $\operatorname{Rad}(n)$ désigne le produit des facteurs premiers $p \mid
+n$ avec multiplicité un ; il coïncide avec la définition du radiciel d&rsquo;un idéal
+dans l&rsquo;algèbre commutative.
+Pour de nombreuses applications, on a besoin que l&rsquo;énoncé soit vérifié pour un
+exposant fixé $\kappa$, auquel cas on dira que la conjecture $abc$ faible est
+satisfaite pour l&rsquo;exposant $\kappa$.
+Le cas $\kappa = 1$ est faux.</p>
+<p>La conjecture est inspirée par un résultat similaire de Stothers et Mason
+(1981) pour les corps de fonctions, et est également influencée par la
+conjecture de Szpiro sur les courbes elliptiques.
+La conjecture $abc$ est plus connue car, si elle est vraie, elle implique de
+nombreux problèmes difficiles de géométrie diophantienne : quelques exemples
+sont le dernier théorème de Fermat, la conjecture (asymptotique) de Catalan, la
+conjecture de Pillai, la conjecture d&rsquo;Erdős-Woods, et d&rsquo;autres.</p>
+<h3 id="stratégies">Stratégies</h3>
+<p>Voici quelques stratégies en direction de la conjecture $abc$ (la liste n&rsquo;est
+pas exhaustive) :</p>
+<ol>
+<li>Pour les courbes elliptiques, le discriminant minimal joue le rôle de $c$
+dans l&rsquo;équation $a + b = c$, tandis que le conducteur ressemble au radiciel
+(dans le sens où leurs facteurs premiers sont les mêmes et possèdent des
+exposants contrôlés).
+Les célèbres courbes de Frey formalisent ces analogies.
+La <strong>conjecture de Szpiro</strong> est un lien entre les deux valeurs et est, par
+conséquent, la reformulation la plus connue de la conjecture $abc$.</li>
+<li>En géométrie diophantienne, le théorème d&rsquo;approximation de Roth est l&rsquo;un des
+principaux outils ; un de ses corollaires est que les solutions à l&rsquo;équation
+des $S$-unités sont finies. Les formes logarithmiques donnent des
+majorations effectives à l&rsquo;équation à deux variables, mais un « théorème de
+Roth effectif » est presque aussi bon que la conjecture $abc$.
+L&rsquo;analyse diophantienne effective a des connexions avec le second théorème
+principal de Cartan dans la théorie de Nevanlinna.</li>
+<li>Dans le thème de l&rsquo;effectivité, un théorème du type « Mordell effectif »
+ou « Faltings effectif » entraîne également la conjecture $abc$. Les
+résultats de cette classe peuvent être exprimés comme des moyennes des
+hauteurs de Faltings.</li>
+</ol>
+<h2 id="les-courbes-elliptiques">Les courbes elliptiques</h2>
+<h3 id="définitions-et-invariants">Définitions et invariants</h3>
+<p><strong>Définition.</strong> &ndash;
+Une <em>courbe elliptique</em> $E$ sur un corps $K$ est une courbe régulière isomorphe
+à la clôture projective d&rsquo;une courbe plane donnée par une équation de
+Weierstrass :
+$$ y^2 + a_1xy + a_3y = x^3 + a_2x^2 + a_4x + a_6,
+\qquad a_1,\dots,a_6 \in K. $$
+Remarquez qu&rsquo;il n&rsquo;y a pas de coefficient $a_5$.
+L&rsquo;indice a la suivante interprétation : d&rsquo;après le changement de coordonnées
+$(x, y) \mapsto (u^2x, u^3y)$ et en divisant par $u^{-6}$, on a le changement
+$a_i \mapsto u^{-i}a_i$.
+Donc, l&rsquo;indice $i$ est appelé son <strong>poids</strong>.</p>
+<p><strong>Proposition.</strong> &ndash;
+Soit $E$ une courbe elliptique sur un corps $K$ tel que $\operatorname{char} K
+\nmid 6$. Elle peut être mise sous forme minimale de Weierstrass :
+$$ y^2 = x^3 + d_4x + d_6, \qquad d_4, d_6 \in K. $$
+Le polynôme à droite est muni d&rsquo;un discriminant, et donc, le <strong>discriminant</strong>
+de $E$ est défini par
+$$ \Delta := -16(4d_4^3 + 27d_6^2), $$
+pour qu&rsquo;une forme minimale de Weierstrass induise une courbe elliptique, il
+faut et il suffit que son discriminant ne soit pas nul.</p>
+<p>Il est clair que $\Delta$ a un poids de 12.</p>
+<p><strong>L&rsquo;invariant $j$</strong> d&rsquo;une courbe elliptique sous forme minimale de Weierstrass est
+$$ j(E) := 1728\cdot \frac{d_4^3}{\Delta}, $$
+qui a un poids zéro. Il peut être vérifié qu&rsquo;il est indépendant du choix de
+l&rsquo;équation de Weierstrass.</p>
+<blockquote>
+<p><strong>Théorème de Poincaré.</strong> &ndash;
+Soit $E$ une courbe elliptique sur $K$ et choisissons un point rationnel $o
+\in E(K)$, l&rsquo;ensemble $(E(K), +)$ est muni d&rsquo;une structure de groupe abélien
+algébrique où $o$ est l&rsquo;élément neutre et commute avec le changement de base
+; c&rsquo;est-à-dire, l&rsquo;opération du groupe est localement donnée par des équations
+à coefficients dans $K$ et, donnée une extension de corps $L/K$, l&rsquo;inclusion
+$E(K) \hookrightarrow E(L)$ est un morphisme de groupes.</p>
+</blockquote>
+<p>Ainsi, toute courbe elliptique est munie d&rsquo;une structure de groupe algébrique.
+On dira qu&rsquo;une <em>variété abélienne</em> $A$ sur un corps $K$ est un groupe
+algébrique intègre, lisse et projectif.
+On remarquera que, pour qu&rsquo;un groupe algébrique soit une variété abélienne, il
+faut et il suffit qu&rsquo;il soit géométriquement réduit, connexe et propre (voir la
+remarque 0H2U du Stacks project).</p>
+<p>Les variétés abéliennes sont des généralisations des courbes elliptiques et,
+en un sens, leurs sœurs aînées moins connues car elles sont moins explicites ;
+toutefois, elles sont très nécessaires et constituent un outil clé pour la
+preuve de Faltings de la conjecture de Mordell.</p>
+<blockquote>
+<p><strong>Théorème.</strong> &ndash;
+Soit $X$ une courbe (c&rsquo;est-à-dire, un schéma intègre de dimension un) sur un
+corps $K$. Les conditions suivantes sont équivalentes :</p>
+<ol>
+<li>$X$ est une courbe elliptique,</li>
+<li>$X$ admet une structure de variété abélienne,</li>
+<li>$X$ est géométriquement intègre, lisse, possède au moins un point
+rationnel $o \in X(K)$ et a un genre un.</li>
+</ol>
+</blockquote>
+<p>Aussi, il est facile de vérifier la :</p>
+<p><strong>Proposition.</strong> &ndash; L&rsquo;invariant $j$ définit une fonction $j \colon
+\mathscr{A}_1(K) \to K$ surjective, où $\mathscr{A}_1(K)$ désigne l&rsquo;ensemble
+des (classes d&rsquo;isomorphisme des) courbes elliptiques sur $K$.
+De plus, deux courbes elliptiques $E_1$ et $E_2$ possèdent le même invariant
+$j$ si et seulement s&rsquo;il existe une extension des corps $L/K$ telle que les
+changements de base $(E_1)_L \cong (E_2)_L$ sont isomorphes.
+En particulier, lorsque $K$ est algébriquement clos, $j$ est bijective.</p>
+<h3 id="réduction-modulo-p">Réduction modulo $p$</h3>
+<p>Soit $K$ un corps des nombres et soit $E$ une courbe elliptique sur $K$.
+D&rsquo;après le choix d&rsquo;une équation de Weierstrass pour $E$ avec des coefficients
+entiers, nous pouvons définir un $\mathcal{O}_K$-modèle $\mathcal{M}$ de $E$
+(c&rsquo;est-à-dire, un schéma sur $\mathcal{O}_K$ dont la fibre générique est
+$E_K$).
+Par résolution des singularités, nous pouvons modifier $\mathcal{M}$ en un
+schéma régulier $\mathcal{E}$ qui est projectif sur $\mathcal{O}<em>K$ (mais pas
+nécessairement lisse !).
+Soit $\mathfrak{p}$ un idéal premier de $\mathcal{O}<em>K$, nous considérons la
+fibre $\mathcal{E}</em>\mathfrak{p}$.
+Nous dirons que $E$ possède une <strong>bonne réduction</strong> modulo $\mathfrak{p}$ si
+$\mathcal{E}</em>\mathfrak{p}$ est lisse ; dans le cas contraire, nous dirons
+qu&rsquo;elle a une <strong>mauvaise réduction</strong>.</p>
+<p>Comme la fibre générique de $\mathcal{E}$ est lisse et $\mathcal{E}$ est
+régulière, les points de mauvaise réduction dans
+$\operatorname{Spec}(\mathcal{O}_K)$ forment un sous-ensemble fermé et, par
+conséquent, sont finis.
+À chaque point de mauvaise réduction, le lieu lisse de la fibre est ouvert et
+possède un nombre fini de singularités.
+En les éliminant, nous obtenons un $\mathcal{O}_K$-modèle $\mathcal{E}_0$ de
+$E_K$ qui est de type fini et lisse, appelé le <strong>modèle de Néron</strong> de $E_K$.</p>
+<p>Soit $\mathcal{E}_0$ le modèle de Néron de $E_K$ et soit $\mathfrak{p}$ un
+point de mauvaise réduction ; la fibre sera un groupe algébrique (parfois
+disconnexe) dont la composante connexe (qui n&rsquo;est pas propre) sera le groupe
+multiplicatif $\mathbb{G}_m$ ou le groupe additif $\mathbb{G}_a$.
+Dans le premier cas, nous dirons que $E_K$ possède une <strong>réduction
+multiplicative</strong> en $\mathfrak{p}$, et dans le second cas, que $E_K$ possède
+une <strong>réduction additive</strong>.
+Soit $S \subseteq \operatorname{Spec}\mathcal{O}_K$ un sous-schéma ouvert,
+nous dirons que $E$ possède une <strong>réduction semi-stable</strong> sur $S$ si elle a
+une bonne réduction ou une réduction multiplicative en tout point de $S$.</p>
+<p>En général, la résolution des singularités des surfaces fonctionne toujours
+lorsque le schéma de base est <em>excellent</em>.
+De plus, pour un schéma de Dedekind général $S$ (que nous supposons connexe) et
+une variété abélienne $A_K$ sur le point générique de $S$, il existe un
+unique modèle de Néron $\mathcal{A}_S$ pour $A_K$ au-dessus de $S$ qui est
+de type fini et lisse (et satisfait la propriété de Néron).
+Au lieu de la trichotomie : réduction multiplicative, additive ou bonne, nous
+employons la décomposition d&rsquo;un groupe algébrique pour la fibre du modèle de
+Néron et obtenons une partie abélienne, multiplicative et unipotente.
+Nous dirons que la variété $A_K$ possède une <strong>réduction semi-stable</strong> en un point
+fermé $s$ de $S$ si le rang unipotent de sa fibre $\mathcal{A}_s$ est nul.</p>
+<p>Lorsque $A_K$ est une courbe elliptique $E_K$, il existe une autre
+manière de construire la fibre $(\mathcal{E}<em>0)</em>{\mathfrak{p}}$ : prenez une
+équation de Weierstrass à coefficients entiers pour $E_K$. Elle est munie
+d&rsquo;un discriminant entier $\Delta$ qui possède une valuation
+$\mathfrak{p}$-adique $\nu_{\mathfrak{p}}(\Delta) \ge 0$ positive.
+Nous dirons que l&rsquo;équation est <strong>minimale</strong> pour $\mathfrak{p}$ lorsque la
+valuation $\mathfrak{p}$-adique de son discriminant le soit ; nous
+désignerons par $\nu_{\mathfrak{p}}( \mathfrak{D}<em>{E/K} )$ sa valeur.
+Ainsi, l&rsquo;équation définissant un $\mathcal{O}</em>{K, \mathfrak{p}}$-modèle pour
+$E_K$ appelé le <strong>modèle de Weierstrass minimal</strong> $\mathcal{W}$, qui est
+normal et projectif.</p>
+<p>Lorsque $\mathfrak{p}$ est de bonne réduction pour $ E_K $, nous pouvons prouver
+que le modèle de Weierstrass minimal coïncide avec
+$(\mathcal{E}<em>0)</em>{\mathfrak{p}}$ ; en revanche, ils ne peuvent pas être
+isomorphes car $\mathcal{W}$ est projectif et singulier.
+Donc, pour avoir la possibilité d&rsquo;atteindre l&rsquo;isomorphisme, nous pouvons
+prendre le lieu lisse $\mathcal{W}_{\text{lisse}}$ et le comparer avec la
+composante connexe de $(\mathcal{E}<em>0)</em>{\mathfrak{p}}$, et maintenant elles
+sont isomorphes.
+Cela est intéressant car la théorie abstraite de Néron entraîne que la fibre
+doit être un groupe algébrique commutatif, lisse, mais pas propre ; par
+conséquent, il doit être le groupe additif ou un tore $ T $ (géométriquement
+isomorphe au groupe multiplicatif).
+D&rsquo;autre part, l&rsquo;analyse concrète de $\mathcal{W}$ entraîne que les seules
+singularités se trouvent dans l&rsquo;intersection de $\mathcal{W} \subseteq
+\mathbb{P}^2$ avec la droite $y = 0$ et, par la suite, elle est soit une nœud
+(dans le cas de la réduction multiplicative) soit une cuspide (quand la
+réduction est additive).</p>
+<p>Nous pouvons définir le nombre $\nu_{\mathfrak{p}}( \mathfrak{D}<em>{E/K} )$
+pour tous les points finis de mauvaise réduction de
+$\operatorname{Spec}(\mathcal{O}<em>K)$ et, par conséquent, définir le suivant
+idéal entier
+$$ \mathfrak{D}_{E/K} := \prod_{\mathfrak{p}} \mathfrak{p}^{
+\nu_{\mathfrak{p}}( \mathfrak{D}_{E/K} ) }, $$
+appelé le <strong>discriminant minimal (global)</strong> de $E_K$.
+En un sens, $\mathfrak{D}</em>{E/K}$ calcule toutes les mauvaises réductions en
+même temps et peut être presque tout idéal possible.
+Pour l&rsquo;anneau $\mathbb{Z}$, ce sera un unique nombre, mais les anneaux des
+entiers $\mathcal{O}<em>K$ ne sont pas nécessairement factoriels en général, et
+$\mathfrak{D}</em>{E/K}$ ne sera pas principal.
+Lorsque $\mathfrak{D}</em>{E/K}$ est effectivement principal, il existe une seule
+équation de Weierstrass qui est minimale dans tous les idéaux premiers de
+$\mathcal{O}_K$ ; cette équation-là est dite <strong>minimale</strong>.
+(En fait, par un théorème de Silverman, la dernière assertion est une équivalence.)</p>
+<p>Tout cela est très intéressant en théorie, mais en pratique nous avons besoin
+d&rsquo;une méthode pour calculer ces invariants (réduction modulo $ p $ et
+discriminant minimal). Cette méthode est donnée par <strong>l&rsquo;algorithme de Tate</strong>,
+qui est un outil central.</p>
+<h3 id="la-conjecture-de-szpiro-et-abc">La conjecture de Szpiro et $abc$</h3>
+<p>Un autre invariant essentiel est <strong>l&rsquo;exposant du conducteur</strong> $ f(E_K,
+\mathfrak{p}) $, qui est $ 0 $ (resp. $ 1 $, $ 2 $) lorsque
+$\mathfrak{p}$ est de bonne réduction (resp. réduction multiplicative,
+additive) ; avec cela, nous pouvons définir le <strong>conducteur</strong>, qui est aussi un
+idéal entier et « mesure la mauvaise réduction » :
+$$ \mathfrak{N}_{E/K} := \prod_{\mathfrak{p}} \mathfrak{p}^{
+f(E_K, \mathfrak{p}) }. $$
+En fait, cela représente la <em>composante modérée</em> de l&rsquo;exposant du conducteur,
+qui coïncide lorsque $\mathfrak{p} \nmid 6$ ; dans d&rsquo;autres cas, la
+définition appropriée inclut une <em>partie sauvage</em> qui est contrôlée d&rsquo;une
+certaine manière.
+La formule d&rsquo;Ogg implique que $\mathfrak{N}<em>{E/K} \mid
+\mathfrak{D}</em>{E/K}$.</p>
+<p>En 1983, Lucien Szpiro a conjecturé ce qui suit :</p>
+<blockquote>
+<p><strong>Conjecture de Szpiro pour les corps des nombres. &ndash;</strong>
+Soit $\epsilon &gt; 0$. Pour toutes les courbes elliptiques $E_K$ sur un
+corps des nombres fixé $K$, on aurait la moyenne
+$$ \mathbf{N}\mathfrak{D} \ll_\epsilon \mathbf{N}(\mathfrak{N}_{E/K})^{6 + \epsilon}. $$</p>
+</blockquote>
+<p>Toutefois, par définition, le conducteur peut être considéré comme le cadre du
+radical de $\mathfrak{D}_{E/K}$ ; ainsi, toute comparaison entre les deux
+évoque la conjecture $abc$. En fait :</p>
+<p><strong>Proposition. &ndash;</strong></p>
+<ol>
+<li>La conjecture de Szpiro pour $\mathbb{Q}$ entraîne la conjecture $abc$
+(faible) pour un exposant de $3/2 + \epsilon$.</li>
+<li>La conjecture $abc$ (forte) entraîne la conjecture de Szpiro pour
+$\mathbb{Q}$.</li>
+</ol>
+<p>Si nous cherchons une équivalence complète, nous devons renforcer la conjecture
+de Szpiro :</p>
+<blockquote>
+<p><strong>Théorème. &ndash;</strong> Les énoncés suivants sont équivalents :</p>
+<ol>
+<li>la conjecture $abc$ (forte) de Masser et Oesterlé,</li>
+<li>la <strong>conjecture généralisée de Szpiro</strong> : pour tout $\epsilon &gt; 0$, il
+existe un nombre réel $\kappa &gt; 0$ avec la propriété que, pour toute
+courbe elliptique $E_\mathbb{Q}$ sur $\mathbb{Q}$ mise en équation de
+Weierstrass minimale, on a la moyenne
+$$ \max{ |\Delta|, |d_4|^3 } \le \kappa N_{E, K}^{6+\epsilon}. $$</li>
+</ol>
+</blockquote>
+<p>Il est significatif de chercher des généralisations de la conjecture $abc$
+pour les corps des nombres, et la conjecture de Szpiro y parvient.</p>
+<h3 id="formes-logarithmiques">Formes logarithmiques</h3>
+<p>Les formes logarithmiques sont parmi les objets les plus importants dans la
+<em>théorie de la transcendance</em>, dédiée à l&rsquo;étude des nombres transcendants (et,
+par extension, des nombres algébriques).
+Un résultat bien connu dans ce domaine est le <em>théorème de von
+Lindemann-Weierstrass</em>, qui établit qu&rsquo;une suite finie de nombres algébriques
+distincts $\alpha_1, \dots, \alpha_n$ possède des exponentielles $e^{\alpha_1},
+\dots, e^{\alpha_n}$ qui sont linéairement indépendantes sur $\mathbb{Q}$.</p>
+<p>Dans ses problèmes millénaires, Hilbert a proposé l&rsquo;amélioration suivante :
+toute exponentielle $\alpha^b$ est transcendante lorsque $\alpha \notin {0,
+1}$ est algébrique et $b$ est irrationnel ; cela a été prouvé par Gelfond
+et Schneider en 1934.</p>
+<p>Une autre manière d&rsquo;énoncer le septième problème de Hilbert est de se demander
+si les logarithmes $\log \alpha_1$ et $\log \alpha_2$ sont linéairement
+indépendants sur $\mathbb{Q}$ lorsqu&rsquo;ils sont algébriquement indépendants.
+Cet énoncé peut être généralisé à $n$ termes ; c&rsquo;était une conjecture de
+Gelfand, maintenant théorème d&rsquo;Alan Baker.
+Les travaux de Baker ont été encore plus avancés : il a prouvé en 1966 que la
+forme linéaire
+$$ \Lambda = \beta_0 + \beta_1 \log \alpha_1 + \cdots + \beta_n \log \alpha_n
+$$
+admet une minoration dépendant des coefficients $\beta_i \in \mathbb{Z}$.</p>
+<p>D&rsquo;après Baker, de nombreuses personnes ont réalisé des améliorations sur les
+moyennes des formes logarithmiques.
+Au début du XXIe siècle, Matveev a atteint la meilleure moyenne à cette date ;
+et en 1986, Yu a établi une inégalité similaire pour la valeur absolue
+$p$-adique de la forme $\Lambda$ ci-dessus.
+ces résultats ont de nombreuses applications aux moyennes des hauteurs dans les
+groupes algébriques (un exemple d&rsquo;excellence étant l&rsquo;exponentielle de
+$\Lambda$, correspondant au cas du groupe multiplicatif).</p>
+<p>En 2001, Stewart et Yu ont appliqué la théorie des formes logarithmiques pour
+obtenir une inégalité du type $abc$ :
+$$ \log c \ll_\varepsilon \operatorname{Rad}(abc)^{\frac{1}{3}+\varepsilon}, $$
+(regardez le logarithme en $c$ !).
+Si nous supposons que $a &lt; c^{1-\eta}$ pour un nombre $0 &lt; \eta &lt; 1$ fixé au
+choix, H. Pastén a montré une amélioration récente :
+$$ \log c \ll_{\eta, \varepsilon} \operatorname{Rad}(abc)^\varepsilon. $$</p>
+<p>Comme mentionné au début, la conjecture $abc$ possède de nombreuses
+applications arithmétiques, et ses approches en ont également, comme le
+théorème de Tijdeman (qui affirme que l&rsquo;équation de Catalan a au plus un nombre
+fini de solutions), la finitude effective des solutions des équations de Thue,
+le théorème de Siegel sur la finitude des points entiers des courbes de genre
+géométrique $\ge 1$, etc.
+D&rsquo;autres grands théorèmes de la théorie de la transcendance concernent les
+moyennes effectives pour les solutions des équations des $S$-unités.</p>
+<h2 id="la-preuve-de-faltings-de-la-conjecture-de-mordell">La preuve de Faltings de la conjecture de Mordell</h2>
+<h3 id="hauteurs-et-géométrie-diophantienne">Hauteurs et géométrie diophantienne</h3>
+<p>Soit $x = u/v$ un nombre rationnel, où $u$ et $v$ sont des entiers premiers
+entre eux (si le lecteur le souhaite, $x \in \mathbb{A}^1(\mathbb{Q})$ est un
+point de la droite affine). On définit sa <strong>hauteur (logarithmique)</strong> par
+$$ h(x) = \max{ |u|, |v| }, $$
+où $|,|$ désigne la valeur absolue usuelle.
+En général, en utilisant toutes les places d&rsquo;un corps de nombres, on peut
+généraliser cette définition pour atteindre la hauteur de Weil pour les points
+géométriques de la droite projective $\mathbb{P}^1(\mathbb{Q})$.</p>
+<p>Les hauteurs forment le cœur de la géométrie diophantienne, une branche des
+mathématiques qui combine l&rsquo;arithmétique et la géométrie algébrique pour relier
+les propriétés fonctorielles des diviseurs (ou faisceaux) aux propriétés
+numériques des hauteurs.
+Un résultat classique est le suivant :</p>
+<blockquote>
+<p><strong>Théorème (propriété de Northcott). &ndash;</strong>
+Soit $B$ un nombre réel et $d$ un entier positif, il y a au plus un
+nombre fini de points dans l&rsquo;espace projectif avec hauteur bornée par $ B $
+et degré $\le d$.</p>
+</blockquote>
+<p>Ce fait, d&rsquo;apparence innocente, a été clé dans la démonstration du théorème de
+Mordell-Weil : le groupe des points rationnels $ A(K) $ d&rsquo;une variété
+abélienne $ A $ sur un corps de nombres $ K $ est de type fini.</p>
+<p>Le lecteur peut penser que l&rsquo;objectif de Faltings est de prouver la propriété
+de Northcott pour les variétés abéliennes dans un certain sens (conjecturé par
+Safarevic).
+Cela nécessiterait de prendre une hauteur de Weil dans un <em>espace grossier de
+modules</em>, mais cela ne suffit pas, car cela aurait pour effet de compter les
+variétés abéliennes isomorphes sur $\mathbb{C}$.
+Cela est connu sous le nom de <em>hauteur des modules</em>, et pour les courbes
+elliptiques $E$, c&rsquo;est comme l&rsquo;hauteur $h(j(E))$ de son invariant $j$ ;
+on peut aussi considérer que c&rsquo;est l&rsquo;hauteur canonique dans la courbe modulaire
+$ X(1) $, liée à l&rsquo;isomorphisme avec la droite projective $\mathbb{P}^1$ ;
+cependant, cela ne fonctionne pas car une courbe elliptique $E$ sur $K$
+possède des tours infinis (c&rsquo;est-à-dire, des courbes elliptiques non isomorphes
+$ E&rsquo; $ qui deviennent isomorphes après un certain changement de base).</p>
+<p>Et maintenant, que faire ? Eh bien, la conjecture de Safarevic (connue pour les
+courbes elliptiques) stipule qu&rsquo;une variété abélienne $ A_K $ sur $ K $
+possède un nombre fini de torcements qui sont semi-stables dans un ouvert fixé.
+Autrement dit, pour définir une hauteur adéquate pour les variétés abéliennes,
+il faut tenir compte de la mauvaise réduction et relier l&rsquo;hauteur des modules.
+Ici, <strong>l&rsquo;hauteur de Faltings</strong> $h_{\rm Fal}(E)$ est définie comme une
+certaine intersection arakelovienne du différentiel de Néron.
+La comparaison avec l&rsquo;hauteur des modules est, comme prévu, sans différence
+bornée, jusqu&rsquo;à une différence <em>logarithmique</em>.
+Cela est illustré par le théorème de Faltings-Silverman :
+$$ O(1) \le h(j_E) + \frac{1}{[K : \mathbb{Q}]}\log \mathbf{N}\Upsilon_{E/K} - 12h_{\rm Fal}(E_K), $$
+où $\Upsilon_{E/K}$ est le <em>discriminant minimal instable</em> ;
+lorsque $E_K$ est semi-stable, donc $\Upsilon_{E/K} = 1$ et son terme est nul.</p>
+<p>La démonstration de Faltings suit maintenant un chemin inverse à celui décrit
+ci-dessus. Les préliminaires sont les suivants :
+soit $A_K$ une variété abélienne sur un corps de nombres $ K $, il existe une
+extension <em>finie</em> des corps $L/K$ telle que $A_L$ soit semi-stable (c&rsquo;est
+l&rsquo;énoncé du <strong>théorème de réduction semi-stable</strong>) ; d&rsquo;après un changement de
+base $L/K$, l&rsquo;hauteur de Faltings peut être ramenée, mais l&rsquo;égalité est
+atteinte lorsque $A_K$ possède une réduction semi-stable.</p>
+<p>Ainsi, <strong>l&rsquo;hauteur de Faltings géométrique</strong> $h_{\rm geom}(A)$ est
+l&rsquo;hauteur de $A_L$, où $L/\mathbb{Q}$ est un corps de nombres dans
+lequel $A_L$ a une réduction semi-stable.
+Ensuite, $h_{\rm geom}$ n&rsquo;est pas éloignée de l&rsquo;hauteur des modules (d&rsquo;une
+certaine manière, comme dans le théorème de Faltings-Silverman), mais $h_{\rm
+Fal}$ comporte toujours un « terme d&rsquo;erreur qui mesure la mauvaise réduction ».
+La fonction $h_{\rm Fal}$ possède la propriété de Northcott, et ainsi, une
+seule variété abélienne possède un nombre fini de torcements avec mauvaise
+réduction pour un ensemble fini de nombres premiers fixé.
+Enfin, la conjecture de Mordell découle de la conjecture de Safarevic par des
+arguments connus antérieurs aux travaux de Faltings.</p>
+<h3 id="la-conjecture-de-frey-sur-les-hauteurs">La conjecture de Frey sur les hauteurs</h3>
+<p>Soit $\mathfrak{a}$ un idéal fractionnaire de $\mathcal{O}_K$. On peut
+le factoriser en un produit fini d&rsquo;idéaux premiers :
+$$ \mathfrak{a} = \mathfrak{p}_1^{e_1} \cdots \mathfrak{p}<em>n^{e_n}, $$
+où les exposants $ e_j $ sont des entiers, éventuellement négatifs ($ e_j
+\in \mathbb{Z} $).
+On définit son <strong>degré</strong> par $$ \deg \mathfrak{a} = \sum</em>{j=1}^n e_j \cdot
+\textbf{N} \mathfrak{p}_j. $$
+En 1989, Frey a conjecturé le résultat suivant :</p>
+<blockquote>
+<p><strong>Conjecture de Frey sur les hauteurs ($ H $). &ndash;</strong>
+Soit $ K $ un corps de nombres. Pour toute courbe elliptique $ E_K $ sur
+$ K $, on a la relation :
+$$ h_{\rm Fal}(E_K) \ll \deg(\mathfrak{N}_E). $$</p>
+</blockquote>
+<p>La définition du degré établit un lien entre le logarithme de la norme
+$\textbf{N} \mathfrak{N}_E$ et l&rsquo;hauteur de Faltings, qui est le logarithme
+d&rsquo;une intégrale correspondant à la complexité d&rsquo;une courbe elliptique. Le
+corollaire suivant n&rsquo;est pas trop surprenant :</p>
+<p><strong>Proposition. &ndash;</strong><br>
+La conjecture de Frey entraîne la conjecture de Szpiro.</p>
+<h3 id="modulairité">Modulairité</h3>
+<p>Nous avons parlé de l&rsquo;utilisation de l&rsquo;espace grossier des modules
+$\mathscr{A}_g$ des variétés abéliennes de dimension $g$, mais nous avons
+besoin d&rsquo;une description plus précise de cet objet, comme celle donnée par
+l&rsquo;invariant $j$.</p>
+<p>Sur le corps des nombres complexes $\mathbb{C}$, toutes les variétés
+abéliennes (vues comme variétés analytiques) sont des quotients
+$\mathbb{C}^g/\Lambda$, où $\Lambda \le \mathbb{C}^g$ est un réseau
+(c&rsquo;est-à-dire, un sous-module discret de rang $2g$).
+Pour $g = 1$, l&rsquo;invariant $j$ définit une application des réseaux dans le plan complexe
+vers le corps des nombres complexes.
+Chaque réseau est homothétique à un de la forme $\mathbb{Z} + \tau \mathbb{Z}$,
+où $\tau$ est un élément du demi-plan de Poincaré $\mathfrak{H}$.
+L&rsquo;invariant $j$ détermine alors une bijection entre $\mathbb{C}$ et les
+points de $\operatorname{SL}_2(\mathbb{Z}) \backslash \mathfrak{H} =: Y(1)$.</p>
+<p>En utilisant $\mathfrak{H}^* := \mathfrak{H} \cup \mathbb{P}^1(\mathbb{Q})$,
+le quotient $\operatorname{SL}_2(\mathbb{Z}) \backslash \mathfrak{H}^* =: X(1)$
+est une surface de Riemann compacte, qui peut être dotée d&rsquo;une
+structure de courbe lisse et projective sur $\mathbb{Q}$.
+Si l&rsquo;on considère un sous-groupe $\Gamma$ de $\operatorname{SL}_2(\mathbb{Z})$
+d&rsquo;indice fini, on peut obtenir d&rsquo;autres <strong>courbes modulaires</strong>, qui peuvent
+être identifiées comme des compactifications des espaces grossiers de modules.
+Parmi celles-ci, un groupe fuchsien fondamental est le <strong>sous-groupe spécial
+modulaire de niveau $N$</strong> :
+$$ \Gamma_0(N) = \left{ \begin{bmatrix} a &amp; b \ c &amp; d \end{bmatrix} \in
+\operatorname{SL}_2(\mathbb{Z}) : c \equiv 0 \pmod{N} \right}, $$
+dont la courbe modulaire est désignée par $X_0(N)$.</p>
+<p>Une courbe elliptique $E_K$ sur un corps de nombres $K$ est dite
+<strong>modulaire</strong> s&rsquo;il existe un morphisme (algébrique) $\phi\colon X_0(N) \to E$
+défini sur $\mathbb{C}$ qui n&rsquo;est pas constant ; ces $\phi$ sont
+appelés <strong>paramétrisations modulaires</strong>.
+On peut prouver que de tels morphismes (s&rsquo;ils existent) sont définis sur un
+corps de nombres (possiblement plus grand que $ K $).
+Par la conjecture de Shimura-Taniyama (maintenant prouvée par Taylor, Wiles et
+d&rsquo;autres), chaque courbe elliptique sur $\mathbb{Q}$ <em>est</em> modulaire.
+Dans ce contexte, nous avons la conjecture suivante :</p>
+<blockquote>
+<p><strong>Conjecture du degré de Frey ($D_d$):</strong><br>
+Soit $S \subseteq M_\mathbb{Q}$ un ensemble fini fixé de places avec $\infty
+\in S$ et soit $\epsilon &gt; 0$ un nombre réel fixé.<br>
+Toute courbe elliptique $E$ sur $\mathbb{Q}$ semi-stable en dehors de $S$
+possède une paramétrisation modulaire $\phi$ telle que
+$$ \deg \phi \ll_\epsilon \prod_{\ell \mid N_E} \ell^{d+\epsilon}. $$</p>
+</blockquote>
+<p>La conjecture du degré de Frey entraîne sa conjecture sur les hauteurs.</p>
+<h2 id="références">Références</h2>
+<p>Pour les bases sur les courbes elliptiques, nous recommandons le livre de
+Silverman, <em>The Arithmetic of Elliptic Curves</em> [Si]. Les définitions
+géométriques équivalentes sont contenues dans les deux volumes de <em>Algebraic
+Geometry</em> par Görtz et Wedhorn.
+Les généralités sur les modèles de Néron sont revues dans l&rsquo;exposé de M. Artin
+dans le livre <em>Arithmetic Geometry</em> (éd. par Cornell et Silverman) [AG], ainsi
+que dans le livre homonyme par Bosch, Lütkehbohmert et Raynaud. Le livre
+<em>Algebraic Geometry and Arithmetic Curves</em> par Qing Liu traite également de ces
+sujets.
+Ce dernier compare en détail les trois modèles attachés à une courbe elliptique
+(le modèle propre minimal, celui de Néron et celui de Weierstrass).</p>
+<p>Les liens entre la conjecture de Szpiro et la conjecture $abc$ sont abordés
+dans de nombreuses publications, comme dans [Si], le livre <em>Heights in
+Diophantine Geometry</em> par Bombieri et Gubler [BoGu], ainsi que dans <a href="http://www.numdam.org/book-part/AST_1990__183__7_0/">l&rsquo;éxposé
+original de Szpiro</a>.</p>
+<p>Il existe de nombreux livres sur les formes logarithmiques.
+Pour citer quelques exemples : le livre <em>Transcendental Number Theory</em> par
+Baker et <em>Diophantine Approximation on Linear Algebraic Groups</em> par
+Waldschmidt.</p>
+<p>Les derniers résultats sont principalement contenus dans l&rsquo;exposé de [AG].
+Les généralités sur les hauteurs sont traitées dans [BoGu].
+Un exposé sur la preuve de Faltings en français est donné dans un <a href="http://www.numdam.org/item/SB_1983-1984__26__25_0/">Séminaire
+Bourbaki par Deligne</a>.
+Un aperçu rapide sur les fonctions modulaires (classiques) se trouve dans le
+livre <em>Cours d&rsquo;Arithmétique</em> de Serre ; les courbes modulaires sont étudiées
+dans le livre <em>Introduction to the Arithmetic Theory of Automorphic Functions</em>
+par Shimura, et les espaces grossiers des modules des variétés abéliennes sont
+exposés dans [AG].</p>
+<p>Il est également recommandé de consulter l&rsquo;article de conférence <a href="https://link.springer.com/chapter/10.1007/978-3-540-37855-6_4"><em>Les Schémas
+de Modules de Courbes Elliptiques</em> par Deligne et
+Rapoport</a> ainsi
+que le livre <em>Modular Forms and Fermat’s Last Theorem</em> (éd. par Cornell,
+Silverman et Stevens).
+Les conjectures de Frey sont exposées dans son article original <a href="https://link.springer.com/chapter/10.1007/BFb0086544"><em>Links between
+Solutions of $ A - B = C $ and Elliptic
+Curves</em></a>.</p>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-07-21:/blog/chatgpt/</guid>
+
+                
+                    <link>http://localhost:1313/blog/chatgpt/</link>
+                
+
+                
+                    <pubDate>Sun, 21 Jul 2024 13:38:33 -04</pubDate>
+                
+
+                
+                    <title>Révision du Seminaire sur la conjecture $abc$</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Éste libro fue escrito hacia 1991 y su traducción al inglés (<em>Algebraic Number
+Theory</em> por Norbert Schappacher, 1999) no introduce modificaciones sustanciales.
+Su autor, Jürgen Neukirch, fue un teorista de números alemán, fue alumno
+doctoral de Wolfgang Krull, quién revolucionó el álgebra conmutativa, y los
+aportes de Neukirch a la investigación matemática incluyen resultados en los
+valores especiales de las funciones $L$, los teoremas de existencia de Riemann
+aritméticos y el teorema de Neukirch-Uchida, central en geometría anabeliana.
+Neukirch murió, un tanto prematuramente, a los 59 años en 1997; Schappacher
+admite en el prefacio que «nadie se esperaba que Neukirch no viviese para ver
+la traducción inglesa de su libro».</p>
+<hr>
+<p>Textos acerca de teoría algebraica de números los hay por montones, antes y
+después de Neukirch (desde ahora, citado como [Neu]).
+Algunos de estos, con los que estableceré cierta comparación, son los siguientes,
+con respectivas abreviaciones:</p>
+<ul>
+<li>[La1] Serge Lang. <em>Algebraic Number Theory</em> (1970, Addison-Wesley).</li>
+<li>[FrT] A. Fröhlich y M. J. Taylor. <em>Algebraic number theory</em> (1992, Cambridge
+Univ. Press).</li>
+<li>[Ja] Gerald J. Janusz. <em>Algebraic Number Fields</em>, 2a ed. (2005, AMS).</li>
+<li>[Mil] J.S. Milne. <a href="https://www.jmilne.org/math/CourseNotes/ant.html"><em>Algebraic Number
+Theory</em></a> (1996 en
+adelante).</li>
+</ul>
+<p>Así, la tesis que he de exponer es por qué con la abundancia de literatura ya
+mencionada, [Neu] se mantiene vigente.
+También ampliaremos la discusión para incluír a dos textos que, si bien no
+pertenecen a la tradición, sí suelen ser alternativas comunes:</p>
+<ul>
+<li>[CaLF] J. W. S. Cassels. <em>Local Fields</em> (1986, Cambridge Univ. Press).</li>
+<li>[CaFr] J. W. S. Cassels y A. Fröhlich (eds.). <em>Algebraic Number Theory
+[Proceedings]</em> (1986, Academic Press).</li>
+<li>[La2] Serge Lang. <em>Fundamentals of Diophantine Geometry</em> (2010,
+Springer-Verlag).</li>
+</ul>
+<p>De estos, el primero no es propiamente como tal un texto sobre teoría
+algebraica de números, sino de «números $p$-ádicos» si se prefiere como tópico.
+El segundo ni siquiera fue planificado estrictamente con fines pedagógicos,
+pero tiene dos atractivos esenciales: una abundancia de temas (principalmente
+convergiendo finalmente en la teoría de cuerpo de clases) y una irresistible
+lista de contribuidores (por mencionar algunos: B.J. Birch, Helmut Hasse, Peter
+Roquette, Jean-Pierre Serre, H.P.F. Swinnerton-Dyer y John Tate).
+Esto provocó que [CaFr], o «el libro azul», se convirtiese en una elección
+recurrente entre los jovenes lectores, inclusive si varios de sus pasajes
+resultan de una dificultad mayor.</p>
+<p>Ahora que hemos presentado a los actores, que proceda la obra.</p>
+<h2 id="los-primeros-tres-capítulos">Los primeros tres capítulos</h2>
+<p>La estructura general de [Neu] es a grandes razgos típica:
+se abre el libro con la teoría de enteros algebraicos,
+luego se discuten valuaciones, lugares y ramificación;
+hay una determinada demostración de las aplicaciones de la teoría de Minkowski
+sobre la ramificación;
+seguida de las leyes de reciprocidad general, expuestas en el lenguaje de la
+teoría de cuerpos de clase y los símbolos de Artin,
+pasando por el teorema de Kronecker-Weber y,
+finalmente, concluyendo con un capítulo acerca de funciones $L$ y el teorema de
+densidad de Chebotarev.
+Así descrito, pareciera que [Neu] es «un libro del montón», no obstante, su
+genialidad radica escondida al ojo primerizo, en cada capítulo hay pequeñas o
+grandes inclusiones que logran siempre destacar a [Neu] por el resto.</p>
+<p>Sobra la teoría de enteros algebraicos, hay exposiciones más elementales que [Neu],
+como, por ejemplo, [Ja] o [Mil] los cuales son más explícitos y desarrollan los
+preliminares de álgebra conmutativa necesarios.
+El libro azul [CaFr] es también sorpresivamente detallado, más incluso que
+[Neu], pero eso le permite a [Neu] sacarse de encima las complicaciones básicas
+para obtener rápidamente varios de los resultados clásicos que en otros casos
+requieren el libro entero (resultados como la finitud del número de clases, la
+ramificación en cuerpos ciclotómicos y el teorema de unidades de Dirichlet).
+Más aún, la discusión en las últimas secciones I.12-14 es casi inexistente en
+ningún otro lado de la literatura y, tal como señala Neukirch, no es una
+inclusión vacía, sino que toca en un tema futuro.</p>
+<p>El capítulo II de [Neu] trata acerca de valuaciones, las cuales están expuestas
+en una infinitud de fuentes.
+Quizá la más específica en el tópico sea [CaLF], quien principalmente opta por
+la vía de los <strong>valores absolutos</strong>.
+Las valuaciones en teoría de números tienen dos interpretaciones (muy bien
+distinguidas en la geometría diofántica, por cierto): la <em>multiplicativa</em> o
+<em>exponencial</em> con valores absolutos y que imita el cálculo real, y la <em>aditiva</em>
+o <em>logarítmica</em> que es más propia del álgebra conmutativa y suele ser más útil
+en cohomología.
+Naturalmente, [Neu] se inclina más por el segundo, pero quizá sea más
+pedagógico seguir el primer enfoque como lo hace [CaLF]; ambas nociones son
+necesarias para la noción de lugar, que da paso a las nociones de completación
+y a una teoría unificada de ramificación, que [Neu] repite y es bastante
+estándar.
+Una modificación que no es estándar en [Neu] es la comparación entre cuerpos
+valuados completos y <strong>henselianos</strong>, que es bastante iluminadora para tópicos
+más avanzados, como la cohomología étale.
+La única posible generalización adicional serían generalizaciones adicionales
+para los llamados «lugares bien comportados» de [La2], en donde se permite
+relajar que las extensiones de cuerpos valuados sean separables.
+La sección II.9 sobre la teoría de Galois también trae comentarios para deducir
+el caso infinito del finito, que no es tan común y es necesario para la
+cohomología de Galois.</p>
+<p>El capítulo III es, comparativamente hablando, la gran novedad del libro;
+personalmente desconozco de otras fuentes que expongan el material aquí
+presente de Neukirch.
+Las secciones III.1 y III.2 son las únicas estándar, donde se exponen primero
+definiciones restantes de la teoría de valuaciones, y luego las consecuencias
+de la geometría de números de Minkowski sobre el discriminante.
+El resto de secciones son muy poco estándar; la teoría de <em>ideales repletos</em> (o
+más precisamente, «divisores de Arakelov») es casi inexistente fuera de
+artículos de investigación, la única fuente que sí hace uso de ellos es [La1] y
+el primer capítulo de [La2], pero ni siquiera dichos libros cubren el material
+de las secciones III.5-III.8.
+Con el tiempo, la geometría algebraica ha ganado más terreno dentro de la
+teoría algebraica de números y es indudable de que los lectores más modernos
+apreciarán el material aquí expuesto.</p>
+<h2 id="teoría-de-cuerpos-de-clase">Teoría de cuerpos de clase</h2>
+<p>Los capítulos IV a VI tratan acerca de la teoría de cuerpos de clase, por lo
+que es necesario introducir a nuevos libros sobre el tema:</p>
+<ul>
+<li>[NeuK] Jürgen Neukirch. <em>Klassenkörpertheorie</em> (1969, Bibliographisches
+Institut Mannheim).</li>
+<li>[NeuC] Jürgen Neukirch. <em>Class field theory</em> (1986, Springer-Verlag).</li>
+<li>[Se1] Jean-Pierre Serre. <em>Local fields</em> (1980, Springer-Verlag).</li>
+<li>[Se2] Jean-Pierre Serre. <em>Cohomologie Galoisienne</em> 5a ed. (1994,
+Springer-Verlag).</li>
+<li>[Har] David Harari. <em>Galois Cohomology and Class Field Theory</em> (2020,
+Springer-Verlag).</li>
+</ul>
+<p>El material de los capítulos IV a VI es literalmente el contenido de [NeuC],
+por lo que [NeuC] es practicamente un sublibro de [Neu].
+El libro [NeuK], hoy conocido con el subtítulo <em>The Bonn lectures</em>, difiere un
+poco, expone mejor un capítulo preliminar en cohomología de grupos (que nuevos
+estudiantes ciertamente agradecerán), y procede de manera más similar a [Se1].
+La teoría de cuerpos de clase ha tomado hoy dos direcciones que pareciesen un
+tanto perpendiculares: la primera es la más clásica, con métodos de
+Hilbert-Takagi, y se enfoca en el caso global;
+la segunda es la contemporánea desarrollada por Artin-Tate con métodos
+cohomológicos para el caso local e idèles para el caso global.
+El primer caso está expuesto en [Ja], mientras que el segundo es el enfoque de
+la mayoría.
+Aún dentro de la «perspectiva contemporánea», [Neu] sigue un enfoque distinto,
+construyendo algo que él denomina <em>Teoría abstracta de cuerpos de clases</em>.
+La mayoría de libros como [Se1], [CaFr], [Har] o inclusive [NeuK], optan por
+primero trabajar los preliminares de cohomología de grupos para luego probar el
+<em>teorema de Tate-Nakayama</em> que juega el rol de una generalización de la teoría
+de cuerpos de clase; en esto podríamos decir que el enfoque de [Neu] es el más
+único o excepcional.</p>
+<p>Dentro de estos capítulos, Neukirch introduce el teorema de Kronecker-Weber
+como deducción de la teoría local ([CaLC] también, sin métodos cohomológicos;
+[Se1], [Har] y [La1] también, con cohomología).
+Y quizá más exclusivo es un paréntesis sobre las leyes de grupo formal de
+Lubin-Tate (incluídas en [Se1], [Har] y [CaFr])
+y una interpretación del símbolo de Hilbert (incluída en [Har] y [Ja]).</p>
+<h2 id="funciones-l">Funciones $L$</h2>
+<p>El último capítulo de [Neu] está dedicado a las funciones $L$;
+éstas conforman una profunda área de estudio en la literatura general.
+El capítulo comienza con la deducción de las propiedades generales de las
+funciones $L$ como la ecuación funcional, mediante métodos de análisis
+complejo.</p>
+<p>El texto de [La1] y [CaFr] ofrecen, con cierta trampa sí, una alternativa
+bastante aritmética: un estudio adélico de las funciones $L$, correspondiente a
+la tesis doctoral de John Tate.
+En [CaFr] ésta tesis está reproducida <em>al natural</em> y en [La1] está modificada.</p>
+<h4 id="adónde-ir-después">Adónde ir después</h4>
+<p>¿Qué hay después de Neukirch? Curiosamente, otro libro de Neukirch:</p>
+<ul>
+<li>[Neu2] Jürgen Neukirch, Alexander Schmidt y Kay Wingberg. <em>Cohomology of
+Number Fields</em> (2008, Springer-Verlag).</li>
+<li>[Mil2] J.S. Milne. <em>Arithmetic duality theorems</em> ()</li>
+</ul>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-05-06:/blog/neukirch_zahlentheorie/</guid>
+
+                
+                    <link>http://localhost:1313/blog/neukirch_zahlentheorie/</link>
+                
+
+                
+                    <pubDate>Mon, 06 May 2024 23:35:34 -04</pubDate>
+                
+
+                
+                    <title>Reseña de Algebraische Zahlentheorie de Jürgen Neukirch</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                    
+                
+
+                
+                
+
+                
+
+                
+
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-04-25:/blog/about/</guid>
+
+                
+                    <link>http://localhost:1313/blog/about/</link>
+                
+
+                
+                    <pubDate>Thu, 25 Apr 2024 15:04:03 -04</pubDate>
+                
+
+                
+                    <title>Explicación sobre mi profesión</title>
+                
+            </item>
         
     </channel>
 </rss>
