@@ -44,6 +44,12 @@
         
     
 
+    
+
+    
+        
+    
+
 
 
 
@@ -109,7 +115,7 @@
         
 
         
-            <lastBuildDate>2024-08-18 16:47:26 -0400 -04</lastBuildDate>
+            <lastBuildDate>2025-02-22 10:45:52 -0300 -03</lastBuildDate>
         
 
         <link>http://localhost:1313/blog/</link>
@@ -120,6 +126,312 @@
 
         
 
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>Este libro fue originalmente publicado por la editorial parisiense Hermann en
+1962 y más tarde traducido al inglés por Marvin J. Greenberg (Springer-Verlag,
+1980) como <em>Local fields</em>.
+La traducción inglesa difiere de la tercera edición francesa por una
+introducción (con su respectivo <em>Leitfaden</em>) y por unas referencias añadidas (a
+decir, las entradas 126-132), además de ser tipeada en una tipografía más
+moderna y legible a mi gusto.</p>
+<p>Su autor, Jean-Pierre Serre, fue galardonado con la medalla Fields en 1954 por
+sus aportes en topología y geometría algebraica, especialmente, su manejo de
+álgebra homológica y teoría de haces.
+A lo largo de su vida, Serre mutaría constantemente sus intereses, pasando,
+entre otras disciplinas, por la teoría de números y geometría aritmética.
+Por lo demás, Serre siembra tras de sí un prolífico catálogo de publicaciones,
+tanto investigativas (artículos y exposiciones) como en formato de libros y
+cursos.
+Sus aportes matemáticos originales son tantos que la expresión «por el teorema
+de Serre» resulta total y completamente ambigua desprovista de contexto (vid. la
+siguiente <a href="https://en.wikipedia.org/wiki/List_of_things_named_after_Jean-Pierre_Serre">lista en Wikipedia</a>).
+Entre sus publicaciones contamos <em>Groupes algébriques et corps de classes</em>,
+<em>Cohomologie galoisienne</em>, <em>Abelian $\ell$-adic representations and elliptic
+curves</em>, <em>Cours d&rsquo;arithmétique</em>, <em>Lectures on the Mordell-Weil Theorem</em>, entre
+otras.</p>
+<hr>
+<p>Lo primero que debemos contar acerca de <em>Corps locaux</em> (desde ahora citado como
+[Se1]), es que difiere de varios otros libros al respecto, por lo que hemos de
+esclarecer debidamente su objetivo.
+El texto pretende principalmente ilustrar e introducir al lector o lectora en la
+teoría de cuerpos de clases local desde la perspectiva cohomológica.
+A diferencia de él, el libro homónimo de Cassels, <em>Local fields</em>, trata
+principalmente de cuerpos ultramétricos (i.e., dotados de un valor absoluto que
+satisface la desigualdad ultramétrica) completos, con un énfasis en los métodos
+analíticos que le circundan (convergencia de serie de potencias, funciones $L$ y
+aplicaciones diofánticas).
+Así, los libros de Serre y Cassels son <strong>incomparables</strong> en cuanto se proponen
+cosas en sumo distintas (aunque no sean del todo disjuntos).</p>
+<p>El texto de Cassels es más cercano, a mi juicio, a libros como los de Koblitz
+(<em>$p$-adic Analysis: A Short Course on Recent Work</em> y <em>$p$-adic numbers,
+$p$-adic analysis, and zeta-functions</em>), y el capítulo segundo de <em>Algebraische
+Zahlentheorie</em> de Neukirch.
+En cambio, el texto de Serre fue bastante singular en sus orígenes, la
+bibliografía a comparar será la siguiente:</p>
+<ul>
+<li>[AT] Emil Artin y John Tate. <em>Class Field Theory</em> (1968, W.A. Benjamin).</li>
+<li>[CaFr] J. W. S. Cassels y A. Fröhlich (eds.). <em>Algebraic Number Theory
+[Proceedings]</em> (1967, Academic Press).</li>
+<li>[Har] David Harari. <em>Galois Cohomology and Class Field Theory</em> (2020,
+Springer-Verlag).</li>
+<li>[NeuK] Jürgen Neukirch. <em>Klassenkörpertheorie</em> (1969, Bibliographisches
+Institut Mannheim).</li>
+<li>[NeuC] Jürgen Neukirch. <em>Class field theory</em> (1986, Springer-Verlag).</li>
+</ul>
+<p>Los siguientes también entrarán en discusión, aunque su énfasis converge por el
+lado de la cohomología de Galois:</p>
+<ul>
+<li>[Haz] Michiel Hazewinkel. <em>Formal groups and applications</em> (QQQ).</li>
+<li>[Se2] Jean-Pierre Serre. <em>Cohomologie Galoisienne</em> 5a ed. (1994,
+Springer-Verlag).</li>
+<li>[Sh] Stephen S. Shatz. <em>Profinite groups, arithmetic, and geometry</em> (1972,
+Princeton Univ. Press).</li>
+</ul>
+<p>Comencemos por señalar que el libro que, a mi juicio, más se le asemejaba en su
+tiempo fue [CaFr] (¡no obstante, la trampa es que el capítulo sobre teoría de
+cuerpos de clase fue escrito por Serre mismo!); hoy día, es casi imposible
+evitar poner lado a lado [Se1] con [Har].</p>
+<p>La manera de proceder en teoría de cuerpos de clase suele tener dos caras: la
+primera es la llamada «teoría de cuerpos de clase <em>abstracta</em>» que incurre en la
+técnica de formación de clases (cap. XI de [Se1] y cap. 14 de [AT]) o la
+perspectiva cohomológica local (caps. XII-XIV de [Se1], caps. IV-VI de [CaFr],
+caps. 8 y 9 de [Har], cap. 2 de [NeuK], cap. V de [Sh]), seguida de métodos
+adélicos para deducir el caso global ([AT], [CaFr], [Har] y [NeuK]).
+Hay también alternativas: en [NeuC], Neukirch desarrolló su propia estrategia
+para estudiar la teoría de cuerpos de clase (cercana en espíritu al método de
+formación de clases), y uno también puede hacer uso de la teoría de leyes de
+grupo formal de Lubin-Tate para estudiar el caso local (cap. 11 de [Har] y
+[Haz]).</p>
+<p>Hay varias razones por las cuales, [Se1] sigue siendo hoy un texto de
+importancia fundacional.
+Una de ellas podría corresponderse con los dotes didácticos de Serre; algo que
+debería ser ya un hecho cotidiano para mi, pero que me sigue llamando la
+atención es la elegancia con la que trata sus tópicos.
+Otra de las razones involucra los muchos resultados que, en su día, solo estaban
+incluídos en ese libro (y, obvio, en artículos de expertos en el área); ejemplos
+de ello no tardan en aparecer en las secciones II.4 y II.5 en las que da una
+rápida demostración del teorema de estructura de Cohen (la referencia estándar
+solía ser el [EGA IV], sec. 0.19.8; y más tarde, <em>Commutative ring theory</em> de
+Matsumura), y la sección II.6 sobre vectores de Witt.</p>
+<p>Otro ejemplo es su magistral exposición de la cohomología de grupos, incluyendo
+resultados técnicos que no se encontraban en otros textos del tema, como el
+tratamiento (hoy estándar, gracias a Serre) de la cohomología modificada de
+Tate y los teoremas de Tate-Nakayama.
+Los geómetras también encontrarán gran recompenza en [Se1], ya que es una
+referencia en sumo accesible de tópicos más avanzados como la clasificación de
+torcimientos con cohomología de Galois no abeliana (cap. X, y el apéndice del
+cap. VII; vid. tb. [Se2]), y la exposición del grupo de Brauer (caps. X y XII;
+cfr. secs. IV.1 y V.3 de [Sh]).</p>
+<h3 id="resumen-de-resultados">Resumen de resultados</h3>
+<ul>
+<li>Teorema de Herbrand.</li>
+<li>Teorema de Hasse-Arf.</li>
+<li>Teorema de Kronecker-Weber local.
+También está probado en [Har], [NeuC] y [NeuK], y el cap. XI para un destacable
+recuento histórico de Hasse [CaFr] con (cap. XI).
+El texto [Ca] también lo prueba mediante métodos más elementales.</li>
+<li>Teorema de Tate-Nakayama.</li>
+<li>Teoremas de existencia y de reciprocidad.</li>
+<li>Cálculo del grupo de Brauer de un cuerpo local y verificar funtorialidad.</li>
+</ul>
+<h3 id="adónde-ir-después">¿Adónde ir después?</h3>
+<p>Así que ha terminado de leer (por vez primera) el <em>Corps locaux</em>, ¿ahora qué?
+Hay varias cosas que éste libro deja o bien implícitas o en el tintero.</p>
+<p>En el apéndice al cap. XIV, Serre enuncia los teoremas en el caso global; como
+antes hemos señalado estos están hechos, por ejemplo, en [CaFr], [Har] y [NeuK]
+apoyándose del caso local ([AT] y [NeuC] también hacen el caso global, pero con
+poca o nula ayuda del caso local).</p>
+<p>Las técnicas cohomológicas conllevan directamente a un estudio sistemático de la
+cohomología de los módulos de Galois, específicamente, llevan directo a [Se2] y
+[Sh] (para una introducción, vid. [Har]).
+Aquí los caminos se bifurcan según el enfoque que el lector quiera para sí: si
+el interés recae en los grupos de Brauer, entonces posibles recomendaciones son:</p>
+<ul>
+<li>[GZ] Phillipe Gille y Tamás Szamuely. <em>Central simple algebras and Galois
+cohomology</em> (2006, Cambridge Univ. Press).</li>
+<li>[Gr] Alexander Grothendieck. <em>Le groupe de Brauer</em>
+<a href="http://www.numdam.org/item/SB_1964-1966__9__199_0/">I</a>,
+<a href="http://www.numdam.org/item/SB_1964-1966__9__287_0/">II</a> y III.
+Contenidos en <em>Dix exposés sur la cohomologie des schémas</em>.</li>
+</ul>
+<p>El segundo corresponde a un conjunto de artículos mecanografiados, pero de gran
+relevancia incluso hoy.
+El primero, además de presentar el tópico del título, profundiza en aspectos de
+la cohomología de Galois tales como los torcimientos, lo que desemboca en el
+estudio de las variedades de Brauer-Severi, y los cuerpos de tipo $C^r$ (para
+esto último, vid. tb. [Sh]).</p>
+<p>Si, en cambio, el interés recae en geometrizaciones de la cohomología de Galois,
+entonces se debe adentrar en distintos tipos de teorías cohomológicas de Weil.
+Esto ya corresponde, a mi juicio, a entrar en un terreno de naturaleza
+completamente distinta, pero si el lector busca un resumen rápido con
+aplicaciones aritméticas en vista, se recomiendan:</p>
+<ul>
+<li>[JKS] Uwe Jannsen, Steven L. Kleiman y Jean-Pierre Serre (eds.). <em>Motives,
+Part 1</em> (1994, AMS).</li>
+<li>[Po] Bjorn Poonen. <em>Rational points on varieties</em> (2017, AMS).</li>
+<li>[Mil] James S. Milne. <a href="https://www.jmilne.org/math/Books/adt.html"><em>Arithmetic duality
+theorems</em></a> (1986, Academic Press).</li>
+</ul>
+<p>Específicamente, los primeros cuatro capítulos de [JKS].</p>
+<p>Si nos enfocamos en las interacciones aritméticas de la cohomología étale y
+fppf, en los teoremas de dualidad y sus usos para teoría de cuerpos de clase
+sobre cuerpos globales de característica prima, entonces [Mil] es el lugar
+adecuado.</p>
+<p>Otro libro que sigue ahondando en aspectos más avanzados de la teoría de cuerpos
+locales (o más generalmente, de cuerpos de fracciones de anillos de valuación
+discreta) es el <em>Local fields and their extensions</em> de I. B. Fesenko y S. V.
+Vostokov (2002, AMS; citado como <strong>[FV]</strong>).
+A mi juicio, [FV] toma harta inspiración de [Se1] en los caps. I-IV, pero desde
+el cap. V en adelante se distancia; el lector de [Se1] ganará harto de las
+técnicas en teoría K de Milnor, tb. expuestas en [GZ].</p>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2025-02-22:/blog/serre_corps_locaux/</guid>
+
+                
+                    <link>http://localhost:1313/blog/serre_corps_locaux/</link>
+                
+
+                
+                    <pubDate>Sat, 22 Feb 2025 10:45:52 -03</pubDate>
+                
+
+                
+                    <title>Reseña de Corps locaux de Jean-Pierre Serre</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<h2 id="de-matemáticos">De matemáticos</h2>
+
+
+
+
+
+
+
+<div class="paige-quote">
+<blockquote class="blockquote">Un libro sobre cualquier tópico matemático más avanzado que un texto escolar
+carece de valor a menos que contenga ideas y perspectivas nuevas.
+Además, el autor puede ser alentado a incluir nuevos resultados, siempre que
+estos ayuden al lector a ganar nueva intuición y siempre que estén
+presentados en conjunto a resultados antiguos en una exposición clara.[^shim]</blockquote>
+
+
+<div class="blockquote-footer">Goro Shimura</div>
+
+</div>
+
+<h2 id="poesía">Poesía</h2>
+
+
+
+
+
+
+
+<div class="paige-quote">
+<blockquote class="blockquote">Cuando los jugadores se hayan ido,<!-- raw HTML omitted -->
+cuando el tiempo los haya consumido,<!-- raw HTML omitted -->
+ciertamente no habrá cesado el rito.<!-- raw HTML omitted -->
+En el Oriente se encendió esta guerra<!-- raw HTML omitted -->
+cuyo anfiteatro es hoy toda la tierra.<!-- raw HTML omitted -->
+Como el otro, este juego es infinito.</blockquote>
+
+
+<div class="blockquote-footer">Jorge Luis Borges (Ajedrez, 1960)</div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="paige-quote">
+<blockquote class="blockquote">Discuten prolijamente acerca del bien y del mal,
+la bienaventuranza y la última pena,
+la pasión y la apatía, y la abyección:
+todo ciencia vana, todo falsa filosofía,
+y sin embargo, comunicaban seductor encanto,
+aunque ajeno, a su dolor y angustia, infundíanles
+engañosas esperanzas, o fortificaban, con pertinaz paciencia,
+como confiada cota, sus corazones endurecidos.[^milton]</blockquote>
+
+
+<div class="blockquote-footer">John Milton (Paraíso Perdido)</div>
+
+</div>
+
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-11-10:/blog/aforismos/</guid>
+
+                
+                    <link>http://localhost:1313/blog/aforismos/</link>
+                
+
+                
+                    <pubDate>Sun, 10 Nov 2024 15:29:31 -03</pubDate>
+                
+
+                
+                    <title>Aforismos</title>
+                
+            </item>
         
             <item>
                 
@@ -638,528 +950,7 @@ Finalmente, el estilo de citas es como prosigue:
                 
 
                 
-                    <description><![CDATA[<p>Le but de cet exposé est de re-voir les contenus présentés lors du <a href="https://josecuevas.xyz/teach/seminario-abc/">Séminaire
-sur la conjecture $abc$ et ses thèmes
-connexes</a>, avec quelques
-indications sur la littérature de référence. Les présentations originales, plus
-détaillées, sont en espagnol, mais la plupart des références sont en anglais.</p>
-<p><strong>Remerciements aux orateurs :</strong>
-Les présentations ont été faites par Matías
-Alvarado, Francisco Gallardo, Ignacio Henríquez, Héctor Pastén et Rocío
-Sepúlveda Manzo.</p>
-<h2 id="introduction">Introduction</h2>
-<h3 id="histoire">Histoire</h3>
-<p>La conjecture $abc$ a été formulée pour la première fois par David Masser et
-Joseph Oesterlé entre 1985 et 1988 ; son énoncé est le suivant :</p>
-<blockquote>
-<p><strong>Conjecture $abc$ (forte). &ndash;</strong>
-Fixons une constante $\kappa &gt; 1$. Pour tout triplet $(a, b, c)$ de nombres
-premiers entre eux, avec $a + b = c$, la majoration suivante est satisfaite :
-$$ \max\{ |a|, |b|, |c| \} \ll_\kappa \operatorname{Rad}(abc)^\kappa. $$</p>
-</blockquote>
-<p>Ici, $\operatorname{Rad}(n)$ désigne le produit des facteurs premiers $p \mid
-n$ avec multiplicité un ; il coïncide avec la définition du radiciel d&rsquo;un idéal
-dans l&rsquo;algèbre commutative.
-Pour de nombreuses applications, on a besoin que l&rsquo;énoncé soit vérifié pour un
-exposant fixé $\kappa$, auquel cas on dira que la conjecture $abc$ faible est
-satisfaite pour l&rsquo;exposant $\kappa$.
-Le cas $\kappa = 1$ est faux.</p>
-<p>La conjecture est inspirée par un résultat similaire de Stothers et Mason
-(1981) pour les corps de fonctions, et est également influencée par la
-conjecture de Szpiro sur les courbes elliptiques.
-La conjecture $abc$ est plus connue car, si elle est vraie, elle implique de
-nombreux problèmes difficiles de géométrie diophantienne : quelques exemples
-sont le dernier théorème de Fermat, la conjecture (asymptotique) de Catalan, la
-conjecture de Pillai, la conjecture d&rsquo;Erdős-Woods, et d&rsquo;autres.</p>
-<h3 id="stratégies">Stratégies</h3>
-<p>Voici quelques stratégies en direction de la conjecture $abc$ (la liste n&rsquo;est
-pas exhaustive) :</p>
-<ol>
-<li>Pour les courbes elliptiques, le discriminant minimal joue le rôle de $c$
-dans l&rsquo;équation $a + b = c$, tandis que le conducteur ressemble au radiciel
-(dans le sens où leurs facteurs premiers sont les mêmes et possèdent des
-exposants contrôlés).
-Les célèbres courbes de Frey formalisent ces analogies.
-La <strong>conjecture de Szpiro</strong> est un lien entre les deux valeurs et est, par
-conséquent, la reformulation la plus connue de la conjecture $abc$.</li>
-<li>En géométrie diophantienne, le théorème d&rsquo;approximation de Roth est l&rsquo;un des
-principaux outils ; un de ses corollaires est que les solutions à l&rsquo;équation
-des $S$-unités sont finies. Les formes logarithmiques donnent des
-majorations effectives à l&rsquo;équation à deux variables, mais un « théorème de
-Roth effectif » est presque aussi bon que la conjecture $abc$.
-L&rsquo;analyse diophantienne effective a des connexions avec le second théorème
-principal de Cartan dans la théorie de Nevanlinna.</li>
-<li>Dans le thème de l&rsquo;effectivité, un théorème du type « Mordell effectif »
-ou « Faltings effectif » entraîne également la conjecture $abc$. Les
-résultats de cette classe peuvent être exprimés comme des moyennes des
-hauteurs de Faltings.</li>
-</ol>
-<h2 id="les-courbes-elliptiques">Les courbes elliptiques</h2>
-<h3 id="définitions-et-invariants">Définitions et invariants</h3>
-<p><strong>Définition.</strong> &ndash;
-Une <em>courbe elliptique</em> $E$ sur un corps $K$ est une courbe régulière isomorphe
-à la clôture projective d&rsquo;une courbe plane donnée par une équation de
-Weierstrass :
-$$ y^2 + a_1xy + a_3y = x^3 + a_2x^2 + a_4x + a_6,
-\qquad a_1,\dots,a_6 \in K. $$
-Remarquez qu&rsquo;il n&rsquo;y a pas de coefficient $a_5$.
-L&rsquo;indice a la suivante interprétation : d&rsquo;après le changement de coordonnées
-$(x, y) \mapsto (u^2x, u^3y)$ et en divisant par $u^{-6}$, on a le changement
-$a_i \mapsto u^{-i}a_i$.
-Donc, l&rsquo;indice $i$ est appelé son <strong>poids</strong>.</p>
-<p><strong>Proposition.</strong> &ndash;
-Soit $E$ une courbe elliptique sur un corps $K$ tel que $\operatorname{char} K
-\nmid 6$. Elle peut être mise sous forme minimale de Weierstrass :
-$$ y^2 = x^3 + d_4x + d_6, \qquad d_4, d_6 \in K. $$
-Le polynôme à droite est muni d&rsquo;un discriminant, et donc, le <strong>discriminant</strong>
-de $E$ est défini par
-$$ \Delta := -16(4d_4^3 + 27d_6^2), $$
-pour qu&rsquo;une forme minimale de Weierstrass induise une courbe elliptique, il
-faut et il suffit que son discriminant ne soit pas nul.</p>
-<p>Il est clair que $\Delta$ a un poids de 12.</p>
-<p><strong>L&rsquo;invariant $j$</strong> d&rsquo;une courbe elliptique sous forme minimale de Weierstrass est
-$$ j(E) := 1728\cdot \frac{d_4^3}{\Delta}, $$
-qui a un poids zéro. Il peut être vérifié qu&rsquo;il est indépendant du choix de
-l&rsquo;équation de Weierstrass.</p>
-<blockquote>
-<p><strong>Théorème de Poincaré.</strong> &ndash;
-Soit $E$ une courbe elliptique sur $K$ et choisissons un point rationnel $o
-\in E(K)$, l&rsquo;ensemble $(E(K), +)$ est muni d&rsquo;une structure de groupe abélien
-algébrique où $o$ est l&rsquo;élément neutre et commute avec le changement de base
-; c&rsquo;est-à-dire, l&rsquo;opération du groupe est localement donnée par des équations
-à coefficients dans $K$ et, donnée une extension de corps $L/K$, l&rsquo;inclusion
-$E(K) \hookrightarrow E(L)$ est un morphisme de groupes.</p>
-</blockquote>
-<p>Ainsi, toute courbe elliptique est munie d&rsquo;une structure de groupe algébrique.
-On dira qu&rsquo;une <em>variété abélienne</em> $A$ sur un corps $K$ est un groupe
-algébrique intègre, lisse et projectif.
-On remarquera que, pour qu&rsquo;un groupe algébrique soit une variété abélienne, il
-faut et il suffit qu&rsquo;il soit géométriquement réduit, connexe et propre (voir la
-remarque 0H2U du Stacks project).</p>
-<p>Les variétés abéliennes sont des généralisations des courbes elliptiques et,
-en un sens, leurs sœurs aînées moins connues car elles sont moins explicites ;
-toutefois, elles sont très nécessaires et constituent un outil clé pour la
-preuve de Faltings de la conjecture de Mordell.</p>
-<blockquote>
-<p><strong>Théorème.</strong> &ndash;
-Soit $X$ une courbe (c&rsquo;est-à-dire, un schéma intègre de dimension un) sur un
-corps $K$. Les conditions suivantes sont équivalentes :</p>
-<ol>
-<li>$X$ est une courbe elliptique,</li>
-<li>$X$ admet une structure de variété abélienne,</li>
-<li>$X$ est géométriquement intègre, lisse, possède au moins un point
-rationnel $o \in X(K)$ et a un genre un.</li>
-</ol>
-</blockquote>
-<p>Aussi, il est facile de vérifier la :</p>
-<p><strong>Proposition.</strong> &ndash; L&rsquo;invariant $j$ définit une fonction $j \colon
-\mathscr{A}_1(K) \to K$ surjective, où $\mathscr{A}_1(K)$ désigne l&rsquo;ensemble
-des (classes d&rsquo;isomorphisme des) courbes elliptiques sur $K$.
-De plus, deux courbes elliptiques $E_1$ et $E_2$ possèdent le même invariant
-$j$ si et seulement s&rsquo;il existe une extension des corps $L/K$ telle que les
-changements de base $(E_1)_L \cong (E_2)_L$ sont isomorphes.
-En particulier, lorsque $K$ est algébriquement clos, $j$ est bijective.</p>
-<h3 id="réduction-modulo-p">Réduction modulo $p$</h3>
-<p>Soit $K$ un corps des nombres et soit $E$ une courbe elliptique sur $K$.
-D&rsquo;après le choix d&rsquo;une équation de Weierstrass pour $E$ avec des coefficients
-entiers, nous pouvons définir un $\mathcal{O}_K$-modèle $\mathcal{M}$ de $E$
-(c&rsquo;est-à-dire, un schéma sur $\mathcal{O}_K$ dont la fibre générique est
-$E_K$).
-Par résolution des singularités, nous pouvons modifier $\mathcal{M}$ en un
-schéma régulier $\mathcal{E}$ qui est projectif sur $\mathcal{O}<em>K$ (mais pas
-nécessairement lisse !).
-Soit $\mathfrak{p}$ un idéal premier de $\mathcal{O}<em>K$, nous considérons la
-fibre $\mathcal{E}</em>\mathfrak{p}$.
-Nous dirons que $E$ possède une <strong>bonne réduction</strong> modulo $\mathfrak{p}$ si
-$\mathcal{E}</em>\mathfrak{p}$ est lisse ; dans le cas contraire, nous dirons
-qu&rsquo;elle a une <strong>mauvaise réduction</strong>.</p>
-<p>Comme la fibre générique de $\mathcal{E}$ est lisse et $\mathcal{E}$ est
-régulière, les points de mauvaise réduction dans
-$\operatorname{Spec}(\mathcal{O}_K)$ forment un sous-ensemble fermé et, par
-conséquent, sont finis.
-À chaque point de mauvaise réduction, le lieu lisse de la fibre est ouvert et
-possède un nombre fini de singularités.
-En les éliminant, nous obtenons un $\mathcal{O}_K$-modèle $\mathcal{E}_0$ de
-$E_K$ qui est de type fini et lisse, appelé le <strong>modèle de Néron</strong> de $E_K$.</p>
-<p>Soit $\mathcal{E}_0$ le modèle de Néron de $E_K$ et soit $\mathfrak{p}$ un
-point de mauvaise réduction ; la fibre sera un groupe algébrique (parfois
-disconnexe) dont la composante connexe (qui n&rsquo;est pas propre) sera le groupe
-multiplicatif $\mathbb{G}_m$ ou le groupe additif $\mathbb{G}_a$.
-Dans le premier cas, nous dirons que $E_K$ possède une <strong>réduction
-multiplicative</strong> en $\mathfrak{p}$, et dans le second cas, que $E_K$ possède
-une <strong>réduction additive</strong>.
-Soit $S \subseteq \operatorname{Spec}\mathcal{O}_K$ un sous-schéma ouvert,
-nous dirons que $E$ possède une <strong>réduction semi-stable</strong> sur $S$ si elle a
-une bonne réduction ou une réduction multiplicative en tout point de $S$.</p>
-<p>En général, la résolution des singularités des surfaces fonctionne toujours
-lorsque le schéma de base est <em>excellent</em>.
-De plus, pour un schéma de Dedekind général $S$ (que nous supposons connexe) et
-une variété abélienne $A_K$ sur le point générique de $S$, il existe un
-unique modèle de Néron $\mathcal{A}_S$ pour $A_K$ au-dessus de $S$ qui est
-de type fini et lisse (et satisfait la propriété de Néron).
-Au lieu de la trichotomie : réduction multiplicative, additive ou bonne, nous
-employons la décomposition d&rsquo;un groupe algébrique pour la fibre du modèle de
-Néron et obtenons une partie abélienne, multiplicative et unipotente.
-Nous dirons que la variété $A_K$ possède une <strong>réduction semi-stable</strong> en un point
-fermé $s$ de $S$ si le rang unipotent de sa fibre $\mathcal{A}_s$ est nul.</p>
-<p>Lorsque $A_K$ est une courbe elliptique $E_K$, il existe une autre
-manière de construire la fibre $(\mathcal{E}<em>0)</em>{\mathfrak{p}}$ : prenez une
-équation de Weierstrass à coefficients entiers pour $E_K$. Elle est munie
-d&rsquo;un discriminant entier $\Delta$ qui possède une valuation
-$\mathfrak{p}$-adique $\nu_{\mathfrak{p}}(\Delta) \ge 0$ positive.
-Nous dirons que l&rsquo;équation est <strong>minimale</strong> pour $\mathfrak{p}$ lorsque la
-valuation $\mathfrak{p}$-adique de son discriminant le soit ; nous
-désignerons par $\nu_{\mathfrak{p}}( \mathfrak{D}<em>{E/K} )$ sa valeur.
-Ainsi, l&rsquo;équation définissant un $\mathcal{O}</em>{K, \mathfrak{p}}$-modèle pour
-$E_K$ appelé le <strong>modèle de Weierstrass minimal</strong> $\mathcal{W}$, qui est
-normal et projectif.</p>
-<p>Lorsque $\mathfrak{p}$ est de bonne réduction pour $ E_K $, nous pouvons prouver
-que le modèle de Weierstrass minimal coïncide avec
-$(\mathcal{E}<em>0)</em>{\mathfrak{p}}$ ; en revanche, ils ne peuvent pas être
-isomorphes car $\mathcal{W}$ est projectif et singulier.
-Donc, pour avoir la possibilité d&rsquo;atteindre l&rsquo;isomorphisme, nous pouvons
-prendre le lieu lisse $\mathcal{W}_{\text{lisse}}$ et le comparer avec la
-composante connexe de $(\mathcal{E}<em>0)</em>{\mathfrak{p}}$, et maintenant elles
-sont isomorphes.
-Cela est intéressant car la théorie abstraite de Néron entraîne que la fibre
-doit être un groupe algébrique commutatif, lisse, mais pas propre ; par
-conséquent, il doit être le groupe additif ou un tore $ T $ (géométriquement
-isomorphe au groupe multiplicatif).
-D&rsquo;autre part, l&rsquo;analyse concrète de $\mathcal{W}$ entraîne que les seules
-singularités se trouvent dans l&rsquo;intersection de $\mathcal{W} \subseteq
-\mathbb{P}^2$ avec la droite $y = 0$ et, par la suite, elle est soit une nœud
-(dans le cas de la réduction multiplicative) soit une cuspide (quand la
-réduction est additive).</p>
-<p>Nous pouvons définir le nombre $\nu_{\mathfrak{p}}( \mathfrak{D}<em>{E/K} )$
-pour tous les points finis de mauvaise réduction de
-$\operatorname{Spec}(\mathcal{O}<em>K)$ et, par conséquent, définir le suivant
-idéal entier
-$$ \mathfrak{D}_{E/K} := \prod_{\mathfrak{p}} \mathfrak{p}^{
-\nu_{\mathfrak{p}}( \mathfrak{D}_{E/K} ) }, $$
-appelé le <strong>discriminant minimal (global)</strong> de $E_K$.
-En un sens, $\mathfrak{D}</em>{E/K}$ calcule toutes les mauvaises réductions en
-même temps et peut être presque tout idéal possible.
-Pour l&rsquo;anneau $\mathbb{Z}$, ce sera un unique nombre, mais les anneaux des
-entiers $\mathcal{O}<em>K$ ne sont pas nécessairement factoriels en général, et
-$\mathfrak{D}</em>{E/K}$ ne sera pas principal.
-Lorsque $\mathfrak{D}</em>{E/K}$ est effectivement principal, il existe une seule
-équation de Weierstrass qui est minimale dans tous les idéaux premiers de
-$\mathcal{O}_K$ ; cette équation-là est dite <strong>minimale</strong>.
-(En fait, par un théorème de Silverman, la dernière assertion est une équivalence.)</p>
-<p>Tout cela est très intéressant en théorie, mais en pratique nous avons besoin
-d&rsquo;une méthode pour calculer ces invariants (réduction modulo $ p $ et
-discriminant minimal). Cette méthode est donnée par <strong>l&rsquo;algorithme de Tate</strong>,
-qui est un outil central.</p>
-<h3 id="la-conjecture-de-szpiro-et-abc">La conjecture de Szpiro et $abc$</h3>
-<p>Un autre invariant essentiel est <strong>l&rsquo;exposant du conducteur</strong> $ f(E_K,
-\mathfrak{p}) $, qui est $ 0 $ (resp. $ 1 $, $ 2 $) lorsque
-$\mathfrak{p}$ est de bonne réduction (resp. réduction multiplicative,
-additive) ; avec cela, nous pouvons définir le <strong>conducteur</strong>, qui est aussi un
-idéal entier et « mesure la mauvaise réduction » :
-$$ \mathfrak{N}_{E/K} := \prod_{\mathfrak{p}} \mathfrak{p}^{
-f(E_K, \mathfrak{p}) }. $$
-En fait, cela représente la <em>composante modérée</em> de l&rsquo;exposant du conducteur,
-qui coïncide lorsque $\mathfrak{p} \nmid 6$ ; dans d&rsquo;autres cas, la
-définition appropriée inclut une <em>partie sauvage</em> qui est contrôlée d&rsquo;une
-certaine manière.
-La formule d&rsquo;Ogg implique que $\mathfrak{N}<em>{E/K} \mid
-\mathfrak{D}</em>{E/K}$.</p>
-<p>En 1983, Lucien Szpiro a conjecturé ce qui suit :</p>
-<blockquote>
-<p><strong>Conjecture de Szpiro pour les corps des nombres. &ndash;</strong>
-Soit $\epsilon &gt; 0$. Pour toutes les courbes elliptiques $E_K$ sur un
-corps des nombres fixé $K$, on aurait la moyenne
-$$ \mathbf{N}\mathfrak{D} \ll_\epsilon \mathbf{N}(\mathfrak{N}_{E/K})^{6 + \epsilon}. $$</p>
-</blockquote>
-<p>Toutefois, par définition, le conducteur peut être considéré comme le cadre du
-radical de $\mathfrak{D}_{E/K}$ ; ainsi, toute comparaison entre les deux
-évoque la conjecture $abc$. En fait :</p>
-<p><strong>Proposition. &ndash;</strong></p>
-<ol>
-<li>La conjecture de Szpiro pour $\mathbb{Q}$ entraîne la conjecture $abc$
-(faible) pour un exposant de $3/2 + \epsilon$.</li>
-<li>La conjecture $abc$ (forte) entraîne la conjecture de Szpiro pour
-$\mathbb{Q}$.</li>
-</ol>
-<p>Si nous cherchons une équivalence complète, nous devons renforcer la conjecture
-de Szpiro :</p>
-<blockquote>
-<p><strong>Théorème. &ndash;</strong> Les énoncés suivants sont équivalents :</p>
-<ol>
-<li>la conjecture $abc$ (forte) de Masser et Oesterlé,</li>
-<li>la <strong>conjecture généralisée de Szpiro</strong> : pour tout $\epsilon &gt; 0$, il
-existe un nombre réel $\kappa &gt; 0$ avec la propriété que, pour toute
-courbe elliptique $E_\mathbb{Q}$ sur $\mathbb{Q}$ mise en équation de
-Weierstrass minimale, on a la moyenne
-$$ \max{ |\Delta|, |d_4|^3 } \le \kappa N_{E, K}^{6+\epsilon}. $$</li>
-</ol>
-</blockquote>
-<p>Il est significatif de chercher des généralisations de la conjecture $abc$
-pour les corps des nombres, et la conjecture de Szpiro y parvient.</p>
-<h3 id="formes-logarithmiques">Formes logarithmiques</h3>
-<p>Les formes logarithmiques sont parmi les objets les plus importants dans la
-<em>théorie de la transcendance</em>, dédiée à l&rsquo;étude des nombres transcendants (et,
-par extension, des nombres algébriques).
-Un résultat bien connu dans ce domaine est le <em>théorème de von
-Lindemann-Weierstrass</em>, qui établit qu&rsquo;une suite finie de nombres algébriques
-distincts $\alpha_1, \dots, \alpha_n$ possède des exponentielles $e^{\alpha_1},
-\dots, e^{\alpha_n}$ qui sont linéairement indépendantes sur $\mathbb{Q}$.</p>
-<p>Dans ses problèmes millénaires, Hilbert a proposé l&rsquo;amélioration suivante :
-toute exponentielle $\alpha^b$ est transcendante lorsque $\alpha \notin {0,
-1}$ est algébrique et $b$ est irrationnel ; cela a été prouvé par Gelfond
-et Schneider en 1934.</p>
-<p>Une autre manière d&rsquo;énoncer le septième problème de Hilbert est de se demander
-si les logarithmes $\log \alpha_1$ et $\log \alpha_2$ sont linéairement
-indépendants sur $\mathbb{Q}$ lorsqu&rsquo;ils sont algébriquement indépendants.
-Cet énoncé peut être généralisé à $n$ termes ; c&rsquo;était une conjecture de
-Gelfand, maintenant théorème d&rsquo;Alan Baker.
-Les travaux de Baker ont été encore plus avancés : il a prouvé en 1966 que la
-forme linéaire
-$$ \Lambda = \beta_0 + \beta_1 \log \alpha_1 + \cdots + \beta_n \log \alpha_n
-$$
-admet une minoration dépendant des coefficients $\beta_i \in \mathbb{Z}$.</p>
-<p>D&rsquo;après Baker, de nombreuses personnes ont réalisé des améliorations sur les
-moyennes des formes logarithmiques.
-Au début du XXIe siècle, Matveev a atteint la meilleure moyenne à cette date ;
-et en 1986, Yu a établi une inégalité similaire pour la valeur absolue
-$p$-adique de la forme $\Lambda$ ci-dessus.
-ces résultats ont de nombreuses applications aux moyennes des hauteurs dans les
-groupes algébriques (un exemple d&rsquo;excellence étant l&rsquo;exponentielle de
-$\Lambda$, correspondant au cas du groupe multiplicatif).</p>
-<p>En 2001, Stewart et Yu ont appliqué la théorie des formes logarithmiques pour
-obtenir une inégalité du type $abc$ :
-$$ \log c \ll_\varepsilon \operatorname{Rad}(abc)^{\frac{1}{3}+\varepsilon}, $$
-(regardez le logarithme en $c$ !).
-Si nous supposons que $a &lt; c^{1-\eta}$ pour un nombre $0 &lt; \eta &lt; 1$ fixé au
-choix, H. Pastén a montré une amélioration récente :
-$$ \log c \ll_{\eta, \varepsilon} \operatorname{Rad}(abc)^\varepsilon. $$</p>
-<p>Comme mentionné au début, la conjecture $abc$ possède de nombreuses
-applications arithmétiques, et ses approches en ont également, comme le
-théorème de Tijdeman (qui affirme que l&rsquo;équation de Catalan a au plus un nombre
-fini de solutions), la finitude effective des solutions des équations de Thue,
-le théorème de Siegel sur la finitude des points entiers des courbes de genre
-géométrique $\ge 1$, etc.
-D&rsquo;autres grands théorèmes de la théorie de la transcendance concernent les
-moyennes effectives pour les solutions des équations des $S$-unités.</p>
-<h2 id="la-preuve-de-faltings-de-la-conjecture-de-mordell">La preuve de Faltings de la conjecture de Mordell</h2>
-<h3 id="hauteurs-et-géométrie-diophantienne">Hauteurs et géométrie diophantienne</h3>
-<p>Soit $x = u/v$ un nombre rationnel, où $u$ et $v$ sont des entiers premiers
-entre eux (si le lecteur le souhaite, $x \in \mathbb{A}^1(\mathbb{Q})$ est un
-point de la droite affine). On définit sa <strong>hauteur (logarithmique)</strong> par
-$$ h(x) = \max{ |u|, |v| }, $$
-où $|,|$ désigne la valeur absolue usuelle.
-En général, en utilisant toutes les places d&rsquo;un corps de nombres, on peut
-généraliser cette définition pour atteindre la hauteur de Weil pour les points
-géométriques de la droite projective $\mathbb{P}^1(\mathbb{Q})$.</p>
-<p>Les hauteurs forment le cœur de la géométrie diophantienne, une branche des
-mathématiques qui combine l&rsquo;arithmétique et la géométrie algébrique pour relier
-les propriétés fonctorielles des diviseurs (ou faisceaux) aux propriétés
-numériques des hauteurs.
-Un résultat classique est le suivant :</p>
-<blockquote>
-<p><strong>Théorème (propriété de Northcott). &ndash;</strong>
-Soit $B$ un nombre réel et $d$ un entier positif, il y a au plus un
-nombre fini de points dans l&rsquo;espace projectif avec hauteur bornée par $ B $
-et degré $\le d$.</p>
-</blockquote>
-<p>Ce fait, d&rsquo;apparence innocente, a été clé dans la démonstration du théorème de
-Mordell-Weil : le groupe des points rationnels $ A(K) $ d&rsquo;une variété
-abélienne $ A $ sur un corps de nombres $ K $ est de type fini.</p>
-<p>Le lecteur peut penser que l&rsquo;objectif de Faltings est de prouver la propriété
-de Northcott pour les variétés abéliennes dans un certain sens (conjecturé par
-Safarevic).
-Cela nécessiterait de prendre une hauteur de Weil dans un <em>espace grossier de
-modules</em>, mais cela ne suffit pas, car cela aurait pour effet de compter les
-variétés abéliennes isomorphes sur $\mathbb{C}$.
-Cela est connu sous le nom de <em>hauteur des modules</em>, et pour les courbes
-elliptiques $E$, c&rsquo;est comme l&rsquo;hauteur $h(j(E))$ de son invariant $j$ ;
-on peut aussi considérer que c&rsquo;est l&rsquo;hauteur canonique dans la courbe modulaire
-$ X(1) $, liée à l&rsquo;isomorphisme avec la droite projective $\mathbb{P}^1$ ;
-cependant, cela ne fonctionne pas car une courbe elliptique $E$ sur $K$
-possède des tours infinis (c&rsquo;est-à-dire, des courbes elliptiques non isomorphes
-$ E&rsquo; $ qui deviennent isomorphes après un certain changement de base).</p>
-<p>Et maintenant, que faire ? Eh bien, la conjecture de Safarevic (connue pour les
-courbes elliptiques) stipule qu&rsquo;une variété abélienne $ A_K $ sur $ K $
-possède un nombre fini de torcements qui sont semi-stables dans un ouvert fixé.
-Autrement dit, pour définir une hauteur adéquate pour les variétés abéliennes,
-il faut tenir compte de la mauvaise réduction et relier l&rsquo;hauteur des modules.
-Ici, <strong>l&rsquo;hauteur de Faltings</strong> $h_{\rm Fal}(E)$ est définie comme une
-certaine intersection arakelovienne du différentiel de Néron.
-La comparaison avec l&rsquo;hauteur des modules est, comme prévu, sans différence
-bornée, jusqu&rsquo;à une différence <em>logarithmique</em>.
-Cela est illustré par le théorème de Faltings-Silverman :
-$$ O(1) \le h(j_E) + \frac{1}{[K : \mathbb{Q}]}\log \mathbf{N}\Upsilon_{E/K} - 12h_{\rm Fal}(E_K), $$
-où $\Upsilon_{E/K}$ est le <em>discriminant minimal instable</em> ;
-lorsque $E_K$ est semi-stable, donc $\Upsilon_{E/K} = 1$ et son terme est nul.</p>
-<p>La démonstration de Faltings suit maintenant un chemin inverse à celui décrit
-ci-dessus. Les préliminaires sont les suivants :
-soit $A_K$ une variété abélienne sur un corps de nombres $ K $, il existe une
-extension <em>finie</em> des corps $L/K$ telle que $A_L$ soit semi-stable (c&rsquo;est
-l&rsquo;énoncé du <strong>théorème de réduction semi-stable</strong>) ; d&rsquo;après un changement de
-base $L/K$, l&rsquo;hauteur de Faltings peut être ramenée, mais l&rsquo;égalité est
-atteinte lorsque $A_K$ possède une réduction semi-stable.</p>
-<p>Ainsi, <strong>l&rsquo;hauteur de Faltings géométrique</strong> $h_{\rm geom}(A)$ est
-l&rsquo;hauteur de $A_L$, où $L/\mathbb{Q}$ est un corps de nombres dans
-lequel $A_L$ a une réduction semi-stable.
-Ensuite, $h_{\rm geom}$ n&rsquo;est pas éloignée de l&rsquo;hauteur des modules (d&rsquo;une
-certaine manière, comme dans le théorème de Faltings-Silverman), mais $h_{\rm
-Fal}$ comporte toujours un « terme d&rsquo;erreur qui mesure la mauvaise réduction ».
-La fonction $h_{\rm Fal}$ possède la propriété de Northcott, et ainsi, une
-seule variété abélienne possède un nombre fini de torcements avec mauvaise
-réduction pour un ensemble fini de nombres premiers fixé.
-Enfin, la conjecture de Mordell découle de la conjecture de Safarevic par des
-arguments connus antérieurs aux travaux de Faltings.</p>
-<h3 id="la-conjecture-de-frey-sur-les-hauteurs">La conjecture de Frey sur les hauteurs</h3>
-<p>Soit $\mathfrak{a}$ un idéal fractionnaire de $\mathcal{O}_K$. On peut
-le factoriser en un produit fini d&rsquo;idéaux premiers :
-$$ \mathfrak{a} = \mathfrak{p}_1^{e_1} \cdots \mathfrak{p}<em>n^{e_n}, $$
-où les exposants $ e_j $ sont des entiers, éventuellement négatifs ($ e_j
-\in \mathbb{Z} $).
-On définit son <strong>degré</strong> par $$ \deg \mathfrak{a} = \sum</em>{j=1}^n e_j \cdot
-\textbf{N} \mathfrak{p}_j. $$
-En 1989, Frey a conjecturé le résultat suivant :</p>
-<blockquote>
-<p><strong>Conjecture de Frey sur les hauteurs ($ H $). &ndash;</strong>
-Soit $ K $ un corps de nombres. Pour toute courbe elliptique $ E_K $ sur
-$ K $, on a la relation :
-$$ h_{\rm Fal}(E_K) \ll \deg(\mathfrak{N}_E). $$</p>
-</blockquote>
-<p>La définition du degré établit un lien entre le logarithme de la norme
-$\textbf{N} \mathfrak{N}_E$ et l&rsquo;hauteur de Faltings, qui est le logarithme
-d&rsquo;une intégrale correspondant à la complexité d&rsquo;une courbe elliptique. Le
-corollaire suivant n&rsquo;est pas trop surprenant :</p>
-<p><strong>Proposition. &ndash;</strong><br>
-La conjecture de Frey entraîne la conjecture de Szpiro.</p>
-<h3 id="modulairité">Modulairité</h3>
-<p>Nous avons parlé de l&rsquo;utilisation de l&rsquo;espace grossier des modules
-$\mathscr{A}_g$ des variétés abéliennes de dimension $g$, mais nous avons
-besoin d&rsquo;une description plus précise de cet objet, comme celle donnée par
-l&rsquo;invariant $j$.</p>
-<p>Sur le corps des nombres complexes $\mathbb{C}$, toutes les variétés
-abéliennes (vues comme variétés analytiques) sont des quotients
-$\mathbb{C}^g/\Lambda$, où $\Lambda \le \mathbb{C}^g$ est un réseau
-(c&rsquo;est-à-dire, un sous-module discret de rang $2g$).
-Pour $g = 1$, l&rsquo;invariant $j$ définit une application des réseaux dans le plan complexe
-vers le corps des nombres complexes.
-Chaque réseau est homothétique à un de la forme $\mathbb{Z} + \tau \mathbb{Z}$,
-où $\tau$ est un élément du demi-plan de Poincaré $\mathfrak{H}$.
-L&rsquo;invariant $j$ détermine alors une bijection entre $\mathbb{C}$ et les
-points de $\operatorname{SL}_2(\mathbb{Z}) \backslash \mathfrak{H} =: Y(1)$.</p>
-<p>En utilisant $\mathfrak{H}^* := \mathfrak{H} \cup \mathbb{P}^1(\mathbb{Q})$,
-le quotient $\operatorname{SL}_2(\mathbb{Z}) \backslash \mathfrak{H}^* =: X(1)$
-est une surface de Riemann compacte, qui peut être dotée d&rsquo;une
-structure de courbe lisse et projective sur $\mathbb{Q}$.
-Si l&rsquo;on considère un sous-groupe $\Gamma$ de $\operatorname{SL}_2(\mathbb{Z})$
-d&rsquo;indice fini, on peut obtenir d&rsquo;autres <strong>courbes modulaires</strong>, qui peuvent
-être identifiées comme des compactifications des espaces grossiers de modules.
-Parmi celles-ci, un groupe fuchsien fondamental est le <strong>sous-groupe spécial
-modulaire de niveau $N$</strong> :
-$$ \Gamma_0(N) = \left{ \begin{bmatrix} a &amp; b \ c &amp; d \end{bmatrix} \in
-\operatorname{SL}_2(\mathbb{Z}) : c \equiv 0 \pmod{N} \right}, $$
-dont la courbe modulaire est désignée par $X_0(N)$.</p>
-<p>Une courbe elliptique $E_K$ sur un corps de nombres $K$ est dite
-<strong>modulaire</strong> s&rsquo;il existe un morphisme (algébrique) $\phi\colon X_0(N) \to E$
-défini sur $\mathbb{C}$ qui n&rsquo;est pas constant ; ces $\phi$ sont
-appelés <strong>paramétrisations modulaires</strong>.
-On peut prouver que de tels morphismes (s&rsquo;ils existent) sont définis sur un
-corps de nombres (possiblement plus grand que $ K $).
-Par la conjecture de Shimura-Taniyama (maintenant prouvée par Taylor, Wiles et
-d&rsquo;autres), chaque courbe elliptique sur $\mathbb{Q}$ <em>est</em> modulaire.
-Dans ce contexte, nous avons la conjecture suivante :</p>
-<blockquote>
-<p><strong>Conjecture du degré de Frey ($D_d$):</strong><br>
-Soit $S \subseteq M_\mathbb{Q}$ un ensemble fini fixé de places avec $\infty
-\in S$ et soit $\epsilon &gt; 0$ un nombre réel fixé.<br>
-Toute courbe elliptique $E$ sur $\mathbb{Q}$ semi-stable en dehors de $S$
-possède une paramétrisation modulaire $\phi$ telle que
-$$ \deg \phi \ll_\epsilon \prod_{\ell \mid N_E} \ell^{d+\epsilon}. $$</p>
-</blockquote>
-<p>La conjecture du degré de Frey entraîne sa conjecture sur les hauteurs.</p>
-<h2 id="références">Références</h2>
-<p>Pour les bases sur les courbes elliptiques, nous recommandons le livre de
-Silverman, <em>The Arithmetic of Elliptic Curves</em> [Si]. Les définitions
-géométriques équivalentes sont contenues dans les deux volumes de <em>Algebraic
-Geometry</em> par Görtz et Wedhorn.
-Les généralités sur les modèles de Néron sont revues dans l&rsquo;exposé de M. Artin
-dans le livre <em>Arithmetic Geometry</em> (éd. par Cornell et Silverman) [AG], ainsi
-que dans le livre homonyme par Bosch, Lütkehbohmert et Raynaud. Le livre
-<em>Algebraic Geometry and Arithmetic Curves</em> par Qing Liu traite également de ces
-sujets.
-Ce dernier compare en détail les trois modèles attachés à une courbe elliptique
-(le modèle propre minimal, celui de Néron et celui de Weierstrass).</p>
-<p>Les liens entre la conjecture de Szpiro et la conjecture $abc$ sont abordés
-dans de nombreuses publications, comme dans [Si], le livre <em>Heights in
-Diophantine Geometry</em> par Bombieri et Gubler [BoGu], ainsi que dans <a href="http://www.numdam.org/book-part/AST_1990__183__7_0/">l&rsquo;éxposé
-original de Szpiro</a>.</p>
-<p>Il existe de nombreux livres sur les formes logarithmiques.
-Pour citer quelques exemples : le livre <em>Transcendental Number Theory</em> par
-Baker et <em>Diophantine Approximation on Linear Algebraic Groups</em> par
-Waldschmidt.</p>
-<p>Les derniers résultats sont principalement contenus dans l&rsquo;exposé de [AG].
-Les généralités sur les hauteurs sont traitées dans [BoGu].
-Un exposé sur la preuve de Faltings en français est donné dans un <a href="http://www.numdam.org/item/SB_1983-1984__26__25_0/">Séminaire
-Bourbaki par Deligne</a>.
-Un aperçu rapide sur les fonctions modulaires (classiques) se trouve dans le
-livre <em>Cours d&rsquo;Arithmétique</em> de Serre ; les courbes modulaires sont étudiées
-dans le livre <em>Introduction to the Arithmetic Theory of Automorphic Functions</em>
-par Shimura, et les espaces grossiers des modules des variétés abéliennes sont
-exposés dans [AG].</p>
-<p>Il est également recommandé de consulter l&rsquo;article de conférence <a href="https://link.springer.com/chapter/10.1007/978-3-540-37855-6_4"><em>Les Schémas
-de Modules de Courbes Elliptiques</em> par Deligne et
-Rapoport</a> ainsi
-que le livre <em>Modular Forms and Fermat’s Last Theorem</em> (éd. par Cornell,
-Silverman et Stevens).
-Les conjectures de Frey sont exposées dans son article original <a href="https://link.springer.com/chapter/10.1007/BFb0086544"><em>Links between
-Solutions of $ A - B = C $ and Elliptic
-Curves</em></a>.</p>
-]]></description>
-                
-
-                <guid isPermaLink="false">tag:localhost:1313,2024-07-21:/blog/chatgpt/</guid>
-
-                
-                    <link>http://localhost:1313/blog/chatgpt/</link>
-                
-
-                
-                    <pubDate>Sun, 21 Jul 2024 13:38:33 -04</pubDate>
-                
-
-                
-                    <title>Révision du Seminaire sur la conjecture $abc$</title>
-                
-            </item>
-        
-            <item>
-                
-                
-                
-                
-                
-                
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-                
-
-                
-
-                
-
-                
-                    <description><![CDATA[<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Éste libro fue escrito hacia 1991 y su traducción al inglés (<em>Algebraic Number
+                    <description><![CDATA[<p>Éste libro fue escrito hacia 1991 y su traducción al inglés (<em>Algebraic Number
 Theory</em> por Norbert Schappacher, 1999) no introduce modificaciones sustanciales.
 Su autor, Jürgen Neukirch, fue un teorista de números alemán, fue alumno
 doctoral de Wolfgang Krull, quién revolucionó el álgebra conmutativa, y los
@@ -1190,7 +981,7 @@ pertenecen a la tradición, sí suelen ser alternativas comunes:</p>
 <ul>
 <li>[CaLF] J. W. S. Cassels. <em>Local Fields</em> (1986, Cambridge Univ. Press).</li>
 <li>[CaFr] J. W. S. Cassels y A. Fröhlich (eds.). <em>Algebraic Number Theory
-[Proceedings]</em> (1986, Academic Press).</li>
+[Proceedings]</em> (1967, Academic Press).</li>
 <li>[La2] Serge Lang. <em>Fundamentals of Diophantine Geometry</em> (2010,
 Springer-Verlag).</li>
 </ul>
