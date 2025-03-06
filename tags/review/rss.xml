@@ -28,6 +28,8 @@
 
     
 
+    
+
 
 
 
@@ -44,7 +46,7 @@
             
 
             
-                <link href="http://localhost:1313/blog/" rel="self" type="text/html"/>
+                <link href="http://localhost:1313/tags/review/" rel="self" type="text/html"/>
             
         
             
@@ -52,7 +54,7 @@
             
 
             
-                <link href="http://localhost:1313/blog/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:1313/tags/review/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -61,7 +63,7 @@
                 
             
                 
-                    <link href="http://localhost:1314/blog/rss.xml" hreflang="fr" rel="alternate" type="application/rss+xml"/>
+                    <link href="http://localhost:1314/tags/review/rss.xml" hreflang="fr" rel="alternate" type="application/rss+xml"/>
                 
             
         
@@ -69,7 +71,7 @@
                 
             
                 
-                    <link href="http://localhost:1315/blog/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+                    <link href="http://localhost:1315/tags/review/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
                 
             
         
@@ -78,8 +80,7 @@
             <copyright>© José Cuevas</copyright>
         
 
-        <description>Aquí incluyo notas breves como reseñas de libros matemáticos o pequeños consejos de LaTeX.
-</description>
+        <description>Contenido reciente</description>
 
         
             <language>es</language>
@@ -89,11 +90,11 @@
             <lastBuildDate>2025-03-05 10:45:52 -0300 -03</lastBuildDate>
         
 
-        <link>http://localhost:1313/blog/</link>
+        <link>http://localhost:1313/tags/review/</link>
 
         
 
-        <title>Blog · José Cuevas</title>
+        <title>Review · Tags · José Cuevas</title>
 
         
 
