@@ -115,7 +115,7 @@
         
 
         
-            <lastBuildDate>2025-02-22 10:45:52 -0300 -03</lastBuildDate>
+            <lastBuildDate>2025-03-05 10:45:52 -0300 -03</lastBuildDate>
         
 
         <link>http://localhost:1313/blog/</link>
@@ -175,44 +175,46 @@ Entre sus publicaciones contamos <em>Groupes algébriques et corps de classes</e
 curves</em>, <em>Cours d&rsquo;arithmétique</em>, <em>Lectures on the Mordell-Weil Theorem</em>, entre
 otras.</p>
 <hr>
-<p>Lo primero que debemos contar acerca de <em>Corps locaux</em> (desde ahora citado como
-[Se1]), es que difiere de varios otros libros al respecto, por lo que hemos de
+<h2 id="el-libro-en-contexto">El libro en contexto</h2>
+<p>Lo primero que se debe contar acerca de <em>Corps locaux</em> (desde ahora citado como
+[Se1]), es que difiere de varios otros libros al respecto, por lo que se ha de
 esclarecer debidamente su objetivo.
 El texto pretende principalmente ilustrar e introducir al lector o lectora en la
 teoría de cuerpos de clases local desde la perspectiva cohomológica.
-A diferencia de él, el libro homónimo de Cassels, <em>Local fields</em>, trata
+Con ello introduzco el listado de libros contra los cuales se contrastará:</p>
+<ul>
+<li>[AT] Emil Artin y John Tate. <em>Class Field Theory</em> (1968, W.A. Benjamin).</li>
+<li>[Ca] J. W. S. Cassels. <em>Local Fields</em> (1986, Cambridge Univ. Press).</li>
+<li>[CaFr] J. W. S. Cassels y A. Fröhlich (eds.). <em>Algebraic Number Theory
+[Proceedings]</em> (1967, Academic Press).</li>
+<li>[Har] David Harari. <em>Galois Cohomology and Class Field Theory</em> (2020,
+Springer-Verlag).</li>
+<li>[NKB] Jürgen Neukirch. <em>Klassenkörpertheorie</em> (1969, Bibliographisches
+Institut Mannheim). En 2013, este fue re-editado por A. Schmidt bajo el
+título <em>Class Field Theory &ndash;The Bonn Lectures&ndash;</em>.</li>
+<li>[Neu] Jürgen Neukirch. <em>Algebraische Zahlentheorie</em> (1991, Springer-Verlag).</li>
+</ul>
+<p>A diferencia de él, el libro homónimo de Cassels [Ca] trata
 principalmente de cuerpos ultramétricos (i.e., dotados de un valor absoluto que
 satisface la desigualdad ultramétrica) completos, con un énfasis en los métodos
 analíticos que le circundan (convergencia de serie de potencias, funciones $L$ y
 aplicaciones diofánticas).
 Así, los libros de Serre y Cassels son <strong>incomparables</strong> en cuanto se proponen
-cosas en sumo distintas (aunque no sean del todo disjuntos).</p>
-<p>El texto de Cassels es más cercano, a mi juicio, a libros como los de Koblitz
-(<em>$p$-adic Analysis: A Short Course on Recent Work</em> y <em>$p$-adic numbers,
-$p$-adic analysis, and zeta-functions</em>), y el capítulo segundo de <em>Algebraische
-Zahlentheorie</em> de Neukirch.
-En cambio, el texto de Serre fue bastante singular en sus orígenes, la
-bibliografía a comparar será la siguiente:</p>
-<ul>
-<li>[AT] Emil Artin y John Tate. <em>Class Field Theory</em> (1968, W.A. Benjamin).</li>
-<li>[CaFr] J. W. S. Cassels y A. Fröhlich (eds.). <em>Algebraic Number Theory
-[Proceedings]</em> (1967, Academic Press).</li>
-<li>[Har] David Harari. <em>Galois Cohomology and Class Field Theory</em> (2020,
-Springer-Verlag).</li>
-<li>[NeuK] Jürgen Neukirch. <em>Klassenkörpertheorie</em> (1969, Bibliographisches
-Institut Mannheim).</li>
-<li>[NeuC] Jürgen Neukirch. <em>Class field theory</em> (1986, Springer-Verlag).</li>
-</ul>
+cosas en sumo distintas (aunque no sean del todo disjuntos).
+A mi juicio, [Ca] es más cercano a libros como los de Koblitz (<em>$p$-adic
+Analysis: A Short Course on Recent Work</em> y <em>$p$-adic numbers, $p$-adic
+analysis, and zeta-functions</em>), y el capítulo segundo de [Neu].</p>
 <p>Los siguientes también entrarán en discusión, aunque su énfasis converge por el
 lado de la cohomología de Galois:</p>
 <ul>
-<li>[Haz] Michiel Hazewinkel. <em>Formal groups and applications</em> (QQQ).</li>
+<li>[Haz] Michiel Hazewinkel. <em>Formal groups and applications</em> (1978, Academic
+Press).</li>
 <li>[Se2] Jean-Pierre Serre. <em>Cohomologie Galoisienne</em> 5a ed. (1994,
 Springer-Verlag).</li>
 <li>[Sh] Stephen S. Shatz. <em>Profinite groups, arithmetic, and geometry</em> (1972,
 Princeton Univ. Press).</li>
 </ul>
-<p>Comencemos por señalar que el libro que, a mi juicio, más se le asemejaba en su
+<p>Comenzaré por señalar que el libro que, a mi juicio, más se le asemejaba en su
 tiempo fue [CaFr] (¡no obstante, la trampa es que el capítulo sobre teoría de
 cuerpos de clase fue escrito por Serre mismo!); hoy día, es casi imposible
 evitar poner lado a lado [Se1] con [Har].</p>
@@ -220,9 +222,9 @@ evitar poner lado a lado [Se1] con [Har].</p>
 primera es la llamada «teoría de cuerpos de clase <em>abstracta</em>» que incurre en la
 técnica de formación de clases (cap. XI de [Se1] y cap. 14 de [AT]) o la
 perspectiva cohomológica local (caps. XII-XIV de [Se1], caps. IV-VI de [CaFr],
-caps. 8 y 9 de [Har], cap. 2 de [NeuK], cap. V de [Sh]), seguida de métodos
-adélicos para deducir el caso global ([AT], [CaFr], [Har] y [NeuK]).
-Hay también alternativas: en [NeuC], Neukirch desarrolló su propia estrategia
+caps. 8 y 9 de [Har], cap. 2 de [NKB], cap. V de [Sh]), seguida de métodos
+adélicos para deducir el caso global ([AT], [CaFr], [Har] y [NKB]).
+Hay también alternativas: en [Neu], Neukirch desarrolló su propia estrategia
 para estudiar la teoría de cuerpos de clase (cercana en espíritu al método de
 formación de clases), y uno también puede hacer uso de la teoría de leyes de
 grupo formal de Lubin-Tate para estudiar el caso local (cap. 11 de [Har] y
@@ -242,30 +244,107 @@ Matsumura), y la sección II.6 sobre vectores de Witt.</p>
 resultados técnicos que no se encontraban en otros textos del tema, como el
 tratamiento (hoy estándar, gracias a Serre) de la cohomología modificada de
 Tate y los teoremas de Tate-Nakayama.
-Los geómetras también encontrarán gran recompenza en [Se1], ya que es una
+Otra diferencia en la que recientemente reparé es la mención de hacer uso de la
+cohomología mediante el formalismo de Grothendieck en su celebrado artículo
+<a href="https://projecteuclid.org/journals/tohoku-mathematical-journal/volume-9/issue-2/Sur-quelques-points-dalgèbre-homologique-I/10.2748/tmj/1178244839.full"><em>Sur quelques points d&rsquo;algèbre
+homologique</em></a>;
+esto más adelante será el proceso estándar de introducir la cohomología para
+haces sobre un esquema (e.g., vea el libro de Hartshorne o el de Görtz y
+Wedhorn), pero cabe poner los puntos sobre las íes al señalar que fue Serre
+quién primero puso a disposición de estudiantes no especializados esta clase de
+técnicas.</p>
+<p>Los geómetras también encontrarán gran recompenza en [Se1], ya que es una
 referencia en sumo accesible de tópicos más avanzados como la clasificación de
 torcimientos con cohomología de Galois no abeliana (cap. X, y el apéndice del
 cap. VII; vid. tb. [Se2]), y la exposición del grupo de Brauer (caps. X y XII;
 cfr. secs. IV.1 y V.3 de [Sh]).</p>
-<h3 id="resumen-de-resultados">Resumen de resultados</h3>
-<ul>
-<li>Teorema de Herbrand.</li>
-<li>Teorema de Hasse-Arf.</li>
-<li>Teorema de Kronecker-Weber local.
-También está probado en [Har], [NeuC] y [NeuK], y el cap. XI para un destacable
-recuento histórico de Hasse [CaFr] con (cap. XI).
-El texto [Ca] también lo prueba mediante métodos más elementales.</li>
-<li>Teorema de Tate-Nakayama.</li>
-<li>Teoremas de existencia y de reciprocidad.</li>
-<li>Cálculo del grupo de Brauer de un cuerpo local y verificar funtorialidad.</li>
-</ul>
-<h3 id="adónde-ir-después">¿Adónde ir después?</h3>
+<h2 id="resumen-de-resultados">Resumen de resultados</h2>
+<p>Ya se señaló antes que, a diferencia de [Ca], el enfoque sobre cuerpos locales
+de [Se1] es más algebraico que analítico y, por tanto, opta por valuaciones en
+lugar de valores absolutos.</p>
+<p>Fijaremos un anillo de valuación discreta <em>completo</em> $(A_K, \mathfrak{p}_K,
+\overline{K})$ con cuerpo de fracciones $K$; la función de valuación es $v_K$.
+Dada una extensión separable finita $L/K$ denotaremos por $(A_L, \mathfrak{p}_L,
+\overline{L})$ a la clausura entera de $A_K$ en $L$, con valuación $v_L$.</p>
+<p>Supongamos que la extensión de anillos $A_L/A_K$ es <em>monogénica</em>, es decir, que
+$A_L = A_K[\alpha]$. Entonces definimos los grupos de ramificación superior
+$$ G_j = \mathrm{Gal}(L/K)_j := \{ \sigma \in \mathrm{Gal}(L/K) :
+\sigma(\alpha) \equiv \alpha \pmod{\mathfrak{p}_L^j} \}, $$
+estos grupos forman una filtración del grupo de Galois $G_0$.
+Vamos a definir el siguiente valor
+$$ \varphi_{L/K}(u) := \int_{0}^{u} \frac{1}{[G_0 : G_t]} \, \mathrm{d}t. $$
+Es inmediato notar que $\varphi_{L/K}$ es continua, creciente y biyectiva.
+Con esto la formación de grupos de ramificación superior es «funtorial»:</p>
+<blockquote>
+<p><strong>Teorema de Herbrand (sec. IV.3):</strong>
+Sean $L/F/K$ extensiones de Galois (finitas) y sea $H := \mathrm{Gal}(L/F)$.
+Entonces:
+$$ \mathrm{Gal}(L/K)_uH/H = \mathrm{Gal}(F/K)_v, \qquad v := \varphi_{L/F}(u). $$</p></blockquote>
+<p>Conviene pues, definir la siguiente «notación superíndice» (que se justifica ya
+que $\varphi$ tiene inversa):
+$$ \mathrm{Gal}(L/K)^{\varphi(u)} := \mathrm{Gal}(L/K)_u. $$
+Así, el teorema de Herbrand se escribe como que
+$$ \mathrm{Gal}(L/K)^vH/H = \mathrm{Gal}(F/K)^v. $$
+Esto es conveniente pues podemos tomar límite inverso para generalizar la
+situación a extensiones infinitas (el lector incómodo, puede seguir asumiendo
+que todo es finito).</p>
+<blockquote>
+<p><strong>Teorema de Hasse-Arf (sec. V.7):</strong>
+Dada una extensión de Galois $L/K$ con grupo $G$.
+Si un número real $v$ es un «salto», es decir, $G^v \ne G^{v+\epsilon}$ para
+todo $\epsilon&gt;0$, entonces es de hecho un entero.</p></blockquote>
+<p>Este resultado es luego empleado para dar una introducción a las
+<strong>representaciones de Artin</strong> (Ch. VI), un importante tópico que parece estar
+ligeramente ignorado por los libros de teoría de números en general (con la
+excepción de [Neu]).
+El teorema de Herbrand también está expuesto en [Neu]; el de Hasse-Arf no.</p>
+<p>Ahora enunciaremos un corolario del teorema de Tate-Nakayama:</p>
+<blockquote>
+<p><strong>Teorema de Tate (sec. IX.8):</strong>
+Sea $G$ un grupo finito y para cada primo elijamos un $p$-subgrupo de Sylow
+$G_p \le G$.
+Dado un $G$-módulo $A$ con $a \in H^2(G, A)$ tal que:</p>
+<ol>
+<li>$H^1(G_p, A) = 0$.</li>
+<li>$H^2(G_p, A)$ está generado por $\mathrm{res}(a)$ y tiene orden $|G_p|$.</li>
+</ol>
+<p>Entonces el producto copa con $a$ da un isomorfismo $H^n(g, \Z) \cong
+H^{n+2}(g, A)$ para todo subgrupo $g \le G$.</p></blockquote>
+<p>El caso general, probado por Nakayama, es más complicado y ligeramente
+engorroso de enunciar, por ello opté por esta versión que, en todo caso, es
+la más empleada en práctica.
+También hay importantes criterios en el camino acerca de la cualidad de ser
+«cohomológicamente trivial».</p>
+<p>El capítulo siguiente se enfoca en la cohomología de Galois y da una
+introducción al grupo de Brauer y sus interacciones.
+Uno de los resultados más importantes, a mi juicio allí, es la proposición 4 de
+X.2 acerca de que el primer grupo de cohomología de Galois clasifica
+torcimientos.</p>
+<blockquote>
+<p><strong>Teorema de existencia (sec. XI.5):</strong>
+Sea $K$ un cuerpo local.
+Para todo subgrupo $U \le K^\times$ de índice finito, existe una extensión de
+Galois finita $L/K$ <em>abeliana</em> tal que $\mathrm{N}_{L/K}(L^\times) = U$.</p></blockquote>
+<p>Este resultado está probado en (casi) todos los libros de teoría de cuerpos de
+clase.</p>
+<p>Una aplicación del teorema de Tate, tras probar que el grupo de Brauer viene de
+la extensión no ramificada maximal, es que $\operatorname{Br} K = \mathbb{Q/Z}$
+y hay cierta funtorialidad: a decir, el homomorfismo $\operatorname{Br} K \to
+\operatorname{Br} L$ dada por una extensión $L/K$ es multiplicación por $[L :
+K]$ (este cálculo se sigue del isomorfismo con el producto copa).</p>
+<h2 id="adónde-ir-después">¿Adónde ir después?</h2>
 <p>Así que ha terminado de leer (por vez primera) el <em>Corps locaux</em>, ¿ahora qué?
 Hay varias cosas que éste libro deja o bien implícitas o en el tintero.</p>
 <p>En el apéndice al cap. XIV, Serre enuncia los teoremas en el caso global; como
-antes hemos señalado estos están hechos, por ejemplo, en [CaFr], [Har] y [NeuK]
-apoyándose del caso local ([AT] y [NeuC] también hacen el caso global, pero con
+se señaló ya estos están hechos, por ejemplo, en [CaFr], [Har] y [NKB]
+apoyándose del caso local ([AT] y [Neu] también hacen el caso global, pero con
 poca o nula ayuda del caso local).</p>
+<p>Muy curiosamente, [Se1] jamás trata explícitamente el teorema de
+Kronecker-Weber, ni siquiera en el caso local, lo cual resulta ya ameno con el
+halo de herramientas que desarrolla.
+En el Cap. XI de [CaFr], Hasse ofrece un destacable recuento histórico y una
+demostración al estilo de [Se1] se puede encontrar en [Har], [Neu] y/o [NKB].
+El texto [Ca] también lo prueba mediante métodos más elementales.</p>
 <p>Las técnicas cohomológicas conllevan directamente a un estudio sistemático de la
 cohomología de los módulos de Galois, específicamente, llevan directo a [Se2] y
 [Sh] (para una introducción, vid. [Har]).
@@ -312,14 +391,14 @@ técnicas en teoría K de Milnor, tb. expuestas en [GZ].</p>
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2025-02-22:/blog/serre_corps_locaux/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,2025-03-05:/blog/serre_corps_locaux/</guid>
 
                 
                     <link>http://localhost:1313/blog/serre_corps_locaux/</link>
                 
 
                 
-                    <pubDate>Sat, 22 Feb 2025 10:45:52 -03</pubDate>
+                    <pubDate>Wed, 05 Mar 2025 10:45:52 -03</pubDate>
                 
 
                 

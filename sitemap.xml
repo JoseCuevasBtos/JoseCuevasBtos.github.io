@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://josecuevas.xyz/tags/personal/</loc>
+    <lastmod>2025-03-05T10:45:52-03:00</lastmod>
+  </url><url>
+    <loc>https://josecuevas.xyz/blog/serre_corps_locaux/</loc>
+    <lastmod>2025-03-05T10:45:52-03:00</lastmod>
+  </url><url>
+    <loc>https://josecuevas.xyz/tags/review/</loc>
+    <lastmod>2025-03-05T10:45:52-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.josecuevas.xyz/tags/review/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://en.josecuevas.xyz/tags/review/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://josecuevas.xyz/tags/review/"
+                />
+  </url><url>
+    <loc>https://josecuevas.xyz/tags/</loc>
+    <lastmod>2025-03-05T10:45:52-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.josecuevas.xyz/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://en.josecuevas.xyz/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://josecuevas.xyz/tags/"
+                />
+  </url><url>
     <loc>https://josecuevas.xyz/teach/seminario-abc/</loc>
     <lastmod>2024-04-06T13:37:07-03:00</lastmod>
   </url><url>
@@ -21,24 +63,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://josecuevas.xyz/tags/seminars/"
-                />
-  </url><url>
-    <loc>https://josecuevas.xyz/tags/</loc>
-    <lastmod>2024-04-06T13:37:07-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://fr.josecuevas.xyz/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://en.josecuevas.xyz/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://josecuevas.xyz/tags/"
                 />
   </url><url>
     <loc>https://josecuevas.xyz/teach/2023-2-ayud/</loc>
