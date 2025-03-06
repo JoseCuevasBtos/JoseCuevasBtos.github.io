@@ -32,6 +32,12 @@
         
     
 
+    
+
+    
+        
+    
+
 
 
 
@@ -95,7 +101,7 @@
         
 
         
-            <lastBuildDate>2025-03-05 10:45:52 -0300 -03</lastBuildDate>
+            <lastBuildDate>2025-03-06 03:29:25 -0300 -03</lastBuildDate>
         
 
         <link>https://josecuevas.xyz/</link>
@@ -106,6 +112,60 @@
 
         
 
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>Estos fueron los enunciados empleados durante la ayudantía del curso de
+pregrado de Álgebra Abstracta II (MAT2244) del primer semestre de 2025 dictado
+por el profesor Héctor Pastén en la Pontificia Universidad Católica de Chile.</p>
+<p>He aquí los enunciados:</p>
+<ul>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MAT2244_abs_II/03-13-intro.pdf">Extensiones de cuerpos I</a> (13 de marzo).</li>
+</ul>
+<h3 id="referencias-principales">Referencias principales</h3>
+<ol>
+<li>Serge Lang. <em>Algebra</em> (Springer-Verlag).</li>
+</ol>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:josecuevas.xyz,2025-03-06:/teach/2025-1-ayud/</guid>
+
+                
+                    <link>https://josecuevas.xyz/teach/2025-1-ayud/</link>
+                
+
+                
+                    <pubDate>Thu, 06 Mar 2025 03:29:25 -03</pubDate>
+                
+
+                
+                    <title>Ayudantía de Álgebra Abstracta II (2025)</title>
+                
+            </item>
         
             <item>
                 
@@ -560,16 +620,16 @@ pregrado de Teoría de Números (MAT2225) del segundo semestre de 2023 dictado
 por el profesor Héctor Pastén en la Pontificia Universidad Católica de Chile.</p>
 <p>He aquí los enunciados:</p>
 <ul>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/08-18-congruencias.pdf">Congruencias y funciones multiplicativas</a> (18 de agosto).</li>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/08-25-O_grande.pdf">$O$ grande y $o$ chica</a> (25 de agosto).</li>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/09-01-aproximaciones.pdf">Aproximaciones diofantinas: Números irracionales y la abundancia de números de Liouville</a> (1 de septiembre).</li>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/09-08-mas_aproximaciones.pdf">Aún más aproximaciones: Roth, Thue y ¿$abc$?</a> (8 de septiembre).</li>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/09-15-Pell.pdf">Pell y sus amigos</a> (15 de septiembre).</li>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/09-29-local_global.pdf">Principio local-global</a> (29 de septiembre).</li>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/10-12-gaussianos.pdf">Enteros gaussianos: Diofanto contraataca</a> (12 de octubre).</li>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/11-03-proyectivo.pdf">Ecuaciones en el espacio proyectivo</a> (3 de noviembre).</li>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/11-10-dinamica.pdf">Dinámicas aritméticas</a> (10 de noviembre).</li>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/MAT2225/11-24-curvas_elipticas.pdf">Curvas elípticas</a> (24 de noviembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2023_MAT2225_num/08-18-congruencias.pdf">Congruencias y funciones multiplicativas</a> (18 de agosto).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2023_MAT2225_num/08-25-O_grande.pdf">$O$ grande y $o$ chica</a> (25 de agosto).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2023_MAT2225_num/09-01-aproximaciones.pdf">Aproximaciones diofantinas: Números irracionales y la abundancia de números de Liouville</a> (1 de septiembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2023_MAT2225_num/09-08-mas_aproximaciones.pdf">Aún más aproximaciones: Roth, Thue y ¿$abc$?</a> (8 de septiembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2023_MAT2225_num/09-15-Pell.pdf">Pell y sus amigos</a> (15 de septiembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2023_MAT2225_num/09-29-local_global.pdf">Principio local-global</a> (29 de septiembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2023_MAT2225_num/10-12-gaussianos.pdf">Enteros gaussianos: Diofanto contraataca</a> (12 de octubre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2023_MAT2225_num/11-03-proyectivo.pdf">Ecuaciones en el espacio proyectivo</a> (3 de noviembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2023_MAT2225_num/11-10-dinamica.pdf">Dinámicas aritméticas</a> (10 de noviembre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2023_MAT2225_num/11-24-curvas_elipticas.pdf">Curvas elípticas</a> (24 de noviembre).</li>
 </ul>
 <h3 id="referencias-principales">Referencias principales</h3>
 <p>Si bien la lista fue larga, he aquí una reducida muestra de las más empleadas:</p>
