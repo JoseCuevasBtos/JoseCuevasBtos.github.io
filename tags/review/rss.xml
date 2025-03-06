@@ -46,7 +46,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/review/" rel="self" type="text/html"/>
+                <link href="https://josecuevas.xyz/tags/review/" rel="self" type="text/html"/>
             
         
             
@@ -54,7 +54,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/review/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://josecuevas.xyz/tags/review/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -63,7 +63,7 @@
                 
             
                 
-                    <link href="http://localhost:1314/tags/review/rss.xml" hreflang="fr" rel="alternate" type="application/rss+xml"/>
+                    <link href="https://fr.josecuevas.xyz/tags/review/rss.xml" hreflang="fr" rel="alternate" type="application/rss+xml"/>
                 
             
         
@@ -71,7 +71,7 @@
                 
             
                 
-                    <link href="http://localhost:1315/tags/review/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+                    <link href="https://en.josecuevas.xyz/tags/review/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
                 
             
         
@@ -90,7 +90,7 @@
             <lastBuildDate>2025-03-05 10:45:52 -0300 -03</lastBuildDate>
         
 
-        <link>http://localhost:1313/tags/review/</link>
+        <link>https://josecuevas.xyz/tags/review/</link>
 
         
 
@@ -363,10 +363,10 @@ técnicas en teoría K de Milnor, tb. expuestas en [GZ].</p>
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2025-03-05:/blog/serre_corps_locaux/</guid>
+                <guid isPermaLink="false">tag:josecuevas.xyz,2025-03-05:/blog/serre_corps_locaux/</guid>
 
                 
-                    <link>http://localhost:1313/blog/serre_corps_locaux/</link>
+                    <link>https://josecuevas.xyz/blog/serre_corps_locaux/</link>
                 
 
                 

@@ -36,7 +36,7 @@
             
 
             
-                <link href="http://localhost:1313/notes/" rel="self" type="text/html"/>
+                <link href="https://josecuevas.xyz/notes/" rel="self" type="text/html"/>
             
         
             
@@ -44,7 +44,7 @@
             
 
             
-                <link href="http://localhost:1313/notes/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://josecuevas.xyz/notes/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -53,7 +53,7 @@
                 
             
                 
-                    <link href="http://localhost:1314/notes/rss.xml" hreflang="fr" rel="alternate" type="application/rss+xml"/>
+                    <link href="https://fr.josecuevas.xyz/notes/rss.xml" hreflang="fr" rel="alternate" type="application/rss+xml"/>
                 
             
         
@@ -61,7 +61,7 @@
                 
             
                 
-                    <link href="http://localhost:1315/notes/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+                    <link href="https://en.josecuevas.xyz/notes/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
                 
             
         
@@ -78,7 +78,7 @@
 
         
 
-        <link>http://localhost:1313/notes/</link>
+        <link>https://josecuevas.xyz/notes/</link>
 
         
 
