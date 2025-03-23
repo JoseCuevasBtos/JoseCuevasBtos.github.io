@@ -137,13 +137,18 @@
                     <description><![CDATA[<p>Estos fueron los enunciados empleados durante la ayudantía del curso de
 pregrado de Álgebra Abstracta II (MAT2244) del primer semestre de 2025 dictado
 por el profesor Héctor Pastén en la Pontificia Universidad Católica de Chile.</p>
+<p>A sugerencia de los estudiantes añadí ejercicios y problemas propuestos (que no
+se resuelven durante la ayudantía, pero que se sugieren para practicar por su
+cuenta).</p>
 <p>He aquí los enunciados:</p>
 <ul>
 <li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MAT2244_abs_II/03-13-intro.pdf">Números algebraicos</a> (13 de marzo).</li>
 <li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MAT2244_abs_II/03-20-torres.pdf">Extensiones algebraicas</a> (20 de marzo).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MAT2244_abs_II/03-27-separabilidad.pdf">Normalidad y separabilidad</a> (27 de marzo).</li>
 </ul>
 <h3 id="referencias-principales">Referencias principales</h3>
 <ol>
+<li>Nathan Jacobson. <em>Basic Algebra</em>, Vol. 1 (Freeman &amp; Company).</li>
 <li>Serge Lang. <em>Algebra</em> (Springer-Verlag).</li>
 </ol>
 ]]></description>
