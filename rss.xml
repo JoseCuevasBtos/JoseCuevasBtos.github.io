@@ -38,6 +38,12 @@
         
     
 
+    
+
+    
+        
+    
+
 
 
 
@@ -101,7 +107,7 @@
         
 
         
-            <lastBuildDate>2025-03-06 03:29:25 -0300 -03</lastBuildDate>
+            <lastBuildDate>2025-03-24 21:56:58 -0300 -03</lastBuildDate>
         
 
         <link>https://josecuevas.xyz/</link>
@@ -112,6 +118,66 @@
 
         
 
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>Este seminario se lleva a cabo (casi) todos <strong>los viernes, a las 14:50 hrs en la sala 1</strong>.
+He aquí una lista cronológica de las charlas:</p>
+<ol>
+<li>José Cuevas Barrientos (28 de marzo). <a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/articulos/belyi.pdf">El teorema de Belyi.</a><br>
+En esta charla se da un resumen de la versión de Grothendieck del teorema
+de existencia de Riemann que dice que «todo recubrimiento topológico entre
+las analitificaciones de esquemas algebraicos sobre $\mathbb{C}$ viene de
+un morfismo étale» y se aplica para probar el teorema de Belyi de que una
+curva proyectiva y suave sobre $\mathbb{C}$ está definida sobre
+$\mathbb{Q}^{\rm alg}$ si y sólo si posee un morfismo hacia $\mathbb{P}^1$
+que se ramifica en tres puntos.</li>
+</ol>
+<h3 id="material-de-referencia">Material de referencia</h3>
+<ul>
+<li>Enrico Bombieri y Walter Gubler. <em>Heights in Diophantine Geometry</em> (Cambridge Univ. Press, 2006).</li>
+<li>Serge Lang. <em>Fundamentals of Diophantine Geometry</em> (Springer-Verlag, 2010).</li>
+</ul>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:josecuevas.xyz,2025-03-24:/teach/seminario-abc-ii/</guid>
+
+                
+                    <link>https://josecuevas.xyz/teach/seminario-abc-ii/</link>
+                
+
+                
+                    <pubDate>Mon, 24 Mar 2025 21:56:58 -03</pubDate>
+                
+
+                
+                    <title>Seminario de la Conjetura $abc$ y temas afines II</title>
+                
+            </item>
         
             <item>
                 
