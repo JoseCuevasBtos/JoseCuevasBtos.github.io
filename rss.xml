@@ -155,7 +155,7 @@ un morfismo étale» y se aplica para probar el teorema de Belyi de que una
 curva proyectiva y suave sobre $\mathbb{C}$ está definida sobre
 $\mathbb{Q}^{\rm alg}$ si y sólo si posee un morfismo hacia $\mathbb{P}^1$
 que se ramifica en tres puntos.</li>
-<li>José Cuevas Barrientos (3 de abril). <a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/articulos/abc_mordell.pdf">«Mordell es tan fácil como $abc$.»</a><br>
+<li>José Cuevas Barrientos (4 de abril). <a href="https://github.com/JoseCuevasBtos/apuntes-tex/raw/master/articulos/abc_mordell.pdf">«Mordell es tan fácil como $abc$.»</a><br>
 El objetivo de esta charla es explicar las propiedades básicas de alturas
 en geometría diofántica para finalmente explicar cómo deducir la conjetura
 de Mordell efectiva asumiendo la conjetura $abc$ empleando el teorema de
@@ -221,11 +221,16 @@ cuenta).</p>
 <li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MAT2244_abs_II/03-20-torres.pdf">Extensiones algebraicas</a> (20 de marzo).</li>
 <li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MAT2244_abs_II/03-27-separabilidad.pdf">Normalidad y separabilidad</a> (27 de marzo).</li>
 <li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MAT2244_abs_II/04-03-galois.pdf">Grupos de Galois</a> (3 de abril).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MAT2244_abs_II/04-10-resoluble.pdf">Extensiones resolubles</a> (10 de abril).</li>
 </ul>
 <h3 id="referencias-principales">Referencias principales</h3>
 <ol>
 <li>Nathan Jacobson. <em>Basic Algebra</em>, Vol. 1 (Freeman &amp; Company).</li>
 <li>Serge Lang. <em>Algebra</em> (Springer-Verlag).</li>
+</ol>
+<h4 id="complementos">Complementos</h4>
+<ol>
+<li>Masayoshi Nagata. <em>Theory of Commutative Fields</em> (American Mathematical Society).</li>
 </ol>
 ]]></description>
                 
