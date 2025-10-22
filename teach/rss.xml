@@ -288,6 +288,11 @@ cuenta).</p>
 <li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MAT2814_num/10-10-gamma.pdf">Caracteres primitivos y la función Gamma</a> (10 de octubre).</li>
 <li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MAT2814_num/10-17-funcion_dseta.pdf">La función dseta</a> (17 de octubre).</li>
 </ul>
+<h3 id="referencias-principales">Referencias principales</h3>
+<ol>
+<li>Tom M. Apostol. <em>Introduction to analytic number theory</em> (1976, Springer-Verlag).</li>
+<li>Andrew Granville. <em>Number theory revealed: A masterclass</em> (2020, American Mathematical Society).</li>
+</ol>
 ]]></description>
                 
 
@@ -341,8 +346,10 @@ por el profesor José Samper en la Universidad de Chile.</p>
 <li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MPG3201_alg_II/08-27-norma.pdf">Norma, traza y extensiones cíclicas</a> (27 de agosto).</li>
 <li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MPG3201_alg_II/09-03-resoluble.pdf">Extensiones resolubles y calculos</a> (3 de septiembre).</li>
 <li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MPG3201_alg_II/09-24-reps.pdf">Representaciones</a> (24 de septiembre).</li>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MPG3201_alg_II/10-01-caracteres.pdf">Caracteres</a> (1 de octubre).</li>
-<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MPG3201_alg_II/10-08-caracteres_ii.pdf">Más sobre caracteres</a> (8 de octubre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MPG3201_alg_II/10-01-caracteres.pdf">Caracteres I</a> (1 de octubre).</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MPG3201_alg_II/10-08-caracteres_ii.pdf">Caracteres II</a> (15 de octubre).
+Originalmente para el 8 de octubre, pero se corrió debido a una toma del campus.</li>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MPG3201_alg_II/10-23-caracteres_iii.pdf">Caracteres III</a> (22 de octubre).</li>
 </ul>
 <h3 id="referencias-principales">Referencias principales</h3>
 <ol>
@@ -353,6 +360,7 @@ por el profesor José Samper en la Universidad de Chile.</p>
 <ol>
 <li>Paolo Aluffi. <em>Algebra: Chapter 0</em> (American Mathematical Society).</li>
 <li>Nathan Jacobson. <em>Basic Algebra</em>, 2 vols. (Freeman &amp; Company).</li>
+<li>Peter Webb. <em>A Course in Finite Group Representation Theory</em> (Cambridge University Press).</li>
 </ol>
 ]]></description>
                 
