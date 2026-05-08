@@ -229,7 +229,9 @@ técnicas.</p>
 referencia en sumo accesible de tópicos más avanzados como la clasificación de
 torcimientos con cohomología de Galois no abeliana (cap. X, y el apéndice del
 cap. VII; vid. tb. [Se2]), y la exposición del grupo de Brauer (caps. X y XII;
-cfr. secs. IV.1 y V.3 de [Sh]).</p>
+cfr. secs. IV.1 y V.3 de [Sh]).
+La entereza del exponente del conductor de Artin (cap. VI) también es un tópico
+que no he visto jamás en ningún otro libro.</p>
 <h2 id="resumen-de-resultados">Resumen de resultados</h2>
 <p>Ya se señaló antes que, a diferencia de [Ca], el enfoque sobre cuerpos locales
 de [Se1] es más algebraico que analítico y, por tanto, opta por valuaciones en
@@ -270,8 +272,36 @@ todo $\epsilon&gt;0$, entonces es de hecho un entero.</p>
 <p>Este resultado es luego empleado para dar una introducción a las
 <strong>representaciones de Artin</strong> (Ch. VI), un importante tópico que parece estar
 ligeramente ignorado por los libros de teoría de números en general (con la
-excepción de [Neu]).
-El teorema de Herbrand también está expuesto en [Neu]; el de Hasse-Arf no.</p>
+excepción de [Neu]; en el cual se exponen los teoremas de Herbrand y Hasse-Arf).</p>
+<p>La prueba de Hasse-Arf consiste en una relativamente larga reducción de casos,
+de modo que se sigue por teoría local de cuerpos de clase.
+En [Neu] y [Har] se presenta otra prueba empleando la teoría de (leyes de)
+grupos formales de Lubin-Tate.</p>
+<p>Dada una extensión de cuerpos locales $L/K$ uno puede definir la función de
+clases de Artin $a_G$ mediante el índice de grupos de ramificación superior;
+dado un caracter de Galois $\chi$ uno define entonces el <em>exponente del
+conductor de Artin</em> $f(\chi)$ como el producto interno $(\chi, a_G)$.
+La aplicación principal del teorema de Hasse-Arf es que este número es un
+entero positivo (vid. sec. VI.1).
+Veamos aplicaciones de la entereza del conductor de Artin:</p>
+<ul>
+<li>La deducción de la fórmula del conductor-discriminante (Cor. VI.6.2).</li>
+<li>La fórmula de Grothendieck-Ogg-Šafarevič (consulte su libro favorito de
+cohomología étale, y la exposición de Raynaud en <em>Dix exposés sur la
+cohomologie des schémas</em>).</li>
+<li>La definición formal del conductor de una representación de Galois (vid.
+<a href="https://www.numdam.org/item/SDPP_1969-1970__11_2_A4_0/">Serre, <em>Facteurs locaux des fonctions zêta des variétés
+algébriques</em></a>).</li>
+<li>En particular, el conductor de variedades abelianas.
+La definición está en el artículo fundacional <a href="https://doi.org/10.2307/1970722"><em>Good reduction of abelian
+varieties</em> de Serre y Tate</a>, donde la
+independencia de $\ell$ está probada cuando hay buena reducción; el caso
+general está tratado en la exposición <em>Modèles de Néron et monodromie</em> de
+A. Grothendieck.
+La equivalencia de definiciones con el caso de curvas elípticas está bien
+cubierto en el libro de Silverman, <em>Advanced Topics in the Arithmetic of
+Elliptic Curves</em>.</li>
+</ul>
 <p>Ahora enunciaremos un corolario del teorema de Tate-Nakayama:</p>
 <blockquote>
 <p><strong>Teorema de Tate (sec. IX.8):</strong>
@@ -364,6 +394,15 @@ Vostokov (2002, AMS; citado como <strong>[FV]</strong>).
 A mi juicio, [FV] toma harta inspiración de [Se1] en los caps. I-IV, pero desde
 el cap. V en adelante se distancia; el lector de [Se1] ganará harto de las
 técnicas en teoría K de Milnor, tb. expuestas en [GZ].</p>
+<p>Debo reconocer que no le he prestado la debida atención a la teoría de
+representaciones de Galois, que es quizá uno de los caminos de interés que este
+libro abre para el lector.
+Algunas referencias que puedo recomendar son: <em>Abelian $\ell$-adic
+representations and elliptic curves</em> de Serre (¡que junto a Rocío Sepúlveda
+retipeamos
+<a href="https://github.com/JoseCuevasBtos/Serre-l-adic-Representations">aquí</a>!) y
+<a href="https://link.springer.com/book/9780817631888"><em>Les Conjectures de Stark sur les Fonctions $L$ d&rsquo;Artin en $s=0$</em> de John
+Tate</a>.</p>
 ]]></description>
                 
 
