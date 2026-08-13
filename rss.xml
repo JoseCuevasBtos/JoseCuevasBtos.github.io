@@ -56,6 +56,12 @@
         
     
 
+    
+
+    
+        
+    
+
 
 
 
@@ -119,7 +125,7 @@
         
 
         
-            <lastBuildDate>2025-03-24 21:56:58 -0300 -03</lastBuildDate>
+            <lastBuildDate>2026-08-13 09:07:53 -0400 -04</lastBuildDate>
         
 
         <link>https://josecuevas.xyz/</link>
@@ -130,6 +136,56 @@
 
         
 
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>Estos fueron los enunciados empleados durante la ayudantía del curso de
+pregrado de Topología Algebraica (MAT2850) del segundo semestre de 2026 dictado
+por el profesor Mauricio Bustamante en la Pontificia Universidad Católica de Chile.</p>
+<p>He aquí los enunciados:</p>
+<ul>
+<li><a href="https://github.com/JoseCuevasBtos/workshp/raw/master/2025_MAT2850/08-13-complejos.pdf">Complejos de módulos</a> (12 de agosto).</li>
+</ul>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:josecuevas.xyz,2026-08-13:/teach/2026-2-ayud/</guid>
+
+                
+                    <link>https://josecuevas.xyz/teach/2026-2-ayud/</link>
+                
+
+                
+                    <pubDate>Thu, 13 Aug 2026 09:07:53 -04</pubDate>
+                
+
+                
+                    <title>Ayudantía de Topología Algebraica (2026)</title>
+                
+            </item>
         
             <item>
                 
@@ -647,8 +703,8 @@ ligeramente ignorado por los libros de teoría de números en general (con la
 excepción de [Neu]; en el cual se exponen los teoremas de Herbrand y Hasse-Arf).</p>
 <p>La prueba de Hasse-Arf consiste en una relativamente larga reducción de casos,
 de modo que se sigue por teoría local de cuerpos de clase.
-En [Neu] y [Har] se presenta otra prueba empleando la teoría de (leyes de)
-grupos formales de Lubin-Tate.</p>
+En [Neu] se presenta otra prueba empleando la teoría de (leyes de) grupos
+formales de Lubin-Tate.</p>
 <p>Dada una extensión de cuerpos locales $L/K$ uno puede definir la función de
 clases de Artin $a_G$ mediante el índice de grupos de ramificación superior;
 dado un caracter de Galois $\chi$ uno define entonces el <em>exponente del

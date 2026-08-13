@@ -259,8 +259,8 @@ ligeramente ignorado por los libros de teoría de números en general (con la
 excepción de [Neu]; en el cual se exponen los teoremas de Herbrand y Hasse-Arf).</p>
 <p>La prueba de Hasse-Arf consiste en una relativamente larga reducción de casos,
 de modo que se sigue por teoría local de cuerpos de clase.
-En [Neu] y [Har] se presenta otra prueba empleando la teoría de (leyes de)
-grupos formales de Lubin-Tate.</p>
+En [Neu] se presenta otra prueba empleando la teoría de (leyes de) grupos
+formales de Lubin-Tate.</p>
 <p>Dada una extensión de cuerpos locales $L/K$ uno puede definir la función de
 clases de Artin $a_G$ mediante el índice de grupos de ramificación superior;
 dado un caracter de Galois $\chi$ uno define entonces el <em>exponente del
