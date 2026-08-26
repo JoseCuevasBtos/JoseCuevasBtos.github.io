@@ -12,6 +12,11 @@
     <lastmod>2025-03-24T21:56:58-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="https://josecuevas.xyz/tags/seminars/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="https://fr.josecuevas.xyz/tags/seminars/"
                 />
@@ -20,14 +25,14 @@
                 hreflang="en"
                 href="https://en.josecuevas.xyz/tags/seminars/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://josecuevas.xyz/tags/seminars/"
-                />
   </url><url>
     <loc>https://josecuevas.xyz/tags/</loc>
     <lastmod>2025-03-24T21:56:58-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://josecuevas.xyz/tags/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -37,11 +42,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://en.josecuevas.xyz/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://josecuevas.xyz/tags/"
                 />
   </url><url>
     <loc>https://josecuevas.xyz/teach/2025-1-ayud/</loc>
@@ -63,6 +63,11 @@
     <lastmod>2025-03-05T10:45:52-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="https://josecuevas.xyz/tags/review/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="https://fr.josecuevas.xyz/tags/review/"
                 />
@@ -71,14 +76,14 @@
                 hreflang="en"
                 href="https://en.josecuevas.xyz/tags/review/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://josecuevas.xyz/tags/review/"
-                />
   </url><url>
     <loc>https://josecuevas.xyz/blog/</loc>
     <lastmod>2024-07-11T13:13:37-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://josecuevas.xyz/blog/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -88,11 +93,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://en.josecuevas.xyz/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://josecuevas.xyz/blog/"
                 />
   </url><url>
     <loc>https://josecuevas.xyz/teach/seminario-abc/</loc>
@@ -105,6 +105,11 @@
     <lastmod>2024-04-06T00:30:49-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="https://josecuevas.xyz/notes/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="https://fr.josecuevas.xyz/notes/"
                 />
@@ -113,14 +118,14 @@
                 hreflang="en"
                 href="https://en.josecuevas.xyz/notes/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://josecuevas.xyz/notes/"
-                />
   </url><url>
     <loc>https://josecuevas.xyz/teach/</loc>
     <lastmod>2024-04-06T00:29:00-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://josecuevas.xyz/teach/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -131,14 +136,14 @@
                 hreflang="en"
                 href="https://en.josecuevas.xyz/teach/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://josecuevas.xyz/teach/"
-                />
   </url><url>
     <loc>https://josecuevas.xyz/</loc>
     <lastmod>2024-04-05T16:49:12-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://josecuevas.xyz/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -149,13 +154,13 @@
                 hreflang="en"
                 href="https://en.josecuevas.xyz/"
                 />
+  </url><url>
+    <loc>https://josecuevas.xyz/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://josecuevas.xyz/"
+                href="https://josecuevas.xyz/categories/"
                 />
-  </url><url>
-    <loc>https://josecuevas.xyz/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -165,11 +170,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://en.josecuevas.xyz/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://josecuevas.xyz/categories/"
                 />
   </url>
 </urlset>
